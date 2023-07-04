@@ -8,8 +8,11 @@ function App() {
 
   return (
     <MantineProvider withGlobalStyles withNormalizeCSS>
-      <Navbar />
-      <Header />
+      <div className='App'>
+        <Navbar />
+        <Header />
+      </div>
+
     </MantineProvider>
   )
 }

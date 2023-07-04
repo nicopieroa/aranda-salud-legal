@@ -8,6 +8,12 @@
   --color4: #ffffff;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+}
+
 .navbar {
   width: 100%;
   display: flex;
@@ -60,5 +66,44 @@
 }
 
 .sidebar button:hover {
+  background-color: #169b47;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  row-gap: 40px;
+  padding: var(--topBottomPadding) var(--sidePadding);
+}
+
+.headerText {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.headerText h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.headerText h2 {
+  font-weight: 600;
+  color: #7b7e80;
+  font-style: italic;
+}
+
+.header img {
+  width: 100%;
+}
+
+.header button {
+  background-color: var(--color2);
+}
+
+.header button:hover {
   background-color: #169b47;
 }
