@@ -25,7 +25,7 @@ export function Navbar() {
     return (
         <>
             <nav className='navbar'>
-                <img src="images/logo.png" alt="Logotipo de la empresa Aranda Salud Legal" className='logo' />
+                <img src="images/logo-favIcon.png" alt="Logotipo de la empresa Aranda Salud Legal" className='logo' />
 
                 {opened ? <Burger opened={opened} onClick={toggle} aria-label={label} size="lg" color=' #ffffff' className='burgerButton' />
                     : <Burger opened={opened} onClick={toggle} aria-label={label} size="lg" color='#085db2' className='burgerButton' />}
