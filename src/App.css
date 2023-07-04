@@ -1,0 +1,63 @@
+:root {
+  --topBottomPadding: 12px;
+  --sidePadding: 20px;
+
+  --color1: #085db2;
+  --color2: #1ea952;
+  --color3: #96999a;
+  --color4: #ffffff;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--topBottomPadding) var(--sidePadding);
+  border-bottom: 1px solid var(--color1);
+}
+
+.logo {
+  width: 130px;
+}
+
+.burgerButton {
+  z-index: 1;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: auto;
+  height: 100%;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  row-gap: 8px;
+  background-color: var(--color1);
+  box-shadow: 0 0 120px rgb(0 0 0 / 80%);
+  transition: 1s;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: var(--color4);
+  font-size: 24px;
+  text-align: center;
+}
+
+.sidebar a:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.sidebar button {
+  margin-top: 24px;
+  background-color: var(--color2);
+}
+
+.sidebar button:hover {
+  background-color: #169b47;
+}
