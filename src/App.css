@@ -22,7 +22,7 @@
 }
 
 .burgerButton {
-  z-index: 1;
+  z-index: 3;
 }
 
 .sidebar {
@@ -39,6 +39,7 @@
   background-color: var(--color1);
   box-shadow: 0 0 120px rgb(0 0 0 / 80%);
   transition: 1s;
+  z-index: 2;
 }
 
 .sidebar a {
