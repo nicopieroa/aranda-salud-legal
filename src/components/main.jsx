@@ -11,12 +11,10 @@ export function Main() {
                 slideSize="80%"
                 height="auto"
                 align="center"
-                slideGap="xs"
+                slideGap="md"
                 controlsOffset="xs"
-                controlSize={28}
-                withIndicators
+                controlSize={32}
                 dragFree
-                draggable
                 maw="100%"
             >
                 <Carousel.Slide><Cards /></Carousel.Slide>
