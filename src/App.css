@@ -112,6 +112,7 @@
 
 .main {
   padding: var(--topBottomPadding) var(--sidePadding);
+  background-color: #085db2;
 }
 
 .main h2 {
