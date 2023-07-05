@@ -1,8 +1,6 @@
 :root {
-  --topBottomPadding: 12px;
   --sidePadding: 20px;
-  --rowGapSpace-bw-textContent: 40px;
-  --rowGapSpace-bw-texts: 20px;
+  --rowGapSpace-bw-texts: 40px;
 
   --color1: #085db2;
   --color2: #1ea952;
@@ -13,7 +11,7 @@
 .App {
   display: flex;
   flex-direction: column;
-  row-gap: 40px;
+  row-gap: 80px;
 }
 
 .navbar {
@@ -21,7 +19,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: var(--topBottomPadding) var(--sidePadding);
+  padding: 12px var(--sidePadding);
   border-bottom: 1px solid var(--color1);
 }
 
@@ -72,12 +70,11 @@
 }
 
 .header {
-  width: 100%;
   display: flex;
   flex-direction: column;
   place-content: center;
-  row-gap: var(--rowGapSpace-bw-textContent);
-  padding: var(--topBottomPadding) var(--sidePadding);
+  row-gap: var(--rowGapSpace-bw-texts);
+  padding: 0 var(--sidePadding);
 }
 
 .headerText {
@@ -103,36 +100,43 @@
 }
 
 .header button {
-  background-color: var(--color2);
+  background-color: #1ea9514d;
+  border: 2px solid #1ea952;
+  color: var(--color2);
+  font-weight: 800;
 }
 
 .header button:hover {
-  background-color: #169b47;
+  background-color: #1ea9516e;
 }
 
 .main {
-  padding: var(--topBottomPadding) var(--sidePadding);
+  padding: 40px var(--sidePadding);
   background-color: #085db2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: var(--rowGapSpace-bw-texts);
 }
 
 .main h2 {
   text-align: center;
   font-weight: 700;
-  margin-bottom: var(--rowGapSpace-bw-textContent);
-}
-
-.newsCard {
-  max-width: 100%;
+  color: var(--color4);
 }
 
 .contactSection {
-  width: 100%;
-  padding: var(--topBottomPadding) var(--sidePadding);
+  padding: 0 var(--sidePadding);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: var(--rowGapSpace-bw-texts);
 }
 
 .contactSection h2 {
   text-align: center;
-  margin-bottom: var(--rowGapSpace-bw-textContent);
 }
 
 .form {
@@ -148,4 +152,52 @@
 
 .form button:hover {
   background-color: #169b47;
+}
+
+.footer {
+  background-color: #03203b;
+  padding: 80px var(--sidePadding);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--color4);
+  row-gap: var(--rowGapSpace-bw-texts);
+}
+
+.footer img {
+  width: 80px;
+}
+
+.socialMedia-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.socialMedia-container h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.socialMedia-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+}
+
+.socialMedia-icons a {
+  width: 36px;
+  transition: 0.2s;
+}
+
+.socialMedia-icons a img {
+  width: 100%;
+}
+
+.socialMedia-icons a:hover {
+  width: 40px;
 }

@@ -5,6 +5,7 @@ import { Navbar } from './components/navbar';
 import { Header } from './components/header';
 import { Main } from './components/main';
 import { ContactSection } from './components/contactSection';
+import { Footer } from './components/footer';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Header />
         <Main />
         <ContactSection />
+        <Footer />
       </div>
 
     </MantineProvider>
