@@ -198,6 +198,6 @@
   width: 100%;
 }
 
-.socialMedia-icons a:hover {
+.socialMedia-icons a img:hover {
   width: 40px;
 }
