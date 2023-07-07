@@ -69,6 +69,7 @@
   background-color: #169b47;
 }
 
+/* Header start */
 .header {
   display: flex;
   flex-direction: column;
@@ -84,32 +85,21 @@
   row-gap: var(--rowGapSpace-bw-texts);
 }
 
-.headerText h1 {
-  font-size: 48px;
-  font-weight: 900;
-}
-
-.headerText h2 {
-  font-weight: 600;
-  color: #7b7e80;
-  font-style: italic;
-}
-
 .header img {
   width: 100%;
 }
 
 .header button {
-  background-color: #1ea9514d;
   border: 2px solid #1ea952;
   color: var(--color2);
-  font-weight: 800;
 }
 
 .header button:hover {
   background-color: #1ea9516e;
 }
+/* Header finish */
 
+/* Main start */
 .main {
   padding: 40px var(--sidePadding);
   background-color: #085db2;
@@ -120,11 +110,30 @@
   row-gap: var(--rowGapSpace-bw-texts);
 }
 
-.main h2 {
-  text-align: center;
-  font-weight: 700;
-  color: var(--color4);
+/* News cards start */
+.newsCard-date {
+  color: #1ea952;
+  cursor: default;
 }
+
+.textNewsCard {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: wrap;
+}
+
+.newsCard button {
+  border: 1px solid #085db2;
+  color: var(--color1);
+}
+
+.newsCard button:hover {
+  background-color: #085db28e;
+}
+/* News cards finish */
+/* Main finish */
 
 .contactSection {
   padding: 0 var(--sidePadding);

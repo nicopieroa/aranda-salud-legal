@@ -1,11 +1,12 @@
 import { Carousel } from '@mantine/carousel';
 import { Cards } from './newsCard';
+import { Title } from '@mantine/core';
 
 export function Main() {
 
     return (
         <main className='main'>
-            <h2>Noticias</h2>
+            <Title order={2} size="h2" color="#ffffff">Noticias</Title>
 
             <Carousel
                 slideSize="80%"
