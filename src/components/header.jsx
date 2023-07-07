@@ -1,17 +1,20 @@
 import { Button } from '@mantine/core';
+import { Title } from '@mantine/core';
 
 export function Header() {
 
     return (
         <header className="header">
             <div className="headerText">
-                <h1>Aranda Salud Legal</h1>
-                <h2>Firma especializada en asesoramiento legal en salud</h2>
+                <Title order={1} size="40px" fw="900">Aranda Salud Legal</Title>
+                <Title order={2} size="20px" fw="600" color='#7b7e80' fs="italic">
+                    Firma especializada en asesoramiento legal en salud
+                </Title>
             </div>
 
             <img src="ilustrations/4.svg" alt="" />
 
-            <Button radius="md" size="md" uppercase>
+            <Button radius="md" size="md" fw="800" bg="#1ea9514d" uppercase>
                 HABLEMOS
             </Button>
         </header>

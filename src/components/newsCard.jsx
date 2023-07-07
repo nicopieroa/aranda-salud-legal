@@ -1,31 +1,38 @@
-import { Card, Image, Text, Badge, Button, Group } from '@mantine/core';
+import { Card, Image, Title, Text, Badge, Button, Group } from '@mantine/core';
 
 export function Cards() {
     return (
         <Card shadow="sm" padding="lg" radius="md" withBorder className='newsCard'>
             <Card.Section>
                 <Image
-                    src="https://images.unsplash.com/photo-1527004013197-933c4bb611b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=720&q=80"
+                    src="images/newsImgTesting.jpg"
                     height={160}
                     alt="Norway"
                 />
             </Card.Section>
 
             <Group position="apart" mt="md" mb="xs">
-                <Text weight={500}>Norway Fjord Adventures</Text>
-                <Badge color="pink" variant="light">
-                    On Sale
+                <Title order={4} size="h4" weight={500}>Reglamentación De La Ley 27553</Title>
+
+                <Badge size='md' fz="xs" pt="xs" pb="xs" fw="600" fullWidth bg="#1ea9514f" className='newsCard-date'>
+                    Ago 2020
                 </Badge>
             </Group>
 
-            <Text size="sm" color="dimmed">
-                With Fjord Tours you can explore more of the magical fjord landscapes with tours and
-                activities on and around the fjords of Norway
+            <Text fz="sm" fw={300} c="dimmed" className='textNewsCard'>
+                En el mes de Agosto del año 2020
+                se sancionó la ley 27.553 cuyo objeto fue
+                habilitar el uso plataformas de teleasistencia en
+                salud y de la receta electrónica o digital en todo
+                el territorio nacional para los profesionales médicos,
+                odontólogos y otros profesionales sanitarios legalmente
+                facultados a prescribir, en los respectivos ámbitos de
+                asistencia sanitaria y atención farmacéutica pública y privada.
             </Text>
 
-            <Button variant="light" color="blue" fullWidth mt="md" radius="md">
-                Book classic tour now
+            <Button uppercase fz="xs" h="xl" fullWidth mt="md" fw="600" radius="lg" bg="#085db273">
+                VER MÁS
             </Button>
-        </Card>
+        </Card >
     );
 }
