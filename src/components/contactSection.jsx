@@ -1,5 +1,5 @@
 import { useForm } from '@mantine/form';
-import { TextInput, Textarea, Button } from '@mantine/core';
+import { Title, TextInput, Textarea, Button } from '@mantine/core';
 
 export function ContactSection() {
     const form = useForm({
@@ -15,7 +15,7 @@ export function ContactSection() {
 
     return (
         <div className='contactSection'>
-            <h2>Contactanos</h2>
+            <Title order={2} size="32px">Contactanos</Title>
 
             <form onSubmit={form.onSubmit(console.log)} className='form'>
                 <TextInput
