@@ -14,9 +14,11 @@ export function Header() {
 
             <img src="ilustrations/4.svg" alt="" />
 
-            <Button radius="md" size="md" fw="800" bg="#1ea9514d" uppercase>
-                HABLEMOS
-            </Button>
+            <a href="#contact">
+                <Button radius="md" size="md" fw="800" bg="#1ea9514d" uppercase>
+                    HABLEMOS
+                </Button>
+            </a>
         </header>
     );
 }

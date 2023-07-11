@@ -1,5 +1,5 @@
 import { useDisclosure } from '@mantine/hooks';
-import { Burger, Button } from '@mantine/core';
+import { Burger, Button, Drawer } from '@mantine/core';
 
 export function Navbar() {
     const [opened, { toggle }] = useDisclosure(false);
@@ -8,17 +8,25 @@ export function Navbar() {
 
     function Sidebar() {
         return (
-            <aside className="sidebar">
-                <a href="">Link</a>
-                <a href="">Link</a>
-                <a href="">Link</a>
-                <a href="">Link</a>
-                <a href="">Link</a>
+            <Drawer
+                opened={opened}
+                onClose={toggle}
+                position="right"
+                size='75%'
+                color='black'
+                variant='green'
+                transition="fade"
+                duration={400}
+                timingFunction="ease">
+                <aside className="sidebar">
+                    <a href="">Quiénes somos</a>
+                    <a href="">Nuestros servicios</a>
 
-                <Button radius="md" size="md" uppercase>
-                    BUTTON
-                </Button>
-            </aside>
+                    <Button radius="md" size="md" uppercase>
+                        BUTTON
+                    </Button>
+                </aside>
+            </Drawer>
         )
     }
 
