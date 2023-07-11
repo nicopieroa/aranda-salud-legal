@@ -5,7 +5,6 @@ export function ContactSection() {
     const form = useForm({
         initialValues: { name: '', email: '', textArea: '' },
 
-        // functions will be used to validate values at corresponding key
         validate: {
             name: (value) => (value.length < 2 ? 'Ingrese su nombre' : null),
             email: (value) => (/^\S+@\S+$/.test(value) ? null : 'Email invalido'),

@@ -13,7 +13,9 @@ export function Cards({ article }) {
             </Card.Section>
 
             <Group position="apart" mt="md" mb="xs">
-                <Title order={3} size="16px" weight={500} className='titleNewsCard'>{article.title}</Title>
+                <Title order={3} size="16px" weight={500} className='titleNewsCard'>
+                    {article.title}
+                </Title>
 
                 <Badge size='md' fz="xs" pt="xs" pb="xs" fw="600" fullWidth bg="#1ea9514f" className='newsCard-date'>
                     {article.date}

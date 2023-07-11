@@ -15,9 +15,11 @@ export function Navbar() {
                 size='75%'
                 color='black'
                 variant='green'
-                transition="fade"
-                duration={400}
-                timingFunction="ease">
+                transitionProps={{
+                    transition: 'fade',
+                    duration: 300,
+                    timingFunction: 'linear'
+                }}>
                 <aside className="sidebar">
                     <a href="">Quiénes somos</a>
                     <a href="">Nuestros servicios</a>
@@ -33,10 +35,25 @@ export function Navbar() {
     return (
         <>
             <nav className='navbar'>
-                <img src="images/logo-favIcon.png" alt="Logotipo de la empresa Aranda Salud Legal" className='logo' />
+                <img
+                    src="images/logo-favIcon.png"
+                    alt="Logotipo de la empresa Aranda Salud Legal"
+                    className='logo' />
 
-                {opened ? <Burger opened={opened} onClick={toggle} aria-label={label} size="lg" color=' #ffffff' className='burgerButton' />
-                    : <Burger opened={opened} onClick={toggle} aria-label={label} size="lg" color='#085db2' className='burgerButton' />}
+                {opened ? <Burger
+                    opened={opened}
+                    onClick={toggle}
+                    aria-label={label}
+                    size="lg"
+                    color=' #ffffff'
+                    className='burgerButton' />
+                    : <Burger
+                        opened={opened}
+                        onClick={toggle}
+                        aria-label={label}
+                        size="lg"
+                        color='#085db2'
+                        className='burgerButton' />}
             </nav>
 
             {opened ? <Sidebar /> : null}

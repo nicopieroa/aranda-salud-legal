@@ -7,6 +7,7 @@ export function Header() {
         <header className="header">
             <div className="headerText">
                 <Title order={1} size="40px" fw="900">Aranda Salud Legal</Title>
+
                 <Title order={2} size="20px" fw="600" color='#7b7e80' fs="italic">
                     Firma especializada en asesoramiento legal en salud
                 </Title>

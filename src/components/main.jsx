@@ -21,7 +21,9 @@ export function Main() {
                 maw="100%"
             >
                 {articles.map((article) =>
-                    <Carousel.Slide key={article.id}><Cards article={article} /></Carousel.Slide>
+                    <Carousel.Slide key={article.id}>
+                        <Cards article={article} />
+                    </Carousel.Slide>
                 )}
             </Carousel>
         </main>
