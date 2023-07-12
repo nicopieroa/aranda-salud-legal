@@ -1,3 +1,5 @@
+import { Title } from '@mantine/core';
+
 export function Footer() {
     return (
         <footer className="footer">
@@ -6,8 +8,24 @@ export function Footer() {
                 alt="Logotipo de la empresa Aranda Salud Legal"
                 className='logo' />
 
-            <section className="socialMedia-container">
-                <h3>Nos encuentras en</h3>
+            <Title order={3} size="h3" fw={600} fs="italic">Aranda Salud Legal</Title>
+
+            <section className="links-container">
+                {/* <div className="socialMedia-icons"> */}
+                <a href="">
+                    Link
+                </a>
+                <a href="">
+                    Link
+                </a>
+                <a href="">
+                    Link
+                </a>
+                {/* </div> */}
+            </section>
+
+            <section className="links-container">
+                <Title order={3} size="h3" fw={400}>Nos encuentras en</Title>
 
                 <div className="socialMedia-icons">
                     <a href="">
