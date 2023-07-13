@@ -6,12 +6,13 @@
   --color2: #1ea952;
   --color3: #96999a;
   --color4: #ffffff;
+  --color5: #c9ac08;
 }
 
 .App {
   display: flex;
   flex-direction: column;
-  row-gap: 80px;
+  row-gap: 180px;
 }
 
 /* Navbar start */
@@ -132,8 +133,90 @@
 }
 /* Header finish */
 
-/* Main start */
-.main {
+/* Services section start */
+.servicesSection {
+  width: 100%;
+  padding: 0 var(--sidePadding);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  row-gap: var(--rowGapSpace-bw-texts);
+}
+
+.services-textsContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.servicesSection button {
+  color: var(--color1);
+  background-color: #085db256;
+}
+
+.servicesSection button:hover {
+  color: var(--color4);
+  background-color: var(--color1);
+}
+
+/* Services section cards start */
+.services-cardsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 20px;
+}
+
+.services-cards {
+  width: 100%;
+  border-radius: 12px;
+  padding: 20px var(--sidePadding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  color: var(--color4);
+}
+
+.services-cards img {
+  width: 60px;
+}
+
+.services-cards-blue {
+  background-color: var(--color1);
+}
+
+.services-cards-green {
+  background-color: var(--color2);
+}
+
+.services-cards-yellow {
+  background-color: var(--color5);
+}
+
+.services-cardsTexts {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+}
+
+.services-cardsTexts ul {
+  text-align: left;
+  font-size: 12px;
+  font-weight: 600;
+}
+/* Services section cards finish */
+/* Services section finish */
+
+/* News section start */
+.newsSection {
+  width: 100%;
   padding: 40px var(--sidePadding);
   background-color: #085db2;
   display: flex;
@@ -143,7 +226,6 @@
   row-gap: var(--rowGapSpace-bw-texts);
 }
 
-/* News cards start */
 .newsCard-date {
   color: #1ea952;
   cursor: default;
@@ -173,7 +255,7 @@
 .newsCard button:hover {
   background-color: #085db28e;
 }
-/* News cards finish */
+/* News section start */
 /* Main finish */
 
 /* Contact start */

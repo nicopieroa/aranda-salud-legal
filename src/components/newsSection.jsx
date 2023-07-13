@@ -4,10 +4,9 @@ import { Carousel } from '@mantine/carousel';
 import { Cards } from './newsCard';
 import { Title } from '@mantine/core';
 
-export function Main() {
-
+export function News() {
     return (
-        <main className='main'>
+        <section className='newsSection'>
             <Title order={2} size="32px" color="#ffffff">Noticias</Title>
 
             <Carousel
@@ -25,7 +24,6 @@ export function Main() {
                         <Cards article={article} />
                     </Carousel.Slide>
                 )}
-            </Carousel>
-        </main>
+            </Carousel></section>
     )
 }
