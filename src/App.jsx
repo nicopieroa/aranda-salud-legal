@@ -3,7 +3,8 @@ import { MantineProvider } from '@mantine/core';
 
 import { Navbar } from './components/navbar';
 import { Header } from './components/header';
-import { Main } from './components/main';
+import { ServicesSection } from './components/servicesSection';
+import { News } from './components/newsSection';
 import { ContactSection } from './components/contactSection';
 import { Footer } from './components/footer';
 
@@ -14,7 +15,8 @@ function App() {
       <div className='App'>
         <Navbar />
         <Header />
-        <Main />
+        <ServicesSection />
+        <News />
         <ContactSection />
         <Footer />
       </div>
