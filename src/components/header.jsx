@@ -13,7 +13,7 @@ export function Header() {
                 </Title>
             </div>
 
-            <img src="ilustrations/4.svg" alt="" />
+            <img src="ilustrations/1.svg" alt="" />
 
             <a href="#contact">
                 <Button radius="md" size="md" fw="800" bg="#1ea9514d" uppercase>
