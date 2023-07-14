@@ -1,6 +1,8 @@
 import { useDisclosure } from '@mantine/hooks';
 import { Burger, Button, Drawer } from '@mantine/core';
 
+import { Link } from "wouter"
+
 export function Navbar() {
     const [opened, { toggle }] = useDisclosure(false);
 
@@ -21,8 +23,8 @@ export function Navbar() {
                     timingFunction: 'linear'
                 }}>
                 <aside className="sidebar">
-                    <a href="">Quiénes somos</a>
-                    <a href="">Nuestros servicios</a>
+                    <Link href='/sobre-nosotros'><a>Quiénes somos</a></Link>
+                    <Link href='/nuestros-servicios'><a>Nuestros servicios</a></Link>
 
                     <Button radius="md" size="md" uppercase>
                         BUTTON
@@ -35,10 +37,14 @@ export function Navbar() {
     return (
         <>
             <nav className='navbar'>
-                <img
-                    src="images/logo-favIcon.png"
-                    alt="Logotipo de la empresa Aranda Salud Legal"
-                    className='logo' />
+                <Link href='/'>
+                    <a>
+                        <img
+                            src="images/logo-favIcon.png"
+                            alt="Logotipo de la empresa Aranda Salud Legal"
+                            className='logo' />
+                    </a>
+                </Link>
 
                 {opened ? <Burger
                     opened={opened}
