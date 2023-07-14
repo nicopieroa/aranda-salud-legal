@@ -1,4 +1,5 @@
 import { Title, Button } from '@mantine/core';
+import { Link } from 'wouter'
 
 export function ServicesSection() {
     return (
@@ -57,9 +58,13 @@ export function ServicesSection() {
                 </div>
             </div>
 
-            <Button radius="md" uppercase fullWidth>
-                saber mas
-            </Button>
+            <Link href='/nuestros-servicios'>
+                <a>
+                    <Button radius="md" uppercase fullWidth>
+                        saber mas
+                    </Button>
+                </a>
+            </Link>
         </section >
     )
 }

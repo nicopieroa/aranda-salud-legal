@@ -16,7 +16,7 @@ export function Header() {
             <img src="ilustrations/1.svg" alt="" />
 
             <a href="#contact">
-                <Button radius="md" size="md" fw="800" bg="#1ea9514d" uppercase>
+                <Button radius="md" size="md" fw="800" bg="#1ea9514d" uppercase fullWidth>
                     HABLEMOS
                 </Button>
             </a>

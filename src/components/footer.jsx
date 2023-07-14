@@ -1,4 +1,5 @@
 import { Title } from '@mantine/core';
+import { Link } from 'wouter'
 
 export function Footer() {
     return (
@@ -11,17 +12,8 @@ export function Footer() {
             <Title order={3} size="h3" fw={600} fs="italic">Aranda Salud Legal</Title>
 
             <section className="links-container">
-                {/* <div className="socialMedia-icons"> */}
-                <a href="">
-                    Link
-                </a>
-                <a href="">
-                    Link
-                </a>
-                <a href="">
-                    Link
-                </a>
-                {/* </div> */}
+                <Link href='/sobre-nosotros'><a>Quiénes somos</a></Link>
+                <Link href='/nuestros-servicios'><a>Nuestros servicios</a></Link>
             </section>
 
             <section className="links-container">
