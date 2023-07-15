@@ -4,7 +4,7 @@ import { Carousel } from '@mantine/carousel';
 import { Cards } from './newsCard';
 import { Title } from '@mantine/core';
 
-export function News() {
+export function NewsSection() {
     return (
         <section className='newsSection'>
             <Title order={2} size="32px" color="#ffffff">Noticias</Title>

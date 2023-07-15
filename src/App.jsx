@@ -1,26 +1,12 @@
 import './App.css'
 import { MantineProvider } from '@mantine/core';
-
-import { Navbar } from './components/navbar';
-import { Header } from './components/header';
-import { ServicesSection } from './components/servicesSection';
-import { News } from './components/newsSection';
-import { ContactSection } from './components/contactSection';
-import { Footer } from './components/footer';
+import { HomePage } from './pages/homePage';
 
 function App() {
 
   return (
     <MantineProvider withGlobalStyles withNormalizeCSS>
-      <div className='App'>
-        <Navbar />
-        <Header />
-        <ServicesSection />
-        <News />
-        <ContactSection />
-        <Footer />
-      </div>
-
+      <HomePage />
     </MantineProvider>
   )
 }
