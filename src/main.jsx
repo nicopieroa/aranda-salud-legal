@@ -5,16 +5,15 @@ import { Route } from 'wouter'
 
 import './index.css'
 import App from './App.jsx'
-import { AboutUs } from './components/aboutUs'
-import { Services } from './components/services'
-
+import { AboutUsPage } from './pages/aboutUsPage'
+import { ServicesPage } from './pages/servicesPage'
 
 function Router() {
   return (
     <div>
       <Route path='/' component={App} />
-      <Route path='/sobre-nosotros' component={AboutUs} />
-      <Route path='/nuestros-servicios' component={Services} />
+      <Route path='/quienes-somos' component={AboutUsPage} />
+      <Route path='/nuestros-servicios' component={ServicesPage} />
     </div>
   )
 }

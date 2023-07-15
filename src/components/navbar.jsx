@@ -23,7 +23,7 @@ export function Navbar() {
                     timingFunction: 'linear'
                 }}>
                 <aside className="sidebar">
-                    <Link href='/sobre-nosotros'><a>Quiénes somos</a></Link>
+                    <Link href='/quienes-somos'><a>Quiénes somos</a></Link>
                     <Link href='/nuestros-servicios'><a>Nuestros servicios</a></Link>
 
                     <Button radius="md" size="md" uppercase>
