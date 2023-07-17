@@ -189,16 +189,8 @@
   width: 60px;
 }
 
-.services-cards-blue {
-  background-color: var(--color1);
-}
-
 .services-cards-green {
   background-color: var(--color2);
-}
-
-.services-cards-yellow {
-  background-color: var(--color5);
 }
 
 .services-cardsTexts {

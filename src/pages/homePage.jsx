@@ -1,6 +1,6 @@
 import { Navbar } from '../components/navbar'
 import { Header } from '../components/header'
-import { ServicesSection } from '../components/servicesLittleSection'
+import { ServicesLittleSection } from '../components/servicesLittleSection'
 import { NewsSection } from '../components/newsSection'
 import { ContactSection } from '../components/contactSection'
 import { Footer } from '../components/footer'
@@ -10,7 +10,7 @@ export function HomePage() {
         <div className='homePage'>
             <Navbar />
             <Header />
-            <ServicesSection />
+            <ServicesLittleSection />
             <NewsSection />
             <ContactSection />
             <Footer />

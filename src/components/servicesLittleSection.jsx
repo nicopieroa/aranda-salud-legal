@@ -1,7 +1,7 @@
 import { Title, Button } from '@mantine/core';
 import { Link } from 'wouter'
 
-export function ServicesSection() {
+export function ServicesLittleSection() {
     return (
         <section className="servicesSection">
             <Title order={2} size="32px" color="#085db2">Nuestros Servicios</Title>
@@ -18,19 +18,6 @@ export function ServicesSection() {
 
             <div className="services-cardsContainer">
 
-                <div className="services-cards services-cards-blue">
-                    <img src="icons/user.svg" alt="Silueta de persona" />
-
-                    <div className="services-cardsTexts">
-                        <Title order={4} size="20px">Usuarios</Title>
-
-                        <ul>
-                            <li>Derechos del Paciente</li>
-                            <li>Reclamaciones y Compensaciones</li>
-                        </ul>
-                    </div>
-                </div>
-
                 <div className="services-cards services-cards-green">
                     <img src="icons/business.svg" alt="Maletín" />
 
@@ -44,7 +31,7 @@ export function ServicesSection() {
                     </div>
                 </div>
 
-                <div className="services-cards services-cards-yellow">
+                <div className="services-cards services-cards-green">
                     <img src="icons/deal.svg" alt="Manos entrelazadas" />
 
                     <div className="services-cardsTexts">
