@@ -1,4 +1,3 @@
-// import { Button } from '@mantine/core';
 import { Title } from '@mantine/core';
 
 export function Header() {
