@@ -7,7 +7,7 @@ export function Footer() {
             <img
                 src="images/logo-favIcon-white-noBg.png"
                 alt="Logotipo de la empresa Aranda Salud Legal"
-                className='logo' />
+                className='footerLogo' />
 
             <Title order={3} size="h3" fw={600} fs="italic">Aranda Salud Legal</Title>
 
@@ -17,17 +17,20 @@ export function Footer() {
             </section>
 
             <section className="links-container">
-                <Title order={3} size="h3" fw={400}>Nos encuentras en</Title>
+                <Title order={3} size="h3" fw={400}>Nos encuentras en:</Title>
 
                 <div className="socialMedia-icons">
-                    <a href="">
+                    <a href="https://wa.me/543426124730" target="_blank" rel="noopener noreferrer">
                         <img src="icons/whatsapp.svg" alt="Imagen del logo de whatsapp" />
                     </a>
-                    <a href="">
+                    <a href="https://www.linkedin.com/in/mariel-aranda-983099108/" target="_blank" rel="noopener noreferrer">
                         <img src="icons/linkedin.svg" alt="Imagen del logo de linkedin" />
                     </a>
                     <a href="">
                         <img src="icons/twitter.svg" alt="Imagen del logo de twitter" />
+                    </a>
+                    <a href="#contactSection">
+                        <img src="icons/email.svg" alt="Imagen del logo de un sobre, simbolizando casilla de correo" />
                     </a>
                 </div>
             </section>

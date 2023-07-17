@@ -13,7 +13,7 @@ export function ContactSection() {
     });
 
     return (
-        <div id='contact' className='contactSection'>
+        <div id='contactSection' className='contactSection'>
             <Title order={2} size="32px" c="#085db2">Contactanos</Title>
 
             <form onSubmit={form.onSubmit(console.log)} className='form'>
