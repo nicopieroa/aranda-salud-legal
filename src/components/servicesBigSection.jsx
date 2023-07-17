@@ -23,31 +23,6 @@ export function ServicesBigSection() {
                     src="images/DMVA/DMVA-2.jpg"
                     alt="La Doctora Mariel Viviana Aranda subrayando una línea de texto de un libro" />
 
-                <div className="servicesBigSection-cards services-cards-blue">
-                    <Title order={4} size="24px">Usuarios</Title>
-
-                    <div className='servicesBigSection-cards-titleText-container'>
-                        <Title order={5} size="20px">Derechos del Paciente</Title>
-
-                        <Text fz="16px" fw="400">
-                            Protegemos tus derechos como paciente, asistiéndote en casos de mala praxis,
-                            confidencialidad de registros médicos y decisiones médicas informadas. Nuestro
-                            objetivo es velar por tu bienestar y garantizar que recibas la atención médica
-                            que mereces.
-                        </Text>
-                    </div>
-
-                    <div className='servicesBigSection-cards-titleText-container'>
-                        <Title order={5} size="20px">Reclamaciones y Compensaciones</Title>
-
-                        <Text fz="16px" fw="400">
-                            Si has sufrido daños o lesiones debido a errores médicos, estamos aquí para ayudarte
-                            a buscar compensación y justicia. Nuestro equipo investigará tu caso, recopilará pruebas
-                            sólidas y te representará en todo el proceso legal.
-                        </Text>
-                    </div>
-                </div>
-
                 <div className="servicesBigSection-cards services-cards-green">
                     <Title order={4} size="24px">Empresas</Title>
 
@@ -81,7 +56,7 @@ export function ServicesBigSection() {
                     </div>
                 </div>
 
-                <div className="servicesBigSection-cards services-cards-yellow">
+                <div className="servicesBigSection-cards services-cards-green">
                     <Title order={4} size="24px">Compromiso</Title>
 
                     <Text fz="16px" fw="400">
