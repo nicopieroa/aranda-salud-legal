@@ -24,7 +24,6 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px var(--sidePadding);
-  border-bottom: 1px solid var(--color1);
 }
 
 .logo {
@@ -122,14 +121,81 @@
   width: 100%;
 }
 
-.header a button {
-  border: 2px solid #1ea952;
+.dropdown {
+  cursor: pointer;
   color: var(--color2);
+  position: relative;
 }
 
-.header a button:hover {
-  background-color: #1ea9516e;
+.dropdown:hover .dropdownMenu {
+  opacity: 1;
+  visibility: visible;
 }
+
+.dropdMenuOpen {
+  opacity: 1;
+  visibility: visible;
+  font-size: 20px;
+}
+
+.dropdown-titleImage-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #8ee4ad;
+  border: 2px solid var(--color2);
+  border-radius: 8px;
+  padding: 4px 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.dropdown-titleImage-container img {
+  width: 24px;
+}
+
+.dropdownMenu {
+  position: absolute;
+  background-color: #8ee4ad;
+  top: 60px;
+  border: 2px solid var(--color2);
+  border-radius: 8px;
+  padding: 20px 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.dropdownMenu a {
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  color: var(--color2);
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+
+.dropdownMenu img {
+  width: 24px;
+}
+
+.dropdownMenu a:hover {
+  transform: scale3d(1.5, 1.5, 0.3);
+  -webkit-transform: scale3d(1.5, 1.5, 0.3);
+  -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+
 /* Header finish */
 
 /* Services section start */
@@ -289,12 +355,26 @@
   justify-content: center;
   align-items: center;
   color: var(--color4);
-  row-gap: 40px;
+  row-gap: var(--rowGapSpace-bw-texts);
 }
 
 .footer img {
   width: 80px;
 }
+
+/* .footerLogo {
+  width: 52px;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+
+.footerLogo:hover {
+  box-shadow: 0 8px 8px 0 #032e57, 0 8px 8px 0 #adadab;
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  -moz-transform: translate(0px, 5px);
+} */
 
 .links-container {
   display: flex;
