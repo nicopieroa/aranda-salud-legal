@@ -41,7 +41,7 @@ export function ContactSection() {
                     {...form.getInputProps('textArea')}
                 />
 
-                <Button type="submit" mt="sm" radius="md">
+                <Button type="submit" radius="md" h="48px" size="20px" uppercase fullWidth>
                     ENVIAR
                 </Button>
             </form>

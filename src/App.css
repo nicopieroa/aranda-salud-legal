@@ -77,7 +77,7 @@
 .sidebar a {
   text-decoration: none;
   color: var(--color4);
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -255,8 +255,8 @@
   width: 60px;
 }
 
-.services-cards-green {
-  background-color: var(--color2);
+.services-cards-blue {
+  background-color: var(--color1);
 }
 
 .services-cardsTexts {

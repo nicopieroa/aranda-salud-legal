@@ -1,5 +1,5 @@
 import { useDisclosure } from '@mantine/hooks';
-import { Burger, Button, Drawer } from '@mantine/core';
+import { Burger, Drawer } from '@mantine/core';
 
 import { Link } from "wouter"
 
@@ -25,10 +25,6 @@ export function Navbar() {
                 <aside className="sidebar">
                     <Link href='/quienes-somos'><a>Quiénes somos</a></Link>
                     <Link href='/nuestros-servicios'><a>Nuestros servicios</a></Link>
-
-                    <Button radius="md" size="md" uppercase>
-                        BUTTON
-                    </Button>
                 </aside>
             </Drawer>
         )

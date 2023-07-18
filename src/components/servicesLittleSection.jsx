@@ -11,14 +11,14 @@ export function ServicesLittleSection() {
                     Nos especializamos en brindar soluciones legales en salud.
                 </Title>
                 <Title order={3} size="16px" fw="400" color='#7b7e80' fs="italic">
-                    Somos un equipo de profesionales que asesoramos tanto a usuarios
-                    individuales como a empresas del sector de la salud.
+                    Somos un equipo de profesionales que asesoramos a empresas del
+                    sector de la salud.
                 </Title>
             </div>
 
             <div className="services-cardsContainer">
 
-                <div className="services-cards services-cards-green">
+                <div className="services-cards services-cards-blue">
                     <img src="icons/business.svg" alt="Maletín" />
 
                     <div className="services-cardsTexts">
@@ -31,7 +31,7 @@ export function ServicesLittleSection() {
                     </div>
                 </div>
 
-                <div className="services-cards services-cards-green">
+                <div className="services-cards services-cards-blue">
                     <img src="icons/deal.svg" alt="Manos entrelazadas" />
 
                     <div className="services-cardsTexts">
@@ -47,8 +47,8 @@ export function ServicesLittleSection() {
 
             <Link href='/nuestros-servicios'>
                 <a>
-                    <Button radius="md" uppercase fullWidth>
-                        saber mas
+                    <Button radius="md" h="48px" size="20px" uppercase fullWidth>
+                        SABER MÁS
                     </Button>
                 </a>
             </Link>
