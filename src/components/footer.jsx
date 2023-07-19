@@ -12,7 +12,7 @@ export function Footer() {
             <Title order={3} size="h3" fw={600} fs="italic">Aranda Salud Legal</Title>
 
             <section className="links-container">
-                <Link href='/sobre-nosotros'><a>Quiénes somos</a></Link>
+                <Link href='/quienes-somos'><a>Quiénes somos</a></Link>
                 <Link href='/nuestros-servicios'><a>Nuestros servicios</a></Link>
             </section>
 
@@ -29,7 +29,7 @@ export function Footer() {
                     <a href="">
                         <img src="icons/twitter.svg" alt="Imagen del logo de twitter" />
                     </a>
-                    <a href="#contactSection">
+                    <a href="/#contactSection">
                         <img src="icons/email.svg" alt="Imagen del logo de un sobre, simbolizando casilla de correo" />
                     </a>
                 </div>
