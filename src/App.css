@@ -11,7 +11,8 @@
 
 .homePage,
 .aboutUsPage,
-.servicesPage {
+.servicesPage,
+.newsPage {
   display: flex;
   flex-direction: column;
   row-gap: 100px;
@@ -309,12 +310,16 @@
   white-space: wrap;
 }
 
-.newsCard button {
+.newsCard a {
+  text-decoration: none;
+}
+
+.newsCard a button {
   border: 1px solid #085db2;
   color: var(--color1);
 }
 
-.newsCard button:hover {
+.newsCard a button:hover {
   background-color: #085db28e;
 }
 /* News section start */
@@ -487,3 +492,24 @@
   row-gap: 20px;
 }
 /* Services big section finish */
+
+/* News big section start */
+.newsBigSection-container {
+  padding: 0 var(--sidePadding);
+  display: flex;
+  flex-direction: column;
+  row-gap: var(--rowGapSpace-bw-texts);
+}
+
+.newsBigSection-header {
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+}
+
+.newsBigSection-content {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+/* News big section finish */

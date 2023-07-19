@@ -1,4 +1,5 @@
 import { Card, Image, Title, Text, Badge, Button, Group } from '@mantine/core';
+import { Link } from 'wouter'
 
 export function Cards({ article }) {
 
@@ -26,9 +27,13 @@ export function Cards({ article }) {
                 {article.description}
             </Text>
 
-            <Button uppercase fz="xs" h="xl" fullWidth mt="md" fw="600" radius="lg" bg="#085db273">
-                VER MÁS
-            </Button>
+            <Link href={`/news/${article.id}`}>
+                <a target="_blank" rel="noopener noreferrer">
+                    <Button uppercase fz="xs" h="xl" fullWidth mt="md" fw="600" radius="lg" bg="#085db273">
+                        VER MÁS
+                    </Button>
+                </a>
+            </Link>
         </Card >
     );
 }

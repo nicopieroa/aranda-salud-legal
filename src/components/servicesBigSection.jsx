@@ -23,7 +23,7 @@ export function ServicesBigSection() {
                     src="images/DMVA/DMVA-2.jpg"
                     alt="La Doctora Mariel Viviana Aranda subrayando una línea de texto de un libro" />
 
-                <div className="servicesBigSection-cards services-cards-green">
+                <div className="servicesBigSection-cards services-cards-blue">
                     <Title order={4} size="24px">Empresas</Title>
 
                     <div className='servicesBigSection-cards-titleText-container'>
@@ -56,7 +56,7 @@ export function ServicesBigSection() {
                     </div>
                 </div>
 
-                <div className="servicesBigSection-cards services-cards-green">
+                <div className="servicesBigSection-cards services-cards-blue">
                     <Title order={4} size="24px">Compromiso</Title>
 
                     <Text fz="16px" fw="400">
