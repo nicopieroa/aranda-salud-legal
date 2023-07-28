@@ -2,403 +2,1176 @@
   {
     "id": 11,
     "image": {
-      "url": "images/articles-images/11.jpg",
+      "url": "/public/images/articles-images/11.jpg",
       "alt": "Mujer marcando con un boligrafo un archivo electrónico simulando una pantalla digital flotante sobre una laptop en escritorio"
     },
     "title": "REGLAMENTACIÒN DE LA LEY 27553 - RECETA ELECTRONICA Y TELEASISTENCIA",
     "date": "xx/xx/xxxx",
     "description": "En el mes de Agosto del año 2020 se sancionó la ley 27.553 cuyo objeto fue  habilitar el uso plataformas de teleasistencia en salud y de la receta electrónica o digital en todo el territorio nacional para los profesionales médicos, odontólogos y otros profesionales sanitarios legalmente facultados a prescribir, en los respectivos ámbitos de asistencia sanitaria y atención farmacéutica pública y privada.",
     "content": [
-      "Recientemente y a través del decreto 98/23 se ha reglamentado esta ley a los fines de sistematizar sus definiciones, requisitos, responsabilidades y precisiones, tanto de la receta digital como de las plataformas de teleasistencia allí regladas.",
-      "El art. 3 del decreto reglamentario crea la “LICENCIA SANITARIA FEDERAL”, la que incluirá a todas las matrículas habilitantes de los profesionales de la salud, registrados en la RED FEDERAL DE REGISTROS DE PROFESIONALES DE LA SALUD, y que será complementaria de las mismas. Esta licencia determinará una CLAVE ÚNICA DE IDENTIFICACIÓN DE PROFESIONAL SANITARIO, que permitirá identificar de manera unívoca a los profesionales.",
-      "El art. 4 incorpora requisitos a la receta electrónica y digital.",
-      "El art. 5 reglamenta las obligaciones a cargo de los directores técnicos y/o farmacéuticos respecto del expendio de “productos legalmente restringidos” y del expendio de “productos bajo receta archivada”",
-      "El art. 6 determina que los registros y archivos digitales deberán ser llevados al día y ser puestos a disposición y exhibidos, en los casos que corresponda, a los Inspectores de la autoridad sanitaria, a su requerimiento.",
-      "El registro recetario deberá firmarlo el Director Técnico de la farmacia diariamente al final de la última receta transcripta. Para el caso de los archivos digitales, se deberá garantizar su seguridad, inalterabilidad e integralidad.",
-      "La reglamentación incorpora un anexo que especifica las cuestiones técnicas a tener en cuenta, y asimismo delega en el Ministerio de Salud de la Naciòn las potestades reglamentarias pertinentes para llevar a cabo la implementación progresiva de las recetas electrónicas o digitales en todo el territorio nacional.",
-      "DIFERENCIA ENTRE RECETA ELECTRONICA Y DIGITAL:  Deteniéndome en este punto considero que el decreto reglamentario no hace una diferencia clara entre una y otra receta.",
-      "La receta digital no es lo mismo que la receta electrónica.",
-      "«La receta digital tiene el sello de competencia, con la firma digital, la firma digital, de acuerdo a la ley 25.506 es la que surge como  resultado de aplicar a un documento digital un procedimiento matemático que requiere información de exclusivo conocimiento del firmante, (TOKEN) encontrándose ésta bajo su absoluto control la que debe ser susceptible de verificación por terceros a través del certificador licenciante.”",
-      "«La receta electrónica es la realizada a través del ingreso a una plataforma, mediante usuario y contraseña a los fines de prescribir por ese medio». “es decir que la prescripción se realiza a través de una “firma electrónica”, a la que la ley 25.506 define como “un conjunto de datos electrónicos integrados, ligados o asociados de manera lógica a otros datos electrónicos, utilizado por el signatario como su medio de identificación, que carezca de alguno de los requisitos legales para ser considerada firma digital. En caso de ser desconocida la firma electrónica corresponde a quien la invoca acreditar su validez.”",
-      "QUE ESTABLECE EL ANEXO DEL DECRETO 98/23 RESPECTO A ESTAS RECETAS?",
-      "El art. 1 de dicho anexo define la receta electrónica y digital, y establece su validez a partir del cumplimiento de los siguientes requisitos:",
-      "1.- Identificación: Cada receta deberá incluir un identificador único e irrepetible de manera tal que la misma sea unívoca y resulte válida para una única dispensa.",
-      "2.- Contenido: Debe cumplir lo establecido por el inc. 7 del art. 19 de la ley 19.132: (debe constar la siguiente información en idioma nacional: nombre, apellido, profesión, número de matrícula, domicilio, número telefónico y correo electrónico cuando corresponda. Solo pueden anunciarse cargos técnicos o títulos que consten registrados en la autoridad de aplicación competente y en las condiciones que se reglamenten. Las prescripciones y/o recetas deben ser formuladas en idioma nacional, fechadas y firmadas en forma manuscrita, electrónica o digital. En caso de ser redactadas electrónicamente, la firma y demás requisitos técnicos y legales deben adecuarse a la legislación vigente.",
-      "En caso de utilizar la firma digital, la misma debe adecuarse a la ley 25.506, de firma digital, adhiriendo al régimen e intermediando una autoridad certificante.",
-      "En el caso de que la prescripción incluya un ingrediente farmacéutico activo (IFA) que tenga actividad antimicrobiana sistémica, deberá registrar el diagnóstico por el cual el mismo se prescribe.)",
-      "3.- Vigencia: Deberá constar le fecha de inicio de vigencia, se establece una validez de 30 dias corridos para los medicamentos y de 60 dias para otras prescripciones.",
-      "4.- Integridad e inalterabilidad: Cualquiera sea su soporte deberá ser íntegro e inalterable.",
-      "5.- Seguridad y confidencialidad: Debe cumplir los estándares de acuerdo a la legislación que garantice dichos derechos.",
-      "6.- Interoperabilidad: Se entiende por interoperabilidad la capacidad de los sistemas para intercambiar, utilizar y aplicar la información. A tales fines las recetas deben asegurar el intercambio de la información necesaria para cumplir con los requisitos que exigen el uso de la información para fines estadìsiticos, epidemiológicos, etc.",
-      "EL DECRETO REGLAMENTARIO TAMBIEN REFIERE A LA “TELEASISTENCIA”, definiéndola como la provisiòn de servicios de salud a distancia mediante la utilización de tecnologías de información y comunicaciones.",
-      "Establece que las plataformas deberán cumplir los requisitos de la reglamentación y los que establezca la autoridad de aplicación (Ministerio de Salud de la Nación)",
-      "RESOLUCION 305/23 DEL MINISTERIO DE SALUD",
-      "Con fecha 28/2/2023 el Ministerio de Salud dicta la resolución Nº. 305/23 con el fin de avanzar en relación al desarrollo y/o adecuación de los sistemas electrónicos existentes, para utilizar recetas electrónicas o digitales, y plataformas de teleasistencia en salud conforme los requerimientos legales.",
-      "El art. 1 de la resoluciòn aprueba el proceso de inscripción de las plataformas y sistemas de receta electrónica o digital, o de teleasistencia, mediante el formulario que contiene el ANEXO I, el plazo para inscribirse (de contar con alguna plataforma para tales fines) es hasta el 31 de diciembre de 2023, debiendo registrarse oportunamente ante la jurisdicción correspondiente, conforme los requisitos que a tal fin establezca la normativa regulatoria de cada jurisdicción.",
-      "El art. 2 crea el Equipo técnico de la Ley N° 27.553, cuyos objetivos e integración se establecen en el Anexo II",
-      "Se copia enlace del link correspondiente a cada anexo.",
-      "CONCLUSION: Si bien lo hasta aquí expuesto refiere a la reglamentación de la implementación de la receta electrónica y digital, y tambièn del servicio de salud mediante “teleasistencia”, considero que aùn falta mucho para definir e implementar ambas modalidades antes de que su uso se encuentre disponible.",
-      "La resoluciòn arriba descripta tampoco ayuda mucho a agilizar el proceso de implementación, ya que la misma implementa un “sondeo” que pretende indagar respecto de las plataformas de recetas digitales o electrónicas o de teleasistencia que ya se encuentren en funcionamiento o próximas a funcionar. Las que luego estarán sujetas al análisis del equipo técnico que se conformará a los fines de su aprobación o no.",
-      "Por último esta resoluciòn crea ese equipo técnico que será el que en definitiva analice y autorice –bajo los requisitos preestablecidos y que aún se establecerán- las plataformas que se inscriban.",
-      "A todo esto no debemos olvidarnos que esta materia es una potestad de las provincias no delegada a la Nación, por nuestro sistema federal en consecuencia, sin perjuicio de la adhesión de las mismas, cada una de las provincias podrá implementar su propia regulación al respecto.",
-      "Considero que es todo lo que hoy se puede tener en cuenta de acuerdo a las diferentes normativas que se han publicado.-"
-    ],
-    "links": [
       {
-        "description": "Ley 27.553",
+        "id": 1,
+        "type": "p",
+        "content": "Recientemente y a través del decreto 98/23 se ha reglamentado esta ley a los fines de sistematizar sus definiciones, requisitos, responsabilidades y precisiones, tanto de la receta digital como de las plataformas de teleasistencia allí regladas."
+      },
+      {
+        "id": 2,
+        "type": "p",
+        "content": "El art. 3 del decreto reglamentario crea la “LICENCIA SANITARIA FEDERAL”, la que incluirá a todas las matrículas habilitantes de los profesionales de la salud, registrados en la RED FEDERAL DE REGISTROS DE PROFESIONALES DE LA SALUD, y que será complementaria de las mismas. Esta licencia determinará una CLAVE ÚNICA DE IDENTIFICACIÓN DE PROFESIONAL SANITARIO, que permitirá identificar de manera unívoca a los profesionales."
+      },
+      {
+        "id": 3,
+        "type": "p",
+        "content": "El art. 4 incorpora requisitos a la receta electrónica y digital."
+      },
+      {
+        "id": 4,
+        "type": "p",
+        "content": "El art. 5 reglamenta las obligaciones a cargo de los directores técnicos y/o farmacéuticos respecto del expendio de “productos legalmente restringidos” y del expendio de “productos bajo receta archivada”"
+      },
+      {
+        "id": 5,
+        "type": "p",
+        "content": "El art. 6 determina que los registros y archivos digitales deberán ser llevados al día y ser puestos a disposición y exhibidos, en los casos que corresponda, a los Inspectores de la autoridad sanitaria, a su requerimiento."
+      },
+      {
+        "id": 6,
+        "type": "p",
+        "content": "El registro recetario deberá firmarlo el Director Técnico de la farmacia diariamente al final de la última receta transcripta. Para el caso de los archivos digitales, se deberá garantizar su seguridad, inalterabilidad e integralidad."
+      },
+      {
+        "id": 7,
+        "type": "p",
+        "content": "La reglamentación incorpora un anexo que especifica las cuestiones técnicas a tener en cuenta, y asimismo delega en el Ministerio de Salud de la Naciòn las potestades reglamentarias pertinentes para llevar a cabo la implementación progresiva de las recetas electrónicas o digitales en todo el territorio nacional."
+      },
+      {
+        "id": 8,
+        "type": "p",
+        "content": "DIFERENCIA ENTRE RECETA ELECTRONICA Y DIGITAL:  Deteniéndome en este punto considero que el decreto reglamentario no hace una diferencia clara entre una y otra receta."
+      },
+      {
+        "id": 9,
+        "type": "p",
+        "content": "La receta digital no es lo mismo que la receta electrónica."
+      },
+      {
+        "id": 10,
+        "type": "p",
+        "content": "La receta digital tiene el sello de competencia, con la firma digital, la firma digital, de acuerdo a la ley 25.506 es la que surge como  resultado de aplicar a un documento digital un procedimiento matemático que requiere información de exclusivo conocimiento del firmante, (TOKEN) encontrándose ésta bajo su absoluto control la que debe ser susceptible de verificación por terceros a través del certificador licenciante.”"
+      },
+      {
+        "id": 11,
+        "type": "p",
+        "content": "La receta electrónica es la realizada a través del ingreso a una plataforma, mediante usuario y contraseña a los fines de prescribir por ese medio». “es decir que la prescripción se realiza a través de una “firma electrónica”, a la que la ley 25.506 define como “un conjunto de datos electrónicos integrados, ligados o asociados de manera lógica a otros datos electrónicos, utilizado por el signatario como su medio de identificación, que carezca de alguno de los requisitos legales para ser considerada firma digital. En caso de ser desconocida la firma electrónica corresponde a quien la invoca acreditar su validez.”"
+      },
+      {
+        "id": 12,
+        "type": "h2",
+        "content": "QUE ESTABLECE EL ANEXO DEL DECRETO 98/23 RESPECTO A ESTAS RECETAS?"
+      },
+      {
+        "id": 13,
+        "type": "ul",
+        "content": "El art. 1 de dicho anexo define la receta electrónica y digital, y establece su validez a partir del cumplimiento de los siguientes requisitos:",
+        "li": [
+          {
+            "id": 1,
+            "content": "Identificación: Cada receta deberá incluir un identificador único e irrepetible de manera tal que la misma sea unívoca y resulte válida para una única dispensa."
+          },
+          {
+            "id": 2,
+            "content": "Contenido: Debe cumplir lo establecido por el inc. 7 del art. 19 de la ley 19.132: (debe constar la siguiente información en idioma nacional: nombre, apellido, profesión, número de matrícula, domicilio, número telefónico y correo electrónico cuando corresponda. Solo pueden anunciarse cargos técnicos o títulos que consten registrados en la autoridad de aplicación competente y en las condiciones que se reglamenten. Las prescripciones y/o recetas deben ser formuladas en idioma nacional, fechadas y firmadas en forma manuscrita, electrónica o digital. En caso de ser redactadas electrónicamente, la firma y demás requisitos técnicos y legales deben adecuarse a la legislación vigente. En caso de utilizar la firma digital, la misma debe adecuarse a la ley 25.506, de firma digital, adhiriendo al régimen e intermediando una autoridad certificante. En el caso de que la prescripción incluya un ingrediente farmacéutico activo (IFA) que tenga actividad antimicrobiana sistémica, deberá registrar el diagnóstico por el cual el mismo se prescribe.)"
+          },
+          {
+            "id": 3,
+            "content": "Vigencia: Deberá constar le fecha de inicio de vigencia, se establece una validez de 30 dias corridos para los medicamentos y de 60 dias para otras prescripciones."
+          },
+          {
+            "id": 4,
+            "content": "Integridad e inalterabilidad: Cualquiera sea su soporte deberá ser íntegro e inalterable."
+          },
+          {
+            "id": 5,
+            "content": "Seguridad y confidencialidad: Debe cumplir los estándares de acuerdo a la legislación que garantice dichos derechos."
+          },
+          {
+            "id": 6,
+            "content": "Interoperabilidad: Se entiende por interoperabilidad la capacidad de los sistemas para intercambiar, utilizar y aplicar la información. A tales fines las recetas deben asegurar el intercambio de la información necesaria para cumplir con los requisitos que exigen el uso de la información para fines estadìsiticos, epidemiológicos, etc."
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "p",
+        "content": "EL DECRETO REGLAMENTARIO TAMBIEN REFIERE A LA “TELEASISTENCIA”, definiéndola como la provisiòn de servicios de salud a distancia mediante la utilización de tecnologías de información y comunicaciones."
+      },
+      {
+        "id": 15,
+        "type": "p",
+        "content": "Establece que las plataformas deberán cumplir los requisitos de la reglamentación y los que establezca la autoridad de aplicación (Ministerio de Salud de la Nación)"
+      },
+      {
+        "id": 16,
+        "type": "h3",
+        "content": "RESOLUCION 305/23 DEL MINISTERIO DE SALUD"
+      },
+      {
+        "id": 17,
+        "type": "p",
+        "content": "Con fecha 28/2/2023 el Ministerio de Salud dicta la resolución Nº. 305/23 con el fin de avanzar en relación al desarrollo y/o adecuación de los sistemas electrónicos existentes, para utilizar recetas electrónicas o digitales, y plataformas de teleasistencia en salud conforme los requerimientos legales."
+      },
+      {
+        "id": 18,
+        "type": "p",
+        "content": "El art. 2 crea el Equipo técnico de la Ley N° 27.553, cuyos objetivos e integración se establecen en el Anexo II"
+      },
+      {
+        "id": 19,
+        "type": "p",
+        "content": "Se copia enlace del link correspondiente a cada anexo."
+      },
+      {
+        "id": 20,
+        "type": "p",
+        "content": "CONCLUSION: Si bien lo hasta aquí expuesto refiere a la reglamentación de la implementación de la receta electrónica y digital, y tambièn del servicio de salud mediante “teleasistencia”, considero que aùn falta mucho para definir e implementar ambas modalidades antes de que su uso se encuentre disponible."
+      },
+      {
+        "id": 21,
+        "type": "p",
+        "content": "La resoluciòn arriba descripta tampoco ayuda mucho a agilizar el proceso de implementación, ya que la misma implementa un “sondeo” que pretende indagar respecto de las plataformas de recetas digitales o electrónicas o de teleasistencia que ya se encuentren en funcionamiento o próximas a funcionar. Las que luego estarán sujetas al análisis del equipo técnico que se conformará a los fines de su aprobación o no."
+      },
+      {
+        "id": 22,
+        "type": "p",
+        "content": "Por último esta resoluciòn crea ese equipo técnico que será el que en definitiva analice y autorice –bajo los requisitos preestablecidos y que aún se establecerán- las plataformas que se inscriban."
+      },
+      {
+        "id": 23,
+        "type": "p",
+        "content": "A todo esto no debemos olvidarnos que esta materia es una potestad de las provincias no delegada a la Nación, por nuestro sistema federal en consecuencia, sin perjuicio de la adhesión de las mismas, cada una de las provincias podrá implementar su propia regulación al respecto."
+      },
+      {
+        "id": 24,
+        "type": "p",
+        "content": "Considero que es todo lo que hoy se puede tener en cuenta de acuerdo a las diferentes normativas que se han publicado."
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "Ley 27.553",
+        "content": "Boletín oficial",
         "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/233439/20200811"
       },
       {
-        "description": "Dcto. Reglamentario 98/2023",
+        "id": 2,
+        "title": "Dcto. Reglamentario 98/2023",
+        "content": "Boletín oficial",
         "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/281766/20230228"
       },
       {
-        "description": "Resolucion 305/2023 MS",
+        "id": 3,
+        "title": "Resolucion 305/2023 MS",
+        "content": "Boletín oficial",
         "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/281777/20230228"
       }
     ],
     "author": "Dra. Mariel Viviana Aranda"
   },
+
   {
     "id": 10,
     "image": {
-      "url": "images/articles-images/10.jpg",
+      "url": "/public/images/articles-images/10.jpg",
       "alt": "Persona en un resonador en sala de resonancia de un sanatorio, hospital o clínica"
     },
     "title": "ASPECTOS RELEVANTES DE LA NUEVA MODALIDAD DE INCREMENTO DE CUOTA DE PREPAGAS",
     "date": "xx/xx/xxxx",
     "description": "Res. MSAL 1293/2022 (BO 30/06/2022): Aprobó el ICS (índice de Costos de Salud) a los fines de incrementar la cuota de las Entidades de Medicina Prepaga y proporción de aumento a Prestadores.",
     "content": [
-      "DNU 743/2022 (BO 06/11/2022): Resumen y consideraciones.",
-      "Establece un régimen, por tiempo determinado  (DIECIOCHO (18) meses a partir del 01 de febrero de 2023), de fijación de cuotas (aumentos), agregando un nuevo índice de aumento de cuota en base al SMVM (salario mínimo vital y móvil) el que será aplicable a los afiliados que posean ingresos netos inferiores al importe equivalente al total de SEIS (6) SMVM; estableciendo que para dichos usuarios el aumento de cuota no podrá superar el NOVENTA POR CIENTO (90%) del INDICE DE REMUNERACIÓN IMPONIBLE PROMEDIO DE LOS TRABAJADORES ESTABLES (RIPTE), del mes inmediato anterior publicado.",
-      "El mencionado decreto excluye expresamente a las personas comprendidas en los convenios corporativos.",
-      "El art. 2 del mismo decreto establece la obligación para las EMP a partir del 01 de enero de 2023, de ofrecer idénticos planes de cobertura al que posean en la actualidad SIN COPAGOS, CON COPAGOS sobre las prestaciones de primer/segundo nivel de atención, a un precio menor, como mínimo en un 25%, del plan SIN COPAGOS.",
-      "Res. 2/2023 SSS (BO 03/01/2023): Resumen",
-      "Ar.1: Establece las prestaciones de primer y segundo nivel pasibles de cobro de COPAGOS. (Anexo 1), de conformidad con el art. 2 DNU 743/2022 y el art. 5 de la Res. 2577/2022.",
-      "Art.2: Las EMP inscriptas en el RNEMP, deben presentar en SSS los planes CON COPAGOS ofrecidos en cumplimiento del art. 2 DNU 743/202, cuadros tarifarios y detalle de los valores de los copagos para c/prestación.",
-      "Art.3: No hay plazo para presentar el plan alternativo al plan sin copagos, pero de no hacerlo la SSS aplicarán supletoriamente los valores vigentes para la Resolución N° 58/17 del MINISTERIO DE SALUD.",
-      "Art.4: Los planes CON COPAGOS contratados en forma previa al DNU 743/2022 (6/11/22), mantendrán su vigencia en los mismos términos contratados.",
-      "Art.5: Los valores de los COPAGOS deberán ser debidamente informados y guardando constancia de su conformidad. Los COPAGOS, solo podrán ser incrementados en las mismas oportunidades y hasta la misma proporción que el ICS. (Art. 1 Res. 1293/22)",
-      "Art.6: DECLARACION JURADA DE INGRESOS: Para aplicar el tope previsto (el índice del RIPTE), los titulares que pretenden o deseen acogerse a dicho beneficio, deberán completar del día 1 al 20 de cada mes, la DDJJ de certificación de ingresos, correspondiente al mes inmediato anterior.",
-      "El titular deberá a tal efecto ingresar a la Web SSS, accediendo a través del aplicativo que se encuentra disponible en la misma, mediante autenticación a través de su CUIT/L y clave fiscal 3, lo que será certificado a través de la AFIP.",
-      "Desde el día 21 hasta el último día de cada mes la SSS pondrá a disposición de cada EMP la información correspondiente a las DDJJ presentadas por los usuarios, a los efectos que puedan aplicar los topes en el valor de la cuota.",
-      "Links de normativas:"
-    ],
-    "links": [
       {
-        "description": "Res. 1293/22 MS",
+        "id": 1,
+        "type": "ul",
+        "content": "DNU 743/2022 (BO 06/11/2022): Resumen y consideraciones:",
+        "li": [
+          {
+            "id": 1,
+            "content": "Establece un régimen, por tiempo determinado  (DIECIOCHO (18) meses a partir del 01 de febrero de 2023), de fijación de cuotas (aumentos), agregando un nuevo índice de aumento de cuota en base al SMVM (salario mínimo vital y móvil) el que será aplicable a los afiliados que posean ingresos netos inferiores al importe equivalente al total de SEIS (6) SMVM; estableciendo que para dichos usuarios el aumento de cuota no podrá superar el NOVENTA POR CIENTO (90%) del INDICE DE REMUNERACIÓN IMPONIBLE PROMEDIO DE LOS TRABAJADORES ESTABLES (RIPTE), del mes inmediato anterior publicado."
+          },
+          {
+            "id": 2,
+            "content": "El mencionado decreto excluye expresamente a las personas comprendidas en los convenios corporativos."
+          },
+          {
+            "id": 3,
+            "content": "El art. 2 del mismo decreto establece la obligación para las EMP a partir del 01 de enero de 2023, de ofrecer idénticos planes de cobertura al que posean en la actualidad SIN COPAGOS, CON COPAGOS sobre las prestaciones de primer/segundo nivel de atención, a un precio menor, como mínimo en un 25%, del plan SIN COPAGOS."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "type": "ul",
+        "content": "Res. 2/2023 SSS (BO 03/01/2023):",
+        "li": [
+          {
+            "id": 1,
+            "content": "Ar.1: Establece las prestaciones de primer y segundo nivel pasibles de cobro de COPAGOS. (Anexo 1), de conformidad con el art. 2 DNU 743/2022 y el art. 5 de la Res. 2577/2022."
+          },
+          {
+            "id": 2,
+            "content": "Art.2: Las EMP inscriptas en el RNEMP, deben presentar en SSS los planes CON COPAGOS ofrecidos en cumplimiento del art. 2 DNU 743/202, cuadros tarifarios y detalle de los valores de los copagos para c/prestación."
+          },
+          {
+            "id": 3,
+            "content": "La EMP deberán completar el FORMULARIO DE DECLARACION JURADA PARA EL REGISTRO DE PLANES DE COBERTURA INTEGRAL CON COPAGO. (Anexo 2)"
+          },
+          {
+            "id": 4,
+            "content": "Art.3: No hay plazo para presentar el plan alternativo al plan sin copagos, pero de no hacerlo la SSS aplicarán supletoriamente los valores vigentes para la Resolución N° 58/17 del MINISTERIO DE SALUD."
+          },
+          {
+            "id": 5,
+            "content": "Art.4: Los planes CON COPAGOS contratados en forma previa al DNU 743/2022 (6/11/22), mantendrán su vigencia en los mismos términos contratados."
+          },
+          {
+            "id": 6,
+            "content": "Art.5: Los valores de los COPAGOS deberán ser debidamente informados y guardando constancia de su conformidad. Los COPAGOS, solo podrán ser incrementados en las mismas oportunidades y hasta la misma proporción que el ICS. (Art. 1 Res. 1293/22)"
+          },
+          {
+            "id": 7,
+            "content": "Art.6: DECLARACION JURADA DE INGRESOS: Para aplicar el tope previsto (el índice del RIPTE), los titulares que pretenden o deseen acogerse a dicho beneficio, deberán completar del día 1 al 20 de cada mes, la DDJJ de certificación de ingresos, correspondiente al mes inmediato anterior."
+          },
+          {
+            "id": 8,
+            "content": "El titular deberá a tal efecto ingresar a la Web SSS, accediendo a través del aplicativo que se encuentra disponible en la misma, mediante autenticación a través de su CUIT/L y clave fiscal 3, lo que será certificado a través de la AFIP."
+          },
+          {
+            "id": 9,
+            "content": "Desde el día 21 hasta el último día de cada mes la SSS pondrá a disposición de cada EMP la información correspondiente a las DDJJ presentadas por los usuarios, a los efectos que puedan aplicar los topes en el valor de la cuota."
+          }
+        ]
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "Res. 1293/22 MS",
+        "content": "Boletín oficial",
         "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/5464871/20220630?busqueda=1&suplemento=1"
       },
       {
-        "description": "Decreto 743/22",
+        "id": 2,
+        "title": "Decreto 743/22",
+        "content": "Boletín oficial",
         "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/275405/20221110"
       },
       {
-        "description": "Res 2/23 SSS",
-        "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/278933/20230103"
+        "id": 3,
+        "title": "Res 2/23 SSS",
+        "content": "Boletín oficial",
+        "url": "hhttps://www.boletinoficial.gob.ar/detalleAviso/primera/278933/20230103"
       },
       {
-        "description": "Res. 2577/22 MS",
+        "id": 4,
+        "title": "Res. 2577/22 MS",
+        "content": "Boletín oficial",
         "url": "https://www.boletinoficial.gob.ar/detalleAviso/primera/278933/20230103"
       }
     ],
     "author": "Dra. Mariel Viviana Aranda"
   },
+
   {
     "id": 9,
     "image": {
-      "url": "images/articles-images/9.jpg",
+      "url": "/public/images/articles-images/9.jpg",
       "alt": "Distintos medicamentos en pastillas sobre una mesa"
     },
     "title": "NUEVA LEY DE PREVENCIÓN Y CONTROL DE LA RESISTENCIA ANTIMICROBIANA",
     "date": "xx/xx/xxxx",
     "description": "La iniciativa sancionada por unanimidad por el Senado de la Nación promueve acciones para la Prevención y Control de la Resistencia Antimicrobiana y el buen uso de medicamentos antimicrobianos, principalmente antibióticos, además de reforzar la comunicación, investigación y vigilancia sobre esta temática.",
     "content": [
-      "Con el apoyo unánime de todas las fuerzas políticas, el Senado de la Nación dio esta tarde sanción definitiva a la Ley de Prevención y Control de la Resistencia Antimicrobiana, que tiene como uno de los objetivos fundamentales el uso responsable de los antibióticos y regula cuestiones referidas al expendio y uso de éstos medicamentos, tanto en salud humana como animal.",
-      "La ministra de Salud de la Nación, Carla Vizzotti, quien estuvo presente en el recinto, celebró que esta iniciativa se haya convertido en ley y consideró que se trata de un paso fundamental para fortalecer las acciones que se realizan vinculadas a esta problemática ya que otorga herramientas concretas y un marco legal para garantizar la continuidad de todo el trabajo que se viene realizando desde la cartera sanitaria nacional junto con las 24 jurisdicciones.",
-      "«La resistencia antimicrobiana ya era un problema de salud pública y la pandemia no hizo más que acelerarlo y agravarlo”, explicó la jefa de la cartera sanitaria nacional, quien destacó que la sanción de la ley permitirá abordar con mejores herramientas y medidas multisectoriales esta problemática que “ya es una de las diez principales amenazas de salud pública a las que se enfrenta la humanidad”",
-      "Con un enfoque de «Una Salud”, la Ley de Prevención y Control de la Resistencia Antimicrobiana aborda este tema de salud pública desde diferentes disciplinas (medicina, veterinaria y medioambiente) con la participación de todos los sectores y actores involucrados.",
-      "Entre sus principales objetivos figuran optimizar el uso de medicamentos antimicrobianos; mejorar la sensibilización y los conocimientos en materia de resistencia a los antimicrobianos; reforzar la vigilancia y la investigación en esta temática; prevenir y reducir la incidencia de las infecciones asociadas al cuidado de la salud; trabajar en la eliminación gradual del uso de antimicrobianos como promotores de crecimiento en sanidad animal y asegurar que se realicen inversiones sostenibles en la lucha contra la resistencia a los antimicrobianos.",
-      "La Resistencia Antimicrobiana se produce cuando los microrganismos patógenos (virus, hongos, parásitos, pero principalmente bacterias) que causan enfermedades se vuelven resistentes a los medicamentos que se utilizan para combatirlos. Se trata de una problemática global y se estima que para el año 2050 puede constituirse en la primera causa de muerte a nivel mundial, sino se genera una respuesta mundial conjunta y sistematizada.",
-      "El uso de antibióticos en cualquier circunstancia puede promover el desarrollo de resistencia, por eso una de las principales estrategias para limitar y contener esta problemática es la restricción del uso de antimicrobianos a las situaciones en las que sean imprescindibles o insustituibles.",
-      "En ese sentido, desde la Organización Mundial de la Salud (OMS), en su sesión del Comité Regional para las Américas, se resolvió aprobar el plan sobre RAM y su aplicación en el contexto de cada país a través del diseño y adopción de medidas para enfrentar este problema de origen multifactorial. El objetivo es garantizar que se pueda seguir previniendo y tratando enfermedades infecciosas por medio de fármacos eficaces y seguros.",
-      "En nuestro país se han adoptado ya diferentes líneas de trabajo en relación al uso responsable de medicamentos antimicrobianos. En el año 2015, se creó mediante resolución conjunta de los Ministerios de Salud y Agricultura, Ganadería y Pesca, la “Comisión Nacional de Control de la Resistencia Antimicrobiana” (CoNaCRA) que lleva adelante el “Plan Nacional de Acción para el Control de la Resistencia a los Antimicrobianos” (PNA).",
-      "Como organismo ejecutor, la CoNaCRA lidera el seguimiento del Plan de Acción Nacional, teniendo representatividad de las carteras nacionales de Salud; Agricultura, Ganadería y Pesca; Ambiente y Desarrollo Sostenible; Educación; y Ciencia, Tecnología e Innovación, participando además las sociedades científicas y organismos internacionales. Por su parte, el Ministerio de Salud creó en el año 2020 la Coordinación de Uso Apropiado de Antimicrobianos, que coordina la CoNaCRA."
-    ],
-    "links": [
       {
-        "description": "Fuente:",
+        "id": 1,
+        "type": "p",
+        "content": "Con el apoyo unánime de todas las fuerzas políticas, el Senado de la Nación dio esta tarde sanción definitiva a la Ley de Prevención y Control de la Resistencia Antimicrobiana, que tiene como uno de los objetivos fundamentales el uso responsable de los antibióticos y regula cuestiones referidas al expendio y uso de éstos medicamentos, tanto en salud humana como animal."
+      },
+      {
+        "id": 2,
+        "type": "p",
+        "content": "La ministra de Salud de la Nación, Carla Vizzotti, quien estuvo presente en el recinto, celebró que esta iniciativa se haya convertido en ley y consideró que se trata de un paso fundamental para fortalecer las acciones que se realizan vinculadas a esta problemática ya que otorga herramientas concretas y un marco legal para garantizar la continuidad de todo el trabajo que se viene realizando desde la cartera sanitaria nacional junto con las 24 jurisdicciones."
+      },
+      {
+        "id": 3,
+        "type": "p",
+        "content": "La resistencia antimicrobiana ya era un problema de salud pública y la pandemia no hizo más que acelerarlo y agravarlo”, explicó la jefa de la cartera sanitaria nacional, quien destacó que la sanción de la ley permitirá abordar con mejores herramientas y medidas multisectoriales esta problemática que “ya es una de las diez principales amenazas de salud pública a las que se enfrenta la humanidad”"
+      },
+      {
+        "id": 4,
+        "type": "p",
+        "content": "Con un enfoque de «Una Salud”, la Ley de Prevención y Control de la Resistencia Antimicrobiana aborda este tema de salud pública desde diferentes disciplinas (medicina, veterinaria y medioambiente) con la participación de todos los sectores y actores involucrados."
+      },
+      {
+        "id": 5,
+        "type": "p",
+        "content": "Entre sus principales objetivos figuran optimizar el uso de medicamentos antimicrobianos; mejorar la sensibilización y los conocimientos en materia de resistencia a los antimicrobianos; reforzar la vigilancia y la investigación en esta temática; prevenir y reducir la incidencia de las infecciones asociadas al cuidado de la salud; trabajar en la eliminación gradual del uso de antimicrobianos como promotores de crecimiento en sanidad animal y asegurar que se realicen inversiones sostenibles en la lucha contra la resistencia a los antimicrobianos."
+      },
+      {
+        "id": 6,
+        "type": "p",
+        "content": "La Resistencia Antimicrobiana se produce cuando los microrganismos patógenos (virus, hongos, parásitos, pero principalmente bacterias) que causan enfermedades se vuelven resistentes a los medicamentos que se utilizan para combatirlos. Se trata de una problemática global y se estima que para el año 2050 puede constituirse en la primera causa de muerte a nivel mundial, sino se genera una respuesta mundial conjunta y sistematizada."
+      },
+      {
+        "id": 7,
+        "type": "p",
+        "content": "El uso de antibióticos en cualquier circunstancia puede promover el desarrollo de resistencia, por eso una de las principales estrategias para limitar y contener esta problemática es la restricción del uso de antimicrobianos a las situaciones en las que sean imprescindibles o insustituibles."
+      },
+      {
+        "id": 8,
+        "type": "p",
+        "content": "En ese sentido, desde la Organización Mundial de la Salud (OMS), en su sesión del Comité Regional para las Américas, se resolvió aprobar el plan sobre RAM y su aplicación en el contexto de cada país a través del diseño y adopción de medidas para enfrentar este problema de origen multifactorial. El objetivo es garantizar que se pueda seguir previniendo y tratando enfermedades infecciosas por medio de fármacos eficaces y seguros."
+      },
+      {
+        "id": 9,
+        "type": "p",
+        "content": "En nuestro país se han adoptado ya diferentes líneas de trabajo en relación al uso responsable de medicamentos antimicrobianos. En el año 2015, se creó mediante resolución conjunta de los Ministerios de Salud y Agricultura, Ganadería y Pesca, la “Comisión Nacional de Control de la Resistencia Antimicrobiana” (CoNaCRA) que lleva adelante el “Plan Nacional de Acción para el Control de la Resistencia a los Antimicrobianos” (PNA)."
+      },
+      {
+        "id": 10,
+        "type": "p",
+        "content": "Como organismo ejecutor, la CoNaCRA lidera el seguimiento del Plan de Acción Nacional, teniendo representatividad de las carteras nacionales de Salud; Agricultura, Ganadería y Pesca; Ambiente y Desarrollo Sostenible; Educación; y Ciencia, Tecnología e Innovación, participando además las sociedades científicas y organismos internacionales. Por su parte, el Ministerio de Salud creó en el año 2020 la Coordinación de Uso Apropiado de Antimicrobianos, que coordina la CoNaCRA."
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "Fuente:",
+        "content": "Argentina",
         "url": "https://www.argentina.gob.ar/noticias/nueva-ley-de-prevencion-y-control-de-la-resistencia-antimicrobiana"
       }
     ],
     "author": "Dra. Mariel Viviana Aranda"
   },
+
   {
     "id": 8,
     "image": {
-      "url": "images/articles-images/8.jpg",
+      "url": "/public/images/articles-images/8.jpg",
       "alt": "Médico con una tablet marcando sobre esta algo con su indice de la mano izquierda, parado a la derecha en una imágen con fondo celeste con el mundo en una especie de relieve y un gráfico como si fuese un átomo"
     },
     "title": "EL METAVERSO Y LA REVOLUCIÓN DE LOS NFTS LLEGA A LA MEDICINA",
     "date": "xx/xx/xxxx",
     "description": "El metaverso y los Non Fungible Tokens (NFT) han estado expuestos a la crítica y a la incertidumbre desde el día de su lanzamiento. Un mundo nuevo y desconocido que se escapa al entendimiento de una gran parte de la humanidad, más aún cuando hablamos de perfiles de edad avanzada.",
     "content": [
-      "Desde su comienzo, pocos se han mantenido neutrales respecto a ello. Por un lado, existe la corriente que cree en la mera especulación de esta tecnología. En cambio, otro porcentaje sí ve la viabilidad o la esperanza de que el futuro de la humanidad se encamine hacia este metaverso y sus NFT.",
-      "En un principio, el mundo del arte, vídeos, fotografías famosas o curiosas o, incluso, creaciones hechas específicamente para ser vendidas en el metaverso era lo que se podía encontrar en este mundo virtual. Por cierto, todo vendido a precio de oro.",
-      "Así, a finales de 2021 se informó del nacimiento del primer proyecto “metavérsico” de la historia: MetaDocs. Liderado por la doctora Jira Joorabchi, se encuentra en desarrollo durante el 2022. Este trabajo de emprendimiento está formado por un grupo de médicos influyentes en redes sociales -Tik Tok y Twitter, principalmente-, donde aglutinan más de 80 millones de seguidores. Ellos mismos se han presentado como la “solución” del sistema burocrático actual en la medicina.",
-      "¿CÓMO FUNCIONA METADOCS EN EL METAVERSO?",
-      "La principal misión de este grupo de famosos médicos digitales es la de ofrecer servicios de consultoría a pacientes del metaverso. Y, aunque el mundo sea virtual, pretenden sanar las dolencias reales. Podría parecer una contradicción en sí misma.",
-      "Sin embargo, esta teleasistencia entre avatares se realizará a través de dos métodos.",
-      "Los usuarios podrán pagar por una conversación en un chat con el doctor elegido. En este chat se expondrán los diferentes síntomas del paciente y el profesional de la medicina le entregará una solución. Aunque, lógicamente, no podrán recibir medicamentos recetados, ya que no cuentan con licencia para el servicio de telemedicina.",
-      "Los pacientes con más capacidad económica podrían adquirir un traje háptico para hacer su ‘visita’ al doctor. Esta vestimenta incorpora un sistema de movimientos y temperaturas, que podrían hacer más certero el resultado de la exploración.",
-      "Y lejos de estar al alcance de cualquiera. Se ha estimado que el precio de la consulta será de 570 dólares, cerca de 540 euros, que es el precio que tendrá el NFT cuya compra será obligatoria para recibir la atención médica.",
-      "Además, la creación de este proyecto ha sido objeto de críticas por sectores de la medicina tradicional. Parte de estas críticas han señalado el interés por traficar con las criptomonedas y beneficiarse económicamente del sector de la medicina. Asimismo, la vertiente crítica cree que no será posible garantizar que aquellos profesionales que atienden en las consultas del metaverso sean ya titulados.",
-      "Así, de prosperar esta nueva telemedicina, médicos y consultas se podrían enfrentar a una completa revolución, dejando en un interrogante la forma de trabajar de los profesionales de la salud. Desde Uniteco os invitamos a realizar una reflexión interna y sacar conclusiones acerca del posible futuro de la profesión en el metaverso. ¿Nos encontramos ante el fin de la gran mayoría de consultas presenciales o pasamos por una moda pasajera?"
-    ],
-    "links": [
       {
-        "description": "Fuente:",
+        "id": 1,
+        "type": "p",
+        "content": "Desde su comienzo, pocos se han mantenido neutrales respecto a ello. Por un lado, existe la corriente que cree en la mera especulación de esta tecnología. En cambio, otro porcentaje sí ve la viabilidad o la esperanza de que el futuro de la humanidad se encamine hacia este metaverso y sus NFT."
+      },
+      {
+        "id": 2,
+        "type": "p",
+        "content": "En un principio, el mundo del arte, vídeos, fotografías famosas o curiosas o, incluso, creaciones hechas específicamente para ser vendidas en el metaverso era lo que se podía encontrar en este mundo virtual. Por cierto, todo vendido a precio de oro."
+      },
+      {
+        "id": 3,
+        "type": "p",
+        "content": "Así, a finales de 2021 se informó del nacimiento del primer proyecto “metavérsico” de la historia: MetaDocs. Liderado por la doctora Jira Joorabchi, se encuentra en desarrollo durante el 2022. Este trabajo de emprendimiento está formado por un grupo de médicos influyentes en redes sociales -Tik Tok y Twitter, principalmente-, donde aglutinan más de 80 millones de seguidores. Ellos mismos se han presentado como la “solución” del sistema burocrático actual en la medicina."
+      },
+      {
+        "id": 4,
+        "type": "h2",
+        "content": "¿CÓMO FUNCIONA METADOCS EN EL METAVERSO?"
+      },
+      {
+        "id": 5,
+        "type": "p",
+        "content": "La principal misión de este grupo de famosos médicos digitales es la de ofrecer servicios de consultoría a pacientes del metaverso. Y, aunque el mundo sea virtual, pretenden sanar las dolencias reales. Podría parecer una contradicción en sí misma."
+      },
+      {
+        "id": 6,
+        "type": "ul",
+        "content": "Sin embargo, esta teleasistencia entre avatares se realizará a través de dos métodos.",
+        "li": [
+          {
+            "id": 1,
+            "content": "Los usuarios podrán pagar por una conversación en un chat con el doctor elegido. En este chat se expondrán los diferentes síntomas del paciente y el profesional de la medicina le entregará una solución. Aunque, lógicamente, no podrán recibir medicamentos recetados, ya que no cuentan con licencia para el servicio de telemedicina."
+          },
+          {
+            "id": 2,
+            "content": "Los pacientes con más capacidad económica podrían adquirir un traje háptico para hacer su 'visita' al doctor. Esta vestimenta incorpora un sistema de movimientos y temperaturas, que podrían hacer más certero el resultado de la exploración."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "type": "p",
+        "content": "Y lejos de estar al alcance de cualquiera. Se ha estimado que el precio de la consulta será de 570 dólares, cerca de 540 euros, que es el precio que tendrá el NFT cuya compra será obligatoria para recibir la atención médica."
+      },
+      {
+        "id": 8,
+        "type": "p",
+        "content": "Además, la creación de este proyecto ha sido objeto de críticas por sectores de la medicina tradicional. Parte de estas críticas han señalado el interés por traficar con las criptomonedas y beneficiarse económicamente del sector de la medicina. Asimismo, la vertiente crítica cree que no será posible garantizar que aquellos profesionales que atienden en las consultas del metaverso sean ya titulados."
+      },
+      {
+        "id": 9,
+        "type": "p",
+        "content": "Así, de prosperar esta nueva telemedicina, médicos y consultas se podrían enfrentar a una completa revolución, dejando en un interrogante la forma de trabajar de los profesionales de la salud. Desde Uniteco os invitamos a realizar una reflexión interna y sacar conclusiones acerca del posible futuro de la profesión en el metaverso. ¿Nos encontramos ante el fin de la gran mayoría de consultas presenciales o pasamos por una moda pasajera?"
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "Fuente",
+        "content": "Uniteco",
         "url": "https://www.unitecoprofesional.es/blog/el-metaverso-y-revolucion-nfts-medicina/"
       }
     ],
     "author": "Dra. Mariel Viviana Aranda"
   },
+
   {
     "id": 7,
     "image": {
-      "url": "images/articles-images/7.jpg",
+      "url": "/public/images/articles-images/7.jpg",
       "alt": "Boligrafo sobre ficha médica, y detrás un estetoscopio sobre el teclado de una laptop abierta"
     },
     "title": "CASACIÓN RATIFICÓ LA CONDENA CONTRA UN MÉDICO DEL HOSPITAL POR FALSIFICAR LA HISTORIA CLÍNICA DE UNA PACIENTE",
     "date": "xx/xx/xxxx",
     "description": "Días pasados arribó a la sede judicial local la resolución de la Sala IV del Tribunal de Casación Penal que dejó firme el fallo condenatorio que había emitido el Tribunal Criminal 1 sobre la responsabilidad penal de un médico del Hospital por un caso de presunta mala praxis que al debate arribó solo con la imputación por falsificación de documento público.",
     "content": [
-      "No se trató de la carencia o deficiencia de la información contenida en la historia clínica, ello de por sí impediría eventualmente al médico probar que actuó correcta y adecuadamente en la atención del paciente, violando el principio de completitud que debe tener la historia clínica. Aconteció algo mucho más grave aún, cual fue falsear en el parte quirúrgico lo ocurrido durante la cirugía exploratoria, afectando la veracidad del contenido de la historia clínica y menoscabando así otro de los principios centrales en el deber del médico al confeccionarla, lo que reviste consecuencias penales en la medida que tal proceder fue típico al insertarse de manera falsa una situación distinta a la verdad en un instrumento público, fundamental en su finalidad prioritaria de que todos y cada uno de los médicos intervinientes, el paciente y en su caso la familia, estén debidamente informados del proceso curativo y quede el reflejo en la historia clínica de haberse actuado correcta y oportunamente.",
-      "En el veredicto condenatorio de aquel entonces se resolvió condenar al médico a la pena de tres años de prisión de ejecución condicional e inhabilitación especial para ejercer la medicina por el término de cuatro años, como autor penalmente responsable del delito de “Falsedad ideológica de instrumento público”.",
-      "Cabe consignar que por el caso, además de la arista penal, se aguardan por consecuencias patrimoniales y profesionales que por mala praxis se le reclama en forma solidaria junto al imputado al Hospital, y Municipio."
-    ],
-    "links": [
       {
-        "description": "Fuente:",
+        "id": 1,
+        "type": "p",
+        "content": "No se trató de la carencia o deficiencia de la información contenida en la historia clínica, ello de por sí impediría eventualmente al médico probar que actuó correcta y adecuadamente en la atención del paciente, violando el principio de completitud que debe tener la historia clínica. Aconteció algo mucho más grave aún, cual fue falsear en el parte quirúrgico lo ocurrido durante la cirugía exploratoria, afectando la veracidad del contenido de la historia clínica y menoscabando así otro de los principios centrales en el deber del médico al confeccionarla, lo que reviste consecuencias penales en la medida que tal proceder fue típico al insertarse de manera falsa una situación distinta a la verdad en un instrumento público, fundamental en su finalidad prioritaria de que todos y cada uno de los médicos intervinientes, el paciente y en su caso la familia, estén debidamente informados del proceso curativo y quede el reflejo en la historia clínica de haberse actuado correcta y oportunamente."
+      },
+      {
+        "id": 2,
+        "type": "p",
+        "content": "En el veredicto condenatorio de aquel entonces se resolvió condenar al médico a la pena de tres años de prisión de ejecución condicional e inhabilitación especial para ejercer la medicina por el término de cuatro años, como autor penalmente responsable del delito de “Falsedad ideológica de instrumento público”."
+      },
+      {
+        "id": 3,
+        "type": "p",
+        "content": "Cabe consignar que por el caso, además de la arista penal, se aguardan por consecuencias patrimoniales y profesionales que por mala praxis se le reclama en forma solidaria junto al imputado al Hospital, y Municipio."
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "Fuente",
+        "content": "Eleco",
         "url": "http://eleco.com.ar/author/el-eco/"
       }
     ],
     "author": "Dra. Mariel Viviana Aranda"
   },
+
   {
     "id": 6,
     "image": {
-      "url": "images/articles-images/6.jpg",
+      "url": "/public/images/articles-images/6.jpg",
       "alt": "Capturas de pantalla de receta manual, receta electronica y receta manual anterior"
     },
     "title": "NUEVOS MODELOS DE RECETA PARA PAMI: AHORA ES ELECTRÓNICA",
     "date": "xx/xx/xxxx",
     "description": "En el circuito habitual, el médico prescribirá los medicamentos al afiliado de manera electrónica, imprimirá esa receta y se la entregará al paciente para que la presente en la farmacia",
     "content": [
-      "A partir del 15 de marzo, PAMI tendrá nuevos modelos de receta y las únicas válidas para la prescripción y dispensa de medicamentos serán la electrónica -de color blanco- y la manual -de color celeste-.",
-      "En el circuito habitual, el médico prescribirá los medicamentos al afiliado de manera electrónica, imprimirá esa receta y se la entregará al paciente para que la presente en la farmacia. Sólo en caso de dificultades técnicas, el médico podrá escribir la receta de forma manual sobre el modelo celeste.",
-      "Únicamente en el caso de la entrega de pañales, la receta verde continuará siendo válida hasta el 1º de junio. Después de esa fecha, solamente serán aceptadas las recetas blancas y las celestes.",
-      "Los nuevos modelos de recetas garantizan un efectivo control y monitoreo del expendio de medicamentos, ya que las medidas de seguridad incorporadas evitan falsificaciones y fraudes, y permiten identificar a los emisores de las mismas.",
-      "El formato electrónico se convirtió en obligatorio a fines de 2016. Desde entonces, el 90 por ciento de las recetas PAMI son realizadas a través del sistema de receta electrónica.",
-      "Quienes aún conserven las antiguas recetas verdes que tienen tiempo hasta el 14 de marzo para acercarse a su médico de cabecera para actualizarlas. A partir de esa fecha, las farmacias sólo entregarán medicamentos prescriptos mediante la receta electrónica y la receta manual de color celeste."
-    ],
-    "links": [
       {
-        "description": "Fuente",
+        "id": 1,
+        "type": "p",
+        "content": "A partir del 15 de marzo, PAMI tendrá nuevos modelos de receta y las únicas válidas para la prescripción y dispensa de medicamentos serán la electrónica -de color blanco- y la manual -de color celeste-."
+      },
+      {
+        "id": 2,
+        "type": "p",
+        "content": "En el circuito habitual, el médico prescribirá los medicamentos al afiliado de manera electrónica, imprimirá esa receta y se la entregará al paciente para que la presente en la farmacia. Sólo en caso de dificultades técnicas, el médico podrá escribir la receta de forma manual sobre el modelo celeste."
+      },
+      {
+        "id": 3,
+        "type": "p",
+        "content": "Únicamente en el caso de la entrega de pañales, la receta verde continuará siendo válida hasta el 1º de junio. Después de esa fecha, solamente serán aceptadas las recetas blancas y las celestes."
+      },
+      {
+        "id": 4,
+        "type": "p",
+        "content": "Los nuevos modelos de recetas garantizan un efectivo control y monitoreo del expendio de medicamentos, ya que las medidas de seguridad incorporadas evitan falsificaciones y fraudes, y permiten identificar a los emisores de las mismas."
+      },
+      {
+        "id": 5,
+        "type": "p",
+        "content": "El formato electrónico se convirtió en obligatorio a fines de 2016. Desde entonces, el 90 por ciento de las recetas PAMI son realizadas a través del sistema de receta electrónica."
+      },
+      {
+        "id": 6,
+        "type": "p",
+        "content": "Quienes aún conserven las antiguas recetas verdes que tienen tiempo hasta el 14 de marzo para acercarse a su médico de cabecera para actualizarlas. A partir de esa fecha, las farmacias sólo entregarán medicamentos prescriptos mediante la receta electrónica y la receta manual de color celeste."
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "Funete",
+        "content": "Diario Popular",
         "url": "diariopopular.com.ar"
       }
     ],
     "author": "Dra. Mariel Viviana Aranda"
   },
+
   {
     "id": 5,
     "image": {
-      "url": "images/articles-images/5.jpg",
+      "url": "/public/images/articles-images/5.jpg",
       "alt": "Mazo de justicia junto con un estetoscopio"
     },
     "title": "LA JUDICIALIZACIÓN DE LA SALUD",
     "date": "xx/xx/xxxx",
     "description": "Hace ya varios años comencé a introducirme en el mundo de la salud desde el asesoramiento legal, y cuanto más profundizo este ámbito del derecho, más apasionante me resulta, pero también más crece mi preocupación.",
     "content": [
-      "La judicialización de la salud es un fenómeno que he visto crecer a paso agigantado con el transcurso del tiempo. He visto resoluciones en diferentes áreas de prestaciones, con medidas cautelares adelantando el resultado de pleitos, que luego terminan de idéntica forma que la medida cautelar, y la mayoría de las veces habiendo otorgado el financiador la prestación, ya se trate de práctica, droga, elementos, etc. y todo ello sin conocimiento de evidencia científica alguno, drogas no aprobadas por ANMAT, sin conocer la efectividad del tratamiento requerido ni tampoco evidencia posterior del beneficio directo en la salud del amparista.salud1",
-      "Entonces mi pregunta siempre fue, cómo puede ser esto así?, qué pasará en unos años con los recursos sanitarios?, con el sistema de salud?.",
-      "Se que no puedo responder a estas preguntas, tampoco me toca a mí dar las respuestas, más allá de que no las tengo, pero sí tengo mi opinión formada al respecto que intentaré aquí plasmarla.",
-      "ANTECEDENTES EN NUESTRO PAIS.",
-      "La Constitución Nacional del año 1994 ha incorporado el concepto de derecho a la Salud, en sus artículos 33, 41 y 42. Hasta la reforma de 1994, el derecho a la vida y sus circunstancias (artículos 14, 14 bis, 18, 19 y 33 de la Constitución Nacional), no estaba expresamente contemplado en el texto constitucional y a partir de 1994 hizo explícito tal reconocimiento a través de la incorporación con jerarquía constitucional del Pacto de San José de Costa Rica (artículo 75 inc. 22 C.N. y Art. 4º del Pacto).",
-      "Cabe destacar que, a través de la reforma del artículo 75 inc. 22, los tratados internacionales adquieren carácter supralegal a nuestro régimen jurídico en tanto establece que es competencia del Congreso “aprobar o desechar tratados concluidos con las demás naciones y con las organizaciones internacionales y los concordatos con la Santa Sede”. Se debe puntualizar que la supralegalidad debe entenderse en el sentido de que los mismos se encuentran por debajo de la Constitución, pero por encima de las leyes, y de todo el resto del derecho interno. Es así que, como consecuencia de esta incorporación, la Argentina adhiere al Pacto de San José de Costa Rica que en su artículo 25 establece: “Toda persona tiene derecho a un recurso sencillo y rápido o a cualquier otro recurso efectivo ante los jueces o tribunales competentes, que lo ampare contra actos que violen sus derechos fundamentales reconocidos por la Constitución, la ley o la presente Convención, aún cuando tal violación sea cometida por personas que actúen en ejercicio de sus funciones públicas.”",
-      "FACTORES QUE FAVORECEN LA JUDICIALIZACION:",
-      "Esto ha incidido en la judicialización de la salud, favoreciendo todo tipo de reclamos contra los financiadores del servicio de salud.",
-      "Las acciones de amparo suelen tener por objeto:",
-      "prestaciones fuera del programa médico obligatorio, prácticas a efectuarse por prestadores fuera de cartilla, drogas no aprobadas por ANMAT, sea para dicha patología o drogas que no están en el país.",
-      "También contribuye al incremento de la judicialización el constante avance de las tecnologías sanitarias. Este avance es beneficioso para la sociedad, claro está, ya que ello posibilita muchas veces mejorar la calidad de vida para quienes padecen ciertas patologías, incluso a veces lograr la cura en alguna que antes no la había, o bien la prevención. Pero, ¿existen políticas acerca de la incorporación de las mismas al abanico prestacional? ¿se prevé el presupuesto específico para atender este avance de la tecnología médica? ¿Se estudia la evidencia científica de los nuevos tratamientos a los fines de establecer políticas sanitarias para la incorporación de los mismos al PMO?",
-      "Otra causa que fomenta la judicialización es la diversidad de leyes especiales que surgen constantemente, tales como la ley de obesidad, celíacos, la ley de fertilización asistida, la ley de derechos de los pacientes, la ley de Entidades de Medicina Prepaga. Todas estas leyes han incorporado prácticas, establecido obligaciones a financiadores que hoy se ven reflejados en reclamos judiciales.",
-      "Además de estas causas, también fomenta la judicialización el crecimiento de los medios de comunicación, internet, el acceso que hoy tienen la sociedad a la información, a través de los diferentes medios.",
-      "Podemos hablar incluso de una “industria del juicio”. Hoy si el usuario tiene alguna duda y consulta a su abogado acerca de si tiene derecho o no a reclamar ante una negativa de parte de su obra social de alguna práctica seguramente su abogado le asesorará que puede realizar una acción de amparo.",
-      "Pero esta judicialización no favorece en absoluto ni al sistema de salud, ni a la sociedad toda, como tampoco implica que se garantice el derecho a la salud.",
-      "LA PROBLEMATICA:",
-      "Alberto Agrest definía el derecho a la salud: “Se dice que la salud es un derecho, lo cual es bastante absurdo porque el derecho de la población es más bien a tener atención médica responsable, capacitada, respetuosa y el derecho a no enfermarse por contaminación ambiental o por ausencia de recursos sanitarios. El derecho a la salud, sería algo así como el derecho a la lluvia, cuando el derecho es a cobijarse y tener fuentes alternativas de aguas”",
-      "Visto así podemos decir que la judicialización de la salud, no se condice en absoluto con garantizar el derecho a la atención médica responsable, capacitada, definida por este estudioso médico, es decir que esta judicialización realmente está “enfermando” el sistema de salud de nuestro país.",
-      "El sistema de salud y los financiadores se ven enfrentados constantemente a una incorporación de prestaciones, sin una política clara de hasta dónde llega el llamado “derecho a la salud”. Tampoco existe presupuesto previsto para solventar las nuevas prácticas, ya sea las incorporadas por el avance tecnológico o aquellas que incorpora la nueva legislación.",
-      "Si los entes reguladores del sistema de salud velan por el cumplimiento de los requisitos que deben cumplir los agentes del seguro de salud, deberían también bregar por establecer una política clara para el poder judicial, apoyo científico a la hora de resolver los conflictos, de manera tal de establecer prioridades a la hora de dictar las sentencias.",
-      "La judicialización de la salud fomenta que los Jueces estén incorporando prácticas al abanico prestacional del sistema de salud, cuando en realidad la canasta básica de prestaciones debería ser analizada, modificada, en su caso, decidiendo o no la incorporación de nuevas prácticas por expertos en la materia, en base a la evidencia científica y no que dicha batalla sea librada en el Poder Judicial.",
-      "Todo esto provoca una reasignación de los recursos de parte del sistema de salud en desmedro del resto de las áreas de los mismos, como asimismo conculca el principio de solidaridad del sistema de la seguridad social.",
-      "Y más allá del perjuicio del sistema de salud y los financiadores, la sociedad debería asimismo entender que los primeros perjudicados son los amparistas, ya que cuando reclaman drogas o tratamientos con escasa evidencia científica, no solo están provocando un detrimento económico del financiador otorgando más a uno en perjuicio del resto de la población beneficiaria o reasignando recursos fuera de presupuesto, sino que además están reclamando una práctica que no ha sido negada en forma antojadiza, sino porque no hay evidencia científica de dicho tratamiento, o droga, o porque aún está en etapa de investigación, o se desconocen los efectos adversos de la misma.",
-      "CONCLUSIONES y PROPUESTAS",
-      "salud2Mi primera conclusión es coincidente con el artículo del Diario Clarín, publicado en el año 2012, cuyo título decía “LA JUDICIALIZACION DE LA SALUD, CASI UNA NUEVA ENFERMEDAD” , una enfermedad del sistema sanitario.",
-      "Considero que estas batallas entre usuario y financiador, no pueden ser resueltas por el Poder Judicial.",
-      "Acertadas son las palabras de la Dra. Aizenberg cuando dice que “Urge por ello repensar estas cuestiones de gran actualidad e indudable trascendencia práctica y abordarlas con madurez y seriedad, teniendo presente que es el Estado quien tiene la obligación de reencauzar la discusión a través de su rol de garante del Derecho de la Salud, en un sistema sanitario fragmentado y desestructurado que vuelve más frágil no solo la posición del paciente, sino como se ha visto en estos últimos tiempos, la de los propios profesionales que integran el equipo de salud, los conflictos se multiplican, las amenazas de juicios también y con ello la inseguridad de pacientes y médicos, afectándose desde todos estos aspectos la prestación del servicio asistencial”.",
-      "Por ello algunas soluciones alternativas tendientes a mejorar esta problemática podrían ser:",
-      "1. Prevención del conflicto: A través de una gestión intraorganizacional, que optimice las decisiones. Identificar como destinatarios de formación y capacitación en el área tanto de los profesionales de la salud como de todos aquellos trabajadores de obras sociales, empresas de medicina prepaga, instituciones sanatoriales públicas y privadas que participan en el trato con el paciente, en la toma de decisiones médicas, en la manipulación de información médica y en el financiamiento de las prestaciones. Todos y cualquiera de ellos pueden ser el detonante de un conflicto en materia de salud, del mismo modo que todos y cada uno pueden ser agentes evitadores del conflicto si actúan adecuadamente en ejercicio de sus funciones.",
-      "2. Gestión del conflicto: Lo inteligente no es esperar que se desencadene el conflicto, sino abrir, en el momento una instancia de diálogo, de comunicación.",
-      "Aquí aparece la importancia de la detección temprana del conflicto, ya que esto permitirá arbitrar los mecanismos que en cada caso resulten más adecuados para su resolución. Será necesaria la capacitación de los recursos humanos para que sepan brindar adecuada e inmediata respuesta a los requerimientos de los afiliados, y en caso de que no esté a su alcance solucionar el problema planteado, derivar el asunto a una instancia de gestión de conflictos que sea capaz de hacerlo.",
-      "3. La resolución del conflicto",
-      "¿Cuáles son los llamados medios alternativos de resolución de conflictos? Claramente cuando referimos a métodos o medios alternativos estamos implicando que representan una opción o alternativa a la heterocomposición del litigio a través de la intervención jurisdiccional, que se ha instaurado a través de los años como la forma por excelencia de saldar los conflictos.",
-      "Se trata entonces de desandar un poco el camino e ir reemplazando esta instaurada cultura del litigio por la que podríamos llamar cultura de la paz, en cuanto apunta a recuperar el valor del diálogo y de las relaciones interpersonales.",
-      "Todas estas alternativas serían la forma de lograr evitar que el conflicto termine en la instancia judicial.",
-      "Una vez allí aún se puede lograr una composición de intereses entre las partes, pero de no ser así considero que la forma más adecuada de lograr paliar los efectos negativos que tiene la judicialización en el sistema de salud es la capacitación de los jueces en la materia; proporcionarle las herramientas necesarias a través de peritos médicos que se expidan acerca de la evidencia científica del tratamiento que se requiere a través de esa acción de amparo que tiene el Juez sobre su escritorio y debe resolver.",
-      "Sabido es que los tribunales tratan cuestiones de toda índole, no por ello el Juez, como director del proceso, puede tener amplio conocimiento de quiebras, locación, medianería, daños y perjuicios por contaminación ambiental, etc. y la amplia diversidad de conocimientos científicos específicos en cada una de las materias.",
-      "Es por ello que existen los auxiliares de la justicia, expertos, profesionales –en el caso de marras- de la salud, quienes se pueden expedir en relación a la problemática que lo requiera.",
-      "Se hace necesario aplicar al estudio de la legislación sanitaria vigente la metodología de la evidencia científica.",
-      "Es fundamental, descubrir la necesidad de nueva legislación sanitaria que exprese culturalmente la sociedad en relación al derecho a la salud, investigar en las fuentes de información biomédica vinculada con un tema puntual, y transferir al Derecho, la Evidencia Científica acreditada en la Medicina. Se establece así la conexión racional entre la Necesidad Social, la Evidencia Científica y la Norma Sanitaria a Crearse.",
-      "Las decisiones sobre temas de legislación en salud se vuelven más eficientes y de mejor calidad cuando se fundamentan en las mejores evidencias recogidas por la investigación y el conocimiento científico actualizado, aplicable a contextos específicos, más la ponderación de la legislación sanitaria relacionada, previamente sistematizada. i",
-      "Los profesionales del derecho tenemos la responsabilidad de llevar adelante esta tarea.",
-      "BIBLIOGRAFIA",
-      "Canet, Julia – Mazzeo, Carina; Prevención, gestión y resolución de conflictos en el área de la salud; Fecha: 5-may-2014",
-      "MJ-DOC-6697-AR | MJD6697",
-      "Viviana Denk- Maria C. Cortesi, “Derecho Sanitario y Règimen Jurìdico del Medicamento”",
-      "*La Dra. Mariel Aranda es abogada. Especialista en Derecho de la Salud. Miembro del Instituto de Derecho Sanitario del CPACF."
-    ],
-    "links": [
       {
-        "description": "Garay, Oscar Ernesto, “La Legislación Sanitaria: De la crisis a la equidad (Diagnóstico y Propuesta para salir de la crisis)”",
+        "id": 1,
+        "type": "p",
+        "content": "La judicialización de la salud es un fenómeno que he visto crecer a paso agigantado con el transcurso del tiempo. He visto resoluciones en diferentes áreas de prestaciones, con medidas cautelares adelantando el resultado de pleitos, que luego terminan de idéntica forma que la medida cautelar, y la mayoría de las veces habiendo otorgado el financiador la prestación, ya se trate de práctica, droga, elementos, etc. y todo ello sin conocimiento de evidencia científica alguno, drogas no aprobadas por ANMAT, sin conocer la efectividad del tratamiento requerido ni tampoco evidencia posterior del beneficio directo en la salud del amparista.salud1"
+      },
+      {
+        "id": 2,
+        "type": "p",
+        "content": "Entonces mi pregunta siempre fue, cómo puede ser esto así?, qué pasará en unos años con los recursos sanitarios?, con el sistema de salud?."
+      },
+      {
+        "id": 3,
+        "type": "p",
+        "content": "Se que no puedo responder a estas preguntas, tampoco me toca a mí dar las respuestas, más allá de que no las tengo, pero sí tengo mi opinión formada al respecto que intentaré aquí plasmarla."
+      },
+      {
+        "id": 4,
+        "type": "h2",
+        "content": "ANTECEDENTES EN NUESTRO PAIS"
+      },
+      {
+        "id": 5,
+        "type": "p",
+        "content": "La Constitución Nacional del año 1994 ha incorporado el concepto de derecho a la Salud, en sus artículos 33, 41 y 42. Hasta la reforma de 1994, el derecho a la vida y sus circunstancias (artículos 14, 14 bis, 18, 19 y 33 de la Constitución Nacional), no estaba expresamente contemplado en el texto constitucional y a partir de 1994 hizo explícito tal reconocimiento a través de la incorporación con jerarquía constitucional del Pacto de San José de Costa Rica (artículo 75 inc. 22 C.N. y Art. 4º del Pacto)."
+      },
+      {
+        "id": 6,
+        "type": "p",
+        "content": "Cabe destacar que, a través de la reforma del artículo 75 inc. 22, los tratados internacionales adquieren carácter supralegal a nuestro régimen jurídico en tanto establece que es competencia del Congreso “aprobar o desechar tratados concluidos con las demás naciones y con las organizaciones internacionales y los concordatos con la Santa Sede”. Se debe puntualizar que la supralegalidad debe entenderse en el sentido de que los mismos se encuentran por debajo de la Constitución, pero por encima de las leyes, y de todo el resto del derecho interno. Es así que, como consecuencia de esta incorporación, la Argentina adhiere al Pacto de San José de Costa Rica que en su artículo 25 establece: “Toda persona tiene derecho a un recurso sencillo y rápido o a cualquier otro recurso efectivo ante los jueces o tribunales competentes, que lo ampare contra actos que violen sus derechos fundamentales reconocidos por la Constitución, la ley o la presente Convención, aún cuando tal violación sea cometida por personas que actúen en ejercicio de sus funciones públicas.”"
+      },
+      {
+        "id": 7,
+        "type": "h3",
+        "content": "Esto ha incidido en la judicialización de la salud, favoreciendo todo tipo de reclamos contra los financiadores del servicio de salud."
+      },
+      {
+        "id": 8,
+        "type": "ul",
+        "content": "Las acciones de amparo suelen tener por objeto:",
+        "li": [
+          {
+            "id": 1,
+            "content": "Prestaciones fuera del programa médico obligatorio"
+          },
+          {
+            "id": 2,
+            "content": "Prácticas a efectuarse por prestadores fuera de cartilla"
+          },
+          {
+            "id": 3,
+            "content": "Drogas no aprobadas por ANMAT, sea para dicha patología o drogas que no están en el país"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "type": "p",
+        "content": "También contribuye al incremento de la judicialización el constante avance de las tecnologías sanitarias. Este avance es beneficioso para la sociedad, claro está, ya que ello posibilita muchas veces mejorar la calidad de vida para quienes padecen ciertas patologías, incluso a veces lograr la cura en alguna que antes no la había, o bien la prevención. Pero, ¿existen políticas acerca de la incorporación de las mismas al abanico prestacional? ¿se prevé el presupuesto específico para atender este avance de la tecnología médica? ¿Se estudia la evidencia científica de los nuevos tratamientos a los fines de establecer políticas sanitarias para la incorporación de los mismos al PMO?"
+      },
+      {
+        "id": 10,
+        "type": "p",
+        "content": "Otra causa que fomenta la judicialización es la diversidad de leyes especiales que surgen constantemente, tales como la ley de obesidad, celíacos, la ley de fertilización asistida, la ley de derechos de los pacientes, la ley de Entidades de Medicina Prepaga. Todas estas leyes han incorporado prácticas, establecido obligaciones a financiadores que hoy se ven reflejados en reclamos judiciales."
+      },
+      {
+        "id": 11,
+        "type": "p",
+        "content": "Además de estas causas, también fomenta la judicialización el crecimiento de los medios de comunicación, internet, el acceso que hoy tienen la sociedad a la información, a través de los diferentes medios."
+      },
+      {
+        "id": 12,
+        "type": "p",
+        "content": "Podemos hablar incluso de una “industria del juicio”. Hoy si el usuario tiene alguna duda y consulta a su abogado acerca de si tiene derecho o no a reclamar ante una negativa de parte de su obra social de alguna práctica seguramente su abogado le asesorará que puede realizar una acción de amparo."
+      },
+      {
+        "id": 13,
+        "type": "p",
+        "content": "Pero esta judicialización no favorece en absoluto ni al sistema de salud, ni a la sociedad toda, como tampoco implica que se garantice el derecho a la salud."
+      },
+      {
+        "id": 14,
+        "type": "h3",
+        "content": "LA PROBLEMATICA"
+      },
+      {
+        "id": 15,
+        "type": "p",
+        "content": "Alberto Agrest definía el derecho a la salud: “Se dice que la salud es un derecho, lo cual es bastante absurdo porque el derecho de la población es más bien a tener atención médica responsable, capacitada, respetuosa y el derecho a no enfermarse por contaminación ambiental o por ausencia de recursos sanitarios. El derecho a la salud, sería algo así como el derecho a la lluvia, cuando el derecho es a cobijarse y tener fuentes alternativas de aguas”"
+      },
+      {
+        "id": 16,
+        "type": "p",
+        "content": "Visto así podemos decir que la judicialización de la salud, no se condice en absoluto con garantizar el derecho a la atención médica responsable, capacitada, definida por este estudioso médico, es decir que esta judicialización realmente está “enfermando” el sistema de salud de nuestro país."
+      },
+      {
+        "id": 17,
+        "type": "p",
+        "content": "El sistema de salud y los financiadores se ven enfrentados constantemente a una incorporación de prestaciones, sin una política clara de hasta dónde llega el llamado “derecho a la salud”. Tampoco existe presupuesto previsto para solventar las nuevas prácticas, ya sea las incorporadas por el avance tecnológico o aquellas que incorpora la nueva legislación."
+      },
+      {
+        "id": 18,
+        "type": "p",
+        "content": "Si los entes reguladores del sistema de salud velan por el cumplimiento de los requisitos que deben cumplir los agentes del seguro de salud, deberían también bregar por establecer una política clara para el poder judicial, apoyo científico a la hora de resolver los conflictos, de manera tal de establecer prioridades a la hora de dictar las sentencias."
+      },
+      {
+        "id": 19,
+        "type": "p",
+        "content": "La judicialización de la salud fomenta que los Jueces estén incorporando prácticas al abanico prestacional del sistema de salud, cuando en realidad la canasta básica de prestaciones debería ser analizada, modificada, en su caso, decidiendo o no la incorporación de nuevas prácticas por expertos en la materia, en base a la evidencia científica y no que dicha batalla sea librada en el Poder Judicial."
+      },
+      {
+        "id": 20,
+        "type": "p",
+        "content": "Todo esto provoca una reasignación de los recursos de parte del sistema de salud en desmedro del resto de las áreas de los mismos, como asimismo conculca el principio de solidaridad del sistema de la seguridad social."
+      },
+      {
+        "id": 21,
+        "type": "p",
+        "content": "Y más allá del perjuicio del sistema de salud y los financiadores, la sociedad debería asimismo entender que los primeros perjudicados son los amparistas, ya que cuando reclaman drogas o tratamientos con escasa evidencia científica, no solo están provocando un detrimento económico del financiador otorgando más a uno en perjuicio del resto de la población beneficiaria o reasignando recursos fuera de presupuesto, sino que además están reclamando una práctica que no ha sido negada en forma antojadiza, sino porque no hay evidencia científica de dicho tratamiento, o droga, o porque aún está en etapa de investigación, o se desconocen los efectos adversos de la misma."
+      },
+      {
+        "id": 22,
+        "type": "h2",
+        "content": "CONCLUSIONES y PROPUESTAS"
+      },
+      {
+        "id": 23,
+        "type": "p",
+        "content": "Salud2Mi primera conclusión es coincidente con el artículo del Diario Clarín, publicado en el año 2012, cuyo título decía “LA JUDICIALIZACION DE LA SALUD, CASI UNA NUEVA ENFERMEDAD” , una enfermedad del sistema sanitario."
+      },
+      {
+        "id": 24,
+        "type": "p",
+        "content": "Considero que estas batallas entre usuario y financiador, no pueden ser resueltas por el Poder Judicial."
+      },
+      {
+        "id": 25,
+        "type": "p",
+        "content": "Acertadas son las palabras de la Dra. Aizenberg cuando dice que “Urge por ello repensar estas cuestiones de gran actualidad e indudable trascendencia práctica y abordarlas con madurez y seriedad, teniendo presente que es el Estado quien tiene la obligación de reencauzar la discusión a través de su rol de garante del Derecho de la Salud, en un sistema sanitario fragmentado y desestructurado que vuelve más frágil no solo la posición del paciente, sino como se ha visto en estos últimos tiempos, la de los propios profesionales que integran el equipo de salud, los conflictos se multiplican, las amenazas de juicios también y con ello la inseguridad de pacientes y médicos, afectándose desde todos estos aspectos la prestación del servicio asistencial”."
+      },
+      {
+        "id": 26,
+        "type": "p",
+        "content": "Acertadas son las palabras de la Dra. Aizenberg cuando dice que “Urge por ello repensar estas cuestiones de gran actualidad e indudable trascendencia práctica y abordarlas con madurez y seriedad, teniendo presente que es el Estado quien tiene la obligación de reencauzar la discusión a través de su rol de garante del Derecho de la Salud, en un sistema sanitario fragmentado y desestructurado que vuelve más frágil no solo la posición del paciente, sino como se ha visto en estos últimos tiempos, la de los propios profesionales que integran el equipo de salud, los conflictos se multiplican, las amenazas de juicios también y con ello la inseguridad de pacientes y médicos, afectándose desde todos estos aspectos la prestación del servicio asistencial”."
+      },
+      {
+        "id": 27,
+        "type": "ul",
+        "content": "Por ello algunas soluciones alternativas tendientes a mejorar esta problemática podrían ser:",
+        "li": [
+          {
+            "id": 1,
+            "content": "Prevención del conflicto: A través de una gestión intraorganizacional, que optimice las decisiones. Identificar como destinatarios de formación y capacitación en el área tanto de los profesionales de la salud como de todos aquellos trabajadores de obras sociales, empresas de medicina prepaga, instituciones sanatoriales públicas y privadas que participan en el trato con el paciente, en la toma de decisiones médicas, en la manipulación de información médica y en el financiamiento de las prestaciones. Todos y cualquiera de ellos pueden ser el detonante de un conflicto en materia de salud, del mismo modo que todos y cada uno pueden ser agentes evitadores del conflicto si actúan adecuadamente en ejercicio de sus funciones."
+          },
+          {
+            "id": 2,
+            "content": "Gestión del conflicto: Lo inteligente no es esperar que se desencadene el conflicto, sino abrir, en el momento una instancia de diálogo, de comunicación. Aquí aparece la importancia de la detección temprana del conflicto, ya que esto permitirá arbitrar los mecanismos que en cada caso resulten más adecuados para su resolución. Será necesaria la capacitación de los recursos humanos para que sepan brindar adecuada e inmediata respuesta a los requerimientos de los afiliados, y en caso de que no esté a su alcance solucionar el problema planteado, derivar el asunto a una instancia de gestión de conflictos que sea capaz de hacerlo."
+          },
+          {
+            "id": 3,
+            "content": "La resolución del conflicto. ¿Cuáles son los llamados medios alternativos de resolución de conflictos? Claramente cuando referimos a métodos o medios alternativos estamos implicando que representan una opción o alternativa a la heterocomposición del litigio a través de la intervención jurisdiccional, que se ha instaurado a través de los años como la forma por excelencia de saldar los conflictos."
+          }
+        ]
+      },
+      {
+        "id": 28,
+        "type": "p",
+        "content": "Se trata entonces de desandar un poco el camino e ir reemplazando esta instaurada cultura del litigio por la que podríamos llamar cultura de la paz, en cuanto apunta a recuperar el valor del diálogo y de las relaciones interpersonales."
+      },
+      {
+        "id": 29,
+        "type": "p",
+        "content": "Todas estas alternativas serían la forma de lograr evitar que el conflicto termine en la instancia judicial."
+      },
+      {
+        "id": 30,
+        "type": "p",
+        "content": "Una vez allí aún se puede lograr una composición de intereses entre las partes, pero de no ser así considero que la forma más adecuada de lograr paliar los efectos negativos que tiene la judicialización en el sistema de salud es la capacitación de los jueces en la materia; proporcionarle las herramientas necesarias a través de peritos médicos que se expidan acerca de la evidencia científica del tratamiento que se requiere a través de esa acción de amparo que tiene el Juez sobre su escritorio y debe resolver."
+      },
+      {
+        "id": 31,
+        "type": "p",
+        "content": "Sabido es que los tribunales tratan cuestiones de toda índole, no por ello el Juez, como director del proceso, puede tener amplio conocimiento de quiebras, locación, medianería, daños y perjuicios por contaminación ambiental, etc. y la amplia diversidad de conocimientos científicos específicos en cada una de las materias."
+      },
+      {
+        "id": 32,
+        "type": "p",
+        "content": "Es por ello que existen los auxiliares de la justicia, expertos, profesionales –en el caso de marras- de la salud, quienes se pueden expedir en relación a la problemática que lo requiera."
+      },
+      {
+        "id": 33,
+        "type": "p",
+        "content": "Se hace necesario aplicar al estudio de la legislación sanitaria vigente la metodología de la evidencia científica."
+      },
+      {
+        "id": 34,
+        "type": "p",
+        "content": "Es fundamental, descubrir la necesidad de nueva legislación sanitaria que exprese culturalmente la sociedad en relación al derecho a la salud, investigar en las fuentes de información biomédica vinculada con un tema puntual, y transferir al Derecho, la Evidencia Científica acreditada en la Medicina. Se establece así la conexión racional entre la Necesidad Social, la Evidencia Científica y la Norma Sanitaria a Crearse."
+      },
+      {
+        "id": 35,
+        "type": "p",
+        "content": "Las decisiones sobre temas de legislación en salud se vuelven más eficientes y de mejor calidad cuando se fundamentan en las mejores evidencias recogidas por la investigación y el conocimiento científico actualizado, aplicable a contextos específicos, más la ponderación de la legislación sanitaria relacionada, previamente sistematizada."
+      },
+      {
+        "id": 36,
+        "type": "p",
+        "content": "Los profesionales del derecho tenemos la responsabilidad de llevar adelante esta tarea."
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "Bibliografía: Canet, Julia – Mazzeo, Carina; Prevención, gestión y resolución de conflictos en el área de la salud; Fecha: 5-may-2014",
+        "content": "",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "title": "MJ-DOC-6697-AR | MJD6697 - Viviana Denk- Maria C. Cortesi, “Derecho Sanitario y Règimen Jurìdico del Medicamento”",
+        "content": "",
+        "url": ""
+      },
+      {
+        "id": 3,
+        "title": "Garay, Oscar Ernesto",
+        "content": "La Legislación Sanitaria: De la crisis a la equidad (Diagnóstico y Propuesta para salir de la crisis)",
         "url": "http://www.unesco.org.uy/ci/fileadmin/shs/redbioetica/Garay.doc"
       }
     ],
     "author": "Dra. Mariel Viviana Aranda"
   },
+
   {
     "id": 4,
     "image": {
-      "url": "images/articles-images/4.jpg",
+      "url": "/public/images/articles-images/4.jpg",
       "alt": "Mazo de justicia sobre libro abierto"
     },
     "title": "MINISTERIO DE SALUD",
     "date": "xx/xx/xxxx",
-    "description": "Decreto 178/2017 Programa Nacional de Garantía de Calidad de la Atención Médica. Obligatoriedad. Ciudad de Buenos Aires, 15/03/2017 VISTO el Expediente N° 1-2002-8218/16-3 del registro del MINISTERIO DE SALUD, el Decreto N° 1424 de fecha 23 de diciembre de 1997, la Resolución N° 432 de la SECRETARÍA DE SALUD del ex MINISTERIO DE SALUD Y ACCIÓN SOCIAL, de fecha 27 de noviembre de 1992 y la Resolución N° 149 del ex MINISTERIO DE SALUD Y ACCIÓN SOCIAL de fecha 1° de junio de 1993",
+    "description": "Decreto 178/2017 Programa Nacional de Garantía de Calidad de la Atención Médica. Obligatoriedad. Ciudad de Buenos Aires, 15/03/2017 VISTO el Expediente N° 1-2002-8218/16-3 del registro del MINISTERIO DE SALUD, el Decreto N° 1424 de fecha 23 de diciembre de 1997, la Resolución N° 432 de la SECRETARÍA DE SALUD del ex MINISTERIO DE SALUD Y ACCIÓN SOCIAL, de fecha 27 de noviembre de 1992 y la Resolución N° 149 del ex MINISTERIO DE SALUD Y ACCIÓN SOCIAL de fecha 1° de junio de 1993.",
     "content": [
-      "CONSIDERANDO:",
-      "Que mediante la Resolución Nº 432 de la SECRETARÍA DE SALUD del entonces MINISTERIO DE SALUD Y ACCIÓN SOCIAL, de fecha 27 de noviembre de 1992, se creó el PROGRAMA NACIONAL DE GARANTÍA DE CALIDAD DE LA ATENCIÓN MÉDICA, el que se implementó mediante la Resolución Nº 149 del precitado Ministerio, del 1º de junio de 1993, desarrollando sus actividades desde entonces a la fecha.",
-      "Que por el Decreto N° 1424 de fecha 23 de diciembre de 1997, se determinó la obligatoriedad de la aplicación del PROGRAMA NACIONAL DE GARANTÍA DE CALIDAD DE LA ATENCIÓN MÉDICA.",
-      "Que existe un consenso a nivel nacional e internacional acerca de la necesidad de promover el desarrollo de programas de garantía de calidad de la atención médica de los servicios de salud.",
-      "Que asimismo, atento las nuevas políticas implementadas a nivel nacional, orientadas a la cobertura universal, resulta imprescindible la readecuación y articulación de todos los actores de la atención de la salud en la aplicación de estrategias e instrumentos de la gestión para lograr su eficacia, efectividad y eficiencia.",
-      "Que en ese sentido, dado el tiempo transcurrido y teniendo en cuenta los avances producidos en los ámbitos tecnológico y científico, el MINISTERIO DE SALUD propicia la actualización de los ejes conceptuales y metodológicos del PROGRAMA NACIONAL DE GARANTÍA DE CALIDAD DE LA ATENCIÓN MÉDICA.",
-      "Que en el marco de su competencia, una de las funciones indelegables del ESTADO NACIONAL es la de promover el desarrollo de procesos para asegurar la calidad de los servicios de salud para toda la población, dictando a tal efecto las normas que en consecuencia sean necesarias.",
-      "Que en virtud de ello resulta adecuado establecer que el PROGRAMA NACIONAL DE GARANTÍA DE CALIDAD DE LA ATENCIÓN MÉDICA que desarrolla el MINISTERIO DE SALUD o el que en el futuro lo reemplace, será de aplicación obligatoria en todos los establecimientos nacionales de salud, en el SISTEMA NACIONAL DEL SEGURO DE SALUD y en las Obras Sociales Nacionales, en el INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS (INSSJP), en los establecimientos incorporados al REGISTRO NACIONAL DE HOSPITALES PÚBLICOS DE GESTIÓN DESCENTRALIZADA, así como en los establecimientos dependientes de las distintas jurisdicciones provinciales, municipales, y de la CIUDAD AUTÓNOMA DE BUENOS AIRES y las entidades del Sector Salud que adhieran al mismo.",
-      "Que la DIRECCIÓN GENERAL DE ASUNTOS JURÍDICOS del MINISTERIO DE SALUD ha tomado la intervención de su competencia.",
-      "Que la presente medida se dicta en virtud de las atribuciones conferidas por el artículo 99, inciso 1 de la CONSTITUCIÓN NACIONAL.",
-      "Por ello,",
-      "EL PRESIDENTE DE LA NACIÓN ARGENTINA DECRETA: ARTÍCULO 1° — Establécese que el PROGRAMA NACIONAL DE GARANTÍA DE CALIDAD DE LA ATENCIÓN MÉDICA que desarrolla el MINISTERIO DE SALUD o el que en el futuro lo reemplace, será de aplicación obligatoria en todos los establecimientos nacionales de salud, en el SISTEMA NACIONAL DEL SEGURO DE SALUD y en las Obras Sociales Nacionales, en el INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS (INSSJP), en los establecimientos incorporados al REGISTRO NACIONAL DE HOSPITALES PÚBLICOS DE GESTIÓN DESCENTRALIZADA, así como en los establecimientos dependientes de las distintas jurisdicciones provinciales, municipales y de la CIUDAD AUTÓNOMA DE BUENOS AIRES y las entidades del Sector Salud que adhieran al mismo. ARTÍCULO 2º — Establécese que el MINISTERIO DE SALUD podrá invitar a las Provincias y a la CIUDAD AUTÓNOMA DE BUENOS AIRES a adherir al citado PROGRAMA. ARTÍCULO 3° — El MINISTERIO DE SALUD dictará las normas operativas, aclaratorias y complementarias necesarias para la implementación del citado PROGRAMA. ARTÍCULO 4° — Derógase el Decreto N° 1424 de fecha 23 de diciembre de 1997. ARTÍCULO 5° — Comuníquese, publíquese, dése a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese. — MACRI. — Marcos Peña. — Jorge Daniel Lemus."
-    ],
-    "links": [
       {
-        "description": "",
+        "id": 1,
+        "type": "h2",
+        "content": "Considerando"
+      },
+      {
+        "id": 2,
+        "type": "p",
+        "content": "Que mediante la Resolución Nº 432 de la SECRETARÍA DE SALUD del entonces MINISTERIO DE SALUD Y ACCIÓN SOCIAL, de fecha 27 de noviembre de 1992, se creó el PROGRAMA NACIONAL DE GARANTÍA DE CALIDAD DE LA ATENCIÓN MÉDICA, el que se implementó mediante la Resolución Nº 149 del precitado Ministerio, del 1º de junio de 1993, desarrollando sus actividades desde entonces a la fecha."
+      },
+      {
+        "id": 3,
+        "type": "p",
+        "content": "Que por el Decreto N° 1424 de fecha 23 de diciembre de 1997, se determinó la obligatoriedad de la aplicación del PROGRAMA NACIONAL DE GARANTÍA DE CALIDAD DE LA ATENCIÓN MÉDICA."
+      },
+      {
+        "id": 4,
+        "type": "p",
+        "content": "Que existe un consenso a nivel nacional e internacional acerca de la necesidad de promover el desarrollo de programas de garantía de calidad de la atención médica de los servicios de salud."
+      },
+      {
+        "id": 5,
+        "type": "p",
+        "content": "Que asimismo, atento las nuevas políticas implementadas a nivel nacional, orientadas a la cobertura universal, resulta imprescindible la readecuación y articulación de todos los actores de la atención de la salud en la aplicación de estrategias e instrumentos de la gestión para lograr su eficacia, efectividad y eficiencia."
+      },
+      {
+        "id": 6,
+        "type": "p",
+        "content": "Que en ese sentido, dado el tiempo transcurrido y teniendo en cuenta los avances producidos en los ámbitos tecnológico y científico, el MINISTERIO DE SALUD propicia la actualización de los ejes conceptuales y metodológicos del PROGRAMA NACIONAL DE GARANTÍA DE CALIDAD DE LA ATENCIÓN MÉDICA."
+      },
+      {
+        "id": 7,
+        "type": "p",
+        "content": "Que en el marco de su competencia, una de las funciones indelegables del ESTADO NACIONAL es la de promover el desarrollo de procesos para asegurar la calidad de los servicios de salud para toda la población, dictando a tal efecto las normas que en consecuencia sean necesarias."
+      },
+      {
+        "id": 8,
+        "type": "p",
+        "content": "Que en virtud de ello resulta adecuado establecer que el PROGRAMA NACIONAL DE GARANTÍA DE CALIDAD DE LA ATENCIÓN MÉDICA que desarrolla el MINISTERIO DE SALUD o el que en el futuro lo reemplace, será de aplicación obligatoria en todos los establecimientos nacionales de salud, en el SISTEMA NACIONAL DEL SEGURO DE SALUD y en las Obras Sociales Nacionales, en el INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS (INSSJP), en los establecimientos incorporados al REGISTRO NACIONAL DE HOSPITALES PÚBLICOS DE GESTIÓN DESCENTRALIZADA, así como en los establecimientos dependientes de las distintas jurisdicciones provinciales, municipales, y de la CIUDAD AUTÓNOMA DE BUENOS AIRES y las entidades del Sector Salud que adhieran al mismo."
+      },
+      {
+        "id": 9,
+        "type": "p",
+        "content": "Que la DIRECCIÓN GENERAL DE ASUNTOS JURÍDICOS del MINISTERIO DE SALUD ha tomado la intervención de su competencia."
+      },
+      {
+        "id": 10,
+        "type": "p",
+        "content": "Que la presente medida se dicta en virtud de las atribuciones conferidas por el artículo 99, inciso 1 de la CONSTITUCIÓN NACIONAL."
+      },
+      {
+        "id": 11,
+        "type": "h3",
+        "content": "EL PRESIDENTE DE LA NACIÓN ARGENTINA DECRETA:"
+      },
+      {
+        "id": 12,
+        "type": "p",
+        "content": "ARTÍCULO 1° — Establécese que el PROGRAMA NACIONAL DE GARANTÍA DE CALIDAD DE LA ATENCIÓN MÉDICA que desarrolla el MINISTERIO DE SALUD o el que en el futuro lo reemplace, será de aplicación obligatoria en todos los establecimientos nacionales de salud, en el SISTEMA NACIONAL DEL SEGURO DE SALUD y en las Obras Sociales Nacionales, en el INSTITUTO NACIONAL DE SERVICIOS SOCIALES PARA JUBILADOS Y PENSIONADOS (INSSJP), en los establecimientos incorporados al REGISTRO NACIONAL DE HOSPITALES PÚBLICOS DE GESTIÓN DESCENTRALIZADA, así como en los establecimientos dependientes de las distintas jurisdicciones provinciales, municipales y de la CIUDAD AUTÓNOMA DE BUENOS AIRES y las entidades del Sector Salud que adhieran al mismo."
+      },
+      {
+        "id": 13,
+        "type": "p",
+        "content": "ARTÍCULO 2º — Establécese que el MINISTERIO DE SALUD podrá invitar a las Provincias y a la CIUDAD AUTÓNOMA DE BUENOS AIRES a adherir al citado PROGRAMA."
+      },
+      {
+        "id": 14,
+        "type": "p",
+        "content": "ARTÍCULO 3° — El MINISTERIO DE SALUD dictará las normas operativas, aclaratorias y complementarias necesarias para la implementación del citado PROGRAMA."
+      },
+      {
+        "id": 15,
+        "type": "p",
+        "content": "ARTÍCULO 4° — Derógase el Decreto N° 1424 de fecha 23 de diciembre de 1997."
+      },
+      {
+        "id": 16,
+        "type": "p",
+        "content": "ARTÍCULO 5° — Comuníquese, publíquese, dése a la DIRECCIÓN NACIONAL DEL REGISTRO OFICIAL y archívese. — MACRI. — Marcos Peña. — Jorge Daniel Lemus."
+      },
+      {
+        "id": 17,
+        "type": "p",
+        "content": ""
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "Fecha de publicación: 16/03/2017",
+        "content": "",
         "url": ""
       }
     ],
     "author": "Dra. Mariel Viviana Aranda"
   },
+
   {
     "id": 3,
     "image": {
-      "url": "images/articles-images/3.jpg",
+      "url": "/public/images/articles-images/3.jpg",
       "alt": "Medico o enfermero tomando nota"
     },
     "title": "POR QUE AÚN NO TENEMOS HISTORIA CLÍNICA ELECTRÓNICA?",
     "date": "xx/xx/xxxx",
     "description": "Emilia llegó a la salita de salud luego de dejar a sus hijos en la escuela. Sacó turno digitando en una máquina su número de documento. Obtuvo una corta tira de papel en la que pudo leer. «Bienvenida Emilia, usted tiene turno en consultorios amarillos, ha llegado a las 9.04 y el tiempo que deberá esperar para ser atendida será de aproximadamente 45 minutos». El Servicio de salud está dividido en tres colores: amarillo, verde y naranja cada uno de los cuales tiene un equipo de salud familiar a cargo de un territorio similar con alrededor de diez mil personas cada uno.",
     "content": [
-      "Mientras aguardaba para que le atiendan Emilia examinó en la sala de espera un mapa del área programática del centro de salud en el que se distingue un grupo de manzanas en verde, otro en amarillo y otro el naranja. Luego se detuvo en un poster que detallaba los derechos del pacientey también sus deberes. También reparó en otro poster a partir del cual se enteró que ahora puede solicitar turno para ser atendida a través de internet ahorrando, así, tiempo de espera en la sala.",
-      "Una vez que recibió atención médica, no solo hizo su consulta, también fue alertada que su hijo mayor debe recibir la vacuna contra el Sarampión y que su marido no ha retirado en tiempo los medicamentos antihipertensivos. El profesional que la atendió, miembro de un equipo de salud familiar, visualizaba la ficha clínica familiar en su computadora notando las alertas correspondientes a los cuidados priorizados para cada miembro del grupo familiar en función de su edad y género. Puso especial empeño en comunicarle a Emilia las prestaciones y cuidados pendientes porque él sabía que su desempeño profesional sería luego evaluado en función del nivel de actualización y cumplimiento de esos cuidados priorizados registrados en la ficha clínica familiar.",
-      "Al terminar la consulta Emilia se dirigió a la ventanilla de la farmacia dentro del mismo Centro de Salud.Una vez más, sólo precisó su número de documento para recibir la medicación indicada. El médico que la atendió hizo una prescripción electrónica. Luego en la farmacia del mismo servicio, la persona responsable por dispensarle los medicamentos pudo verificar esa prescripción en su propia terminal de computadora. Incluso ésta le preguntó a Emilia si también retiraría anticonceptivos puesto que en el sistema la prescripción figuraba como vigente hasta final del año. También le preguntó si llevaría los antihipertensivos que su marido aún no había retirado.",
-      "Antes de retirarse Emilia se detuvo ante una pantalla que la invitaba a evaluar su experiencia en el centro de salud ese día. «Solo requerirá un minuto», aseguraba el cartel. Ante diez preguntas sucesivas Emilia escogió caritas felices o tristes. Al final de la jornada todos los trabajadores del centro de salud reciben el reporte de los niveles de satisfacción de las personas atendidas con cada aspecto de la atención en el servicio.",
-      "Esta historia no corresponde a un servicio privado ni a un lejano país del norte. En Chile 74% de los servicios de salud operan con esas fichas clínicas y cuentan con sistemas informáticos que avanzan hacia la integración de todos los datos. El país trasandino trabaja para llegar al 2020 con toda su población siendo atendida bajo este modelo en todos los centros de salud y contando con sistemas integrados de información apoyando su gestión.",
-      "También Ecuador viene avanzando en ese sentido, ya existen fichas clínicas electrónicas, un sistema informático para el registro estadístico que permite medir la producción de los servicios e incluso avanzar hacia su contraste con los perfiles epidemiológicos de la población atendida. Otro avance significativo de Ecuador, que debería ser la envidia del resto de la región, es que más del 70% de las consultas ambulatorias en servicios públicos de salud son programadas.Las personas esperan mucho menos para ser atendidas, además la performance de los servicios y equipos de salud familiar es evaluada.",
-      "Vamos más allá, en Chile, Ecuador, Perú y Uruguay se han logrado avances significativos hacia la gestión por resultados en los servicios públicos de salud para los cuales los sistemas de información clínica resultan una pieza fundamental. Esto implica la posibilidad de incorporar incentivos al personal que genera una mejor respuesta y contribuye más a la salud de la población a su cargo.",
-      "En la Argentina hay una serie de experiencias aisladas como una Historia Clínica Electrónica única para los centros del primer nivel de la provincia de Salta. Otras jurisdicciones también tienen avances con diferentes grados de desarrollo. Entre ellas el Municipio de La Matanza donde se avanza en la integración de cuatro Hospitales municipales y 45 centros de atención primaria de la salud por medio de un sistema de información clínica integrado.",
-      "¿Por qué deberíamos informatizar los servicios públicos de salud? Sus beneficios se extienden sobre las tres grandes lógicas de la decisión en salud: el modelo de gestión, el modelo de atención y el modelo de financiamiento.",
-      "Ventajas para el modelo de gestión:",
-      "– Pueden contribuir a reducir la fragmentación. Aunque una Historia Clínica Electrónica no alcanza por sí sola para integrar un sistema de salud, sí se la implementa en forma estratégica podría llegar a constituirse en la piedra angular de la integración. Cuando se incorporan sistemas que establecen códigos comunes y permiten operar información oportuna y compartida con las otras instituciones, se comienza a transitar hacia modalidades en las que las decisiones se toman en forma más coordinada.",
-      "– Favorece una gestión centrada en el paciente. Lo importante no es que el servicio haya brindado muchas prestaciones, tampoco alcanza con que la gente tenga un carnet.A través de la Historia Clínica Electrónica (HCE) la medida del éxito pasan a ser personas (o mejor aún familias) con su HCE al día y que haya recibido los cuidados fundamentales para su ciclo de vida.",
-      "– Reduce barreras de acceso: Contribuye a implementar sistemas de solicitud de turnos a través de diferentes modalidades: presencial, por teléfono o internet. También es posible compartir las agendas de citación de pacientes entre los diferentes servicios y facilita que el paciente acceda a su turno de una derivación sin tener que concurrir al servicio en cuestión para lograrlo.",
-      "– Mejora la Gestión de insumos, al tener una información acabada de los pacientes atendidos, los medicamentos provistos y los insumos utilizados, es posible planificar los requerimientos de acuerdo a la demanda.",
-      "– Permite planificar los Recursos Humanos en Salud en pos de las metas de los programas y/o políticas de salud que se prioricen.",
-      "– Fortalece el monitoreo desde los niveles centrales sobre las actividades realizadas: La trasparencia en la información, el acceso oportuno a la misma, desde los diferentes niveles de decisión permite realizar un monitoreo continuo de diferentes indicadores con las consiguientes correcciones en caso de desvíos o nuevos desafíos.",
-      "Desde el modelo de atención:",
-      "– Fortalece las redes de atención. Dado que favorece la comunicación hacia el interior de los servicios de salud y entre ellos. Facilita la referencia y contrarreferencia, porque al utilizar una única HCE y una única agenda de turnos los pacientes ya no deambulan por el sistema en busca de una respuesta a su problema de salud.",
-      "– Disminuye la cantidad y el tiempo de las filas de espera de los pacientes porque lo que circula por el sistema es la información del paciente y no el paciente. El deja de hacer filas en cada servicio del que requiera un turno para una atención médica, una prestación o un informe de las mismas porque los turnos se gestionan a través de una única vía al igual que el retiro de los informes.Por ejemplo, una embarazada que se atiende en un hospital del conurbano para poder realizar un control completo de su embarazo según las normas nacionales puede tener que concurrir entre 30 y 40 veces a un servicio de salud para solicitar turnos, medicación y controles; y la realización de estudios (Ecografía, exudado vaginal, controles de laboratorio, monitoreos fetales, ECG etc.).",
-      "– Fortalece la gestión clínica porque al estar informatizados los procesos clínicos, de todas las actividades que se realizan y los recursos necesarios para llevarlos a cabo, lleva implícito el implementar guías clínicas y repensar procedimientos que permitan disminuir la variabilidad clínica entre diferentes lugares de atención médica.",
-      "– Favorece el seguimiento de los pacientes, disminuye las oportunidades perdidas en particular en enfermedades crónicas y embarazadas entre otros. Al usar todos los servicios de salud una misma HCE el paciente puede realizar sus consultas en cualquiera de ellos y queda registrado. Situación que se potencia si se implementa una Ficha Clínica familiar donde aparezcan todos los miembros del grupo familiar.",
-      "Desde el modelo de financiamiento:",
-      "– Permite incorporar incentivos centrados en el desempeño a través de compromisos programa y/o de gestión, porque facilita el vincular la asignación de recursos a los Servicios de salud al cumplimiento de metas asistenciales. Incluso, si se emplea un modelo de atención de salud familiar y comunitaria, la HCE familiar permite identificar el cumplimiento de metas asistenciales trazadoras para cada fase del curso de vida.",
-      "– Facilita la articulación de diferentes fuentes de financiamiento. Uno de los desafíos de los servicios de salud en la actualidad es la diversificación de fuentes de financiamiento. Ellos deberán proveer servicios para un público que, en muchos casos con diferentes esquemas de protección en salud, que quizás presenten diferentes modelos de contratación y pago.Al obtener un registro de las prestaciones mediante la HCE es posible realizar la facturación por cada paciente y de acuerdo a su financiador.",
-      "¿Qué impide que estas innovaciones se incorporen en forma universal?",
-      "En primer lug ar, hace falta voluntad política. La HCE no es mágica. No resuelve todos los problemas y sólo puede contribuir a resolver algunos de ellos si es implementada en el marco de una estrategia de reforma. Para sacarle provecho hace falta que la conducción del sistema de salud tenga voluntad política para promover y sostener el cambio en el modelo de gestión. Por ejemplo, hay frecuentes dificultades para ceder espacios de micropoder, dentro de las organizaciones se generan pequeños espacios de poder no formal. Por ejemplo, las personas que citan a los pacientes, establecen cuántos, quiénes, y cuándo tienen que concurrir a la consulta. También se puede agregar la existencia de diferentes tipos de agendas que dan lugar a situaciones de discrecionalidad con escasa transparencia.",
-      "Los jefes de servicio rara vez se muestran dispuestos a ceder esa potestad. De modo que, si no hay convicción por parte de la cúpula del sistema de salud para reafirmar y sostener cambios en los procesos, la HCE no será aprovechada.",
-      "En segundo lugar, hace falta desplegar una mirada de largo plazo. Es necesario elaborar un plan maestro para la implementación de una HCE a nivel Nacional que se independice de los diferentes gobiernos. Los sistemas desde su concepción deben estar pensados con un abordaje integral, en la actualidad, suelen hallarse experiencias aisladas de implementación de HCE en Servicios de salud privados y algunos públicos, pero sólo sirven para esa institución. Por lo tanto, la construcción debe pensarse como un único modelo desde lo público y lo privado al cual adhieran todos.",
-      "En tercer lugar, hace falta que las autoridades sanitarias prioricen la oportunidad de mejora por encima del negocio. La decisión sobre cuál tecnología o programa adquirir para incorporar HCE en los servicios introduce otra dificultad.Hay múltiples opciones comerciales provistas por diferentes empresas. Una alternativa para superar esta dificultad sería permitir que cada jurisdicción adquiera la solución informática por su cuenta, pero estableciendo un acuerdo sobre los requisitos mínimos que la misma debe proveer y la obligatoriedad de integrarse en un sistema de HCE única regional o nacional.",
-      "En cuarto lugar, hay desafíos tecnológicos. Por ejemplo, si existen zonas donde la conectividad y el equipamiento es insuficiente, las zonas rurales tienen grandes dificultades y en muchos casos la escasa rentabilidad de algunas zonas hace que las empresas de internet no realicen inversiones. Es necesario generar convenios con las empresas de telecomunicaciones que se sumen al proceso. En algunos contextos la compra de computadoras sigue siendo un lujo más que una herramienta esencial.",
-      "En quinto lugar, hace falta incorporar un marco legal que acompañe estas innovaciones. Hay algunos prerrequisitos como la habilitación de la firma electrónica, la posibilidad de que la prescripción médica no se haga en papel, etcétera. Además, se requiere definir soluciones adecuadas para garantizar la protección de datos y de la identidad de los usuarios.",
-      "En sexto lugar, la HCE involucra la motivación y capacitación del personal. La atención médica es recursos humanos dependiente y con diferentes grados de capacitación. A menudo una barrera para implementar la HCE es la falta de motivación de estas personas en implementar nuevas herramientas en gestión o bien porque suelen presentar analfabetismo informático lo que genera una resistencia a estos cambios.",
-      "Entonces… ¿Por qué aún no tenemos una Historia Clínica Electrónica universal?",
-      "Claramente no por restricciones tecnológicas. Desde el punto de vista tecnológico se identifican múltiples opciones que van desde las más caras las ofrecen a través de chips (Donde la HCE está en una credencial) y requieren que todos los servicios tengan computadoras con lectores de chips.Pasando por plataformas On line (donde la HCE está en la nube), hasta llegar a sistemas que también funcionan Off Line y no requieren conectividad permanente en todos los servicios.",
-      "Tampoco es por sus costos que en la región aún no hemos conseguido universalizar la HCE. Incluso podríamos arriesgarnos a postular que un problema puede ser que sea hoy que la HCE es relativamente barata y no genera demasiadas oportunidades de negocio para quienes puedan decidir sobre su incorporación.",
-      "Las mayores restricciones para universalizar la HCE tienen que ver con cuestiones de poder. Podríamos decir, incluso, que por cuestiones que se registran en la microfísica del poder. Ya que a nivel de la macrogestión (por parte de los conductores del sistema sanitario), a nivel de la mesogestión (por parte de los directivos de los establecimientos) y a nivel de la microgestión (por parte de los profesionales de salud) hay grandes resistencias a cambiar la forma de trabajar. A ceder información y controles, a ser evaluado, a cumplir con metas asistenciales en lugar de sólo brindar prestaciones.",
-      "Para que el ejemplo de Emilia, narrado en la primera parte de este artículo, sea una realidad y se consolide como un derecho para la población es necesaria la apertura de las autoridades sanitarias para dar la discusión sobre cómo incorporar la HCE para mejorar la respuesta a la población y el compromiso para conducir los procesos que ésta requiere.",
-      "(*)Dra. Gabriela Hamilton. Magister en sistemas de salud y seguridad social. Profesora de la Universidad Nacional «Arturo Jauretche» e Investigadora en políticas y programas de salud – Directora de Servicios Técnicos Asistenciales del Hospital «Dr. Rene Favaloro» Rafael Castillo – Coautora del libro Respuestas a las enfermedades Catastróficas entre otros. Fue también Directora de Programas sanitarios de la Municipalidad de la Matanza y Directora del Programa Nacional de VIH/SIDA del Ministerio de Salud.",
-      "(**) Dr. Federico Tobar. Consultor internacional en Políticas de Salud y medicamentos. Desempeña estas funciones en Argentina, Brasil, Colombia, Chile, Ecuador, El Salvador, Estados Unidos, Guatemala, Panamá, Paraguay, Perú, República Dominicana, y Uruguay. Doctor en Ciencia Política (USAL). Master en Administración Pública (Fundação Getúlio Vargas). Especializado en economía de la salud acreditado en el Health Economy Exchange Directory 2000 (London School of Hygiene &Tropical Medicine). Licenciado en Sociología (UBA). Profesor de Sociología (UBA).",
-      "FUENTE: N. de la R.: Artículo publicado en la revista Médicos N.° 95 (noviembre de 2016)."
-    ],
-    "links": [
       {
-        "description": "Fuente",
-        "url": "http://www.diariojudicial.com/nota/74904"
+        "id": 1,
+        "type": "p",
+        "content": "Mientras aguardaba para que le atiendan Emilia examinó en la sala de espera un mapa del área programática del centro de salud en el que se distingue un grupo de manzanas en verde, otro en amarillo y otro el naranja. Luego se detuvo en un poster que detallaba los derechos del pacientey también sus deberes. También reparó en otro poster a partir del cual se enteró que ahora puede solicitar turno para ser atendida a través de internet ahorrando, así, tiempo de espera en la sala."
+      },
+      {
+        "id": 2,
+        "type": "p",
+        "content": "Una vez que recibió atención médica, no solo hizo su consulta, también fue alertada que su hijo mayor debe recibir la vacuna contra el Sarampión y que su marido no ha retirado en tiempo los medicamentos antihipertensivos. El profesional que la atendió, miembro de un equipo de salud familiar, visualizaba la ficha clínica familiar en su computadora notando las alertas correspondientes a los cuidados priorizados para cada miembro del grupo familiar en función de su edad y género. Puso especial empeño en comunicarle a Emilia las prestaciones y cuidados pendientes porque él sabía que su desempeño profesional sería luego evaluado en función del nivel de actualización y cumplimiento de esos cuidados priorizados registrados en la ficha clínica familiar."
+      },
+      {
+        "id": 3,
+        "type": "p",
+        "content": "Al terminar la consulta Emilia se dirigió a la ventanilla de la farmacia dentro del mismo Centro de Salud.Una vez más, sólo precisó su número de documento para recibir la medicación indicada. El médico que la atendió hizo una prescripción electrónica. Luego en la farmacia del mismo servicio, la persona responsable por dispensarle los medicamentos pudo verificar esa prescripción en su propia terminal de computadora. Incluso ésta le preguntó a Emilia si también retiraría anticonceptivos puesto que en el sistema la prescripción figuraba como vigente hasta final del año. También le preguntó si llevaría los antihipertensivos que su marido aún no había retirado."
+      },
+      {
+        "id": 4,
+        "type": "p",
+        "content": "Antes de retirarse Emilia se detuvo ante una pantalla que la invitaba a evaluar su experiencia en el centro de salud ese día. «Solo requerirá un minuto», aseguraba el cartel. Ante diez preguntas sucesivas Emilia escogió caritas felices o tristes. Al final de la jornada todos los trabajadores del centro de salud reciben el reporte de los niveles de satisfacción de las personas atendidas con cada aspecto de la atención en el servicio."
+      },
+      {
+        "id": 5,
+        "type": "p",
+        "content": "Esta historia no corresponde a un servicio privado ni a un lejano país del norte. En Chile 74% de los servicios de salud operan con esas fichas clínicas y cuentan con sistemas informáticos que avanzan hacia la integración de todos los datos. El país trasandino trabaja para llegar al 2020 con toda su población siendo atendida bajo este modelo en todos los centros de salud y contando con sistemas integrados de información apoyando su gestión."
+      },
+      {
+        "id": 6,
+        "type": "p",
+        "content": "También Ecuador viene avanzando en ese sentido, ya existen fichas clínicas electrónicas, un sistema informático para el registro estadístico que permite medir la producción de los servicios e incluso avanzar hacia su contraste con los perfiles epidemiológicos de la población atendida. Otro avance significativo de Ecuador, que debería ser la envidia del resto de la región, es que más del 70% de las consultas ambulatorias en servicios públicos de salud son programadas.Las personas esperan mucho menos para ser atendidas, además la performance de los servicios y equipos de salud familiar es evaluada."
+      },
+      {
+        "id": 7,
+        "type": "p",
+        "content": "Vamos más allá, en Chile, Ecuador, Perú y Uruguay se han logrado avances significativos hacia la gestión por resultados en los servicios públicos de salud para los cuales los sistemas de información clínica resultan una pieza fundamental. Esto implica la posibilidad de incorporar incentivos al personal que genera una mejor respuesta y contribuye más a la salud de la población a su cargo."
+      },
+      {
+        "id": 8,
+        "type": "p",
+        "content": "En la Argentina hay una serie de experiencias aisladas como una Historia Clínica Electrónica única para los centros del primer nivel de la provincia de Salta. Otras jurisdicciones también tienen avances con diferentes grados de desarrollo. Entre ellas el Municipio de La Matanza donde se avanza en la integración de cuatro Hospitales municipales y 45 centros de atención primaria de la salud por medio de un sistema de información clínica integrado."
+      },
+      {
+        "id": 9,
+        "type": "h2",
+        "content": "¿Por qué deberíamos informatizar los servicios públicos de salud?"
+      },
+      {
+        "id": 10,
+        "type": "p",
+        "content": "Sus beneficios se extienden sobre las tres grandes lógicas de la decisión en salud: el modelo de gestión, el modelo de atención y el modelo de financiamiento."
+      },
+      {
+        "id": 11,
+        "type": "ul",
+        "content": "Ventajas para el modelo de gestión:",
+        "li": [
+          {
+            "id": 1,
+            "content": "Pueden contribuir a reducir la fragmentación. Aunque una Historia Clínica Electrónica no alcanza por sí sola para integrar un sistema de salud, sí se la implementa en forma estratégica podría llegar a constituirse en la piedra angular de la integración. Cuando se incorporan sistemas que establecen códigos comunes y permiten operar información oportuna y compartida con las otras instituciones, se comienza a transitar hacia modalidades en las que las decisiones se toman en forma más coordinada."
+          },
+          {
+            "id": 2,
+            "content": "Favorece una gestión centrada en el paciente. Lo importante no es que el servicio haya brindado muchas prestaciones, tampoco alcanza con que la gente tenga un carnet.A través de la Historia Clínica Electrónica (HCE) la medida del éxito pasan a ser personas (o mejor aún familias) con su HCE al día y que haya recibido los cuidados fundamentales para su ciclo de vida."
+          },
+          {
+            "id": 3,
+            "content": "Reduce barreras de acceso: Contribuye a implementar sistemas de solicitud de turnos a través de diferentes modalidades: presencial, por teléfono o internet. También es posible compartir las agendas de citación de pacientes entre los diferentes servicios y facilita que el paciente acceda a su turno de una derivación sin tener que concurrir al servicio en cuestión para lograrlo."
+          },
+          {
+            "id": 4,
+            "content": "Mejora la Gestión de insumos, al tener una información acabada de los pacientes atendidos, los medicamentos provistos y los insumos utilizados, es posible planificar los requerimientos de acuerdo a la demanda."
+          },
+          {
+            "id": 5,
+            "content": "Permite planificar los Recursos Humanos en Salud en pos de las metas de los programas y/o políticas de salud que se prioricen."
+          },
+          {
+            "id": 6,
+            "content": "Fortalece el monitoreo desde los niveles centrales sobre las actividades realizadas: La trasparencia en la información, el acceso oportuno a la misma, desde los diferentes niveles de decisión permite realizar un monitoreo continuo de diferentes indicadores con las consiguientes correcciones en caso de desvíos o nuevos desafíos."
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "type": "ul",
+        "content": "Desde el modelo de atención:",
+        "li": [
+          {
+            "id": 1,
+            "content": "Fortalece las redes de atención. Dado que favorece la comunicación hacia el interior de los servicios de salud y entre ellos. Facilita la referencia y contrarreferencia, porque al utilizar una única HCE y una única agenda de turnos los pacientes ya no deambulan por el sistema en busca de una respuesta a su problema de salud."
+          },
+          {
+            "id": 2,
+            "content": "Disminuye la cantidad y el tiempo de las filas de espera de los pacientes porque lo que circula por el sistema es la información del paciente y no el paciente. El deja de hacer filas en cada servicio del que requiera un turno para una atención médica, una prestación o un informe de las mismas porque los turnos se gestionan a través de una única vía al igual que el retiro de los informes.Por ejemplo, una embarazada que se atiende en un hospital del conurbano para poder realizar un control completo de su embarazo según las normas nacionales puede tener que concurrir entre 30 y 40 veces a un servicio de salud para solicitar turnos, medicación y controles; y la realización de estudios (Ecografía, exudado vaginal, controles de laboratorio, monitoreos fetales, ECG etc.)."
+          },
+          {
+            "id": 3,
+            "content": "Fortalece la gestión clínica porque al estar informatizados los procesos clínicos, de todas las actividades que se realizan y los recursos necesarios para llevarlos a cabo, lleva implícito el implementar guías clínicas y repensar procedimientos que permitan disminuir la variabilidad clínica entre diferentes lugares de atención médica."
+          },
+          {
+            "id": 4,
+            "content": "Favorece el seguimiento de los pacientes, disminuye las oportunidades perdidas en particular en enfermedades crónicas y embarazadas entre otros. Al usar todos los servicios de salud una misma HCE el paciente puede realizar sus consultas en cualquiera de ellos y queda registrado. Situación que se potencia si se implementa una Ficha Clínica familiar donde aparezcan todos los miembros del grupo familiar."
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "type": "ul",
+        "content": "Desde el modelo de financiamiento:",
+        "li": [
+          {
+            "id": 1,
+            "content": "Permite incorporar incentivos centrados en el desempeño a través de compromisos programa y/o de gestión, porque facilita el vincular la asignación de recursos a los Servicios de salud al cumplimiento de metas asistenciales. Incluso, si se emplea un modelo de atención de salud familiar y comunitaria, la HCE familiar permite identificar el cumplimiento de metas asistenciales trazadoras para cada fase del curso de vida."
+          },
+          {
+            "id": 2,
+            "content": "Facilita la articulación de diferentes fuentes de financiamiento. Uno de los desafíos de los servicios de salud en la actualidad es la diversificación de fuentes de financiamiento. Ellos deberán proveer servicios para un público que, en muchos casos con diferentes esquemas de protección en salud, que quizás presenten diferentes modelos de contratación y pago.Al obtener un registro de las prestaciones mediante la HCE es posible realizar la facturación por cada paciente y de acuerdo a su financiador."
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "type": "h2",
+        "content": "¿Qué impide que estas innovaciones se incorporen en forma universal?"
+      },
+      {
+        "id": 15,
+        "type": "p",
+        "content": "En primer lugar, hace falta voluntad política. La HCE no es mágica. No resuelve todos los problemas y sólo puede contribuir a resolver algunos de ellos si es implementada en el marco de una estrategia de reforma. Para sacarle provecho hace falta que la conducción del sistema de salud tenga voluntad política para promover y sostener el cambio en el modelo de gestión. Por ejemplo, hay frecuentes dificultades para ceder espacios de micropoder, dentro de las organizaciones se generan pequeños espacios de poder no formal. Por ejemplo, las personas que citan a los pacientes, establecen cuántos, quiénes, y cuándo tienen que concurrir a la consulta. También se puede agregar la existencia de diferentes tipos de agendas que dan lugar a situaciones de discrecionalidad con escasa transparencia."
+      },
+      {
+        "id": 16,
+        "type": "p",
+        "content": "Los jefes de servicio rara vez se muestran dispuestos a ceder esa potestad. De modo que, si no hay convicción por parte de la cúpula del sistema de salud para reafirmar y sostener cambios en los procesos, la HCE no será aprovechada."
+      },
+      {
+        "id": 17,
+        "type": "p",
+        "content": "En segundo lugar, hace falta desplegar una mirada de largo plazo. Es necesario elaborar un plan maestro para la implementación de una HCE a nivel Nacional que se independice de los diferentes gobiernos. Los sistemas desde su concepción deben estar pensados con un abordaje integral, en la actualidad, suelen hallarse experiencias aisladas de implementación de HCE en Servicios de salud privados y algunos públicos, pero sólo sirven para esa institución. Por lo tanto, la construcción debe pensarse como un único modelo desde lo público y lo privado al cual adhieran todos."
+      },
+      {
+        "id": 18,
+        "type": "p",
+        "content": "En tercer lugar, hace falta que las autoridades sanitarias prioricen la oportunidad de mejora por encima del negocio. La decisión sobre cuál tecnología o programa adquirir para incorporar HCE en los servicios introduce otra dificultad.Hay múltiples opciones comerciales provistas por diferentes empresas. Una alternativa para superar esta dificultad sería permitir que cada jurisdicción adquiera la solución informática por su cuenta, pero estableciendo un acuerdo sobre los requisitos mínimos que la misma debe proveer y la obligatoriedad de integrarse en un sistema de HCE única regional o nacional."
+      },
+      {
+        "id": 19,
+        "type": "p",
+        "content": "En cuarto lugar, hay desafíos tecnológicos. Por ejemplo, si existen zonas donde la conectividad y el equipamiento es insuficiente, las zonas rurales tienen grandes dificultades y en muchos casos la escasa rentabilidad de algunas zonas hace que las empresas de internet no realicen inversiones. Es necesario generar convenios con las empresas de telecomunicaciones que se sumen al proceso. En algunos contextos la compra de computadoras sigue siendo un lujo más que una herramienta esencial."
+      },
+      {
+        "id": 20,
+        "type": "p",
+        "content": "En quinto lugar, hace falta incorporar un marco legal que acompañe estas innovaciones. Hay algunos prerrequisitos como la habilitación de la firma electrónica, la posibilidad de que la prescripción médica no se haga en papel, etcétera. Además, se requiere definir soluciones adecuadas para garantizar la protección de datos y de la identidad de los usuarios."
+      },
+      {
+        "id": 21,
+        "type": "p",
+        "content": "En sexto lugar, la HCE involucra la motivación y capacitación del personal. La atención médica es recursos humanos dependiente y con diferentes grados de capacitación. A menudo una barrera para implementar la HCE es la falta de motivación de estas personas en implementar nuevas herramientas en gestión o bien porque suelen presentar analfabetismo informático lo que genera una resistencia a estos cambios."
+      },
+      {
+        "id": 22,
+        "type": "p",
+        "content": "Entonces… "
+      },
+      {
+        "id": 23,
+        "type": "h3",
+        "content": "¿Por qué aún no tenemos una Historia Clínica Electrónica universal?"
+      },
+      {
+        "id": 24,
+        "type": "p",
+        "content": "Claramente no por restricciones tecnológicas. Desde el punto de vista tecnológico se identifican múltiples opciones que van desde las más caras las ofrecen a través de chips (Donde la HCE está en una credencial) y requieren que todos los servicios tengan computadoras con lectores de chips.Pasando por plataformas On line (donde la HCE está en la nube), hasta llegar a sistemas que también funcionan Off Line y no requieren conectividad permanente en todos los servicios."
+      },
+      {
+        "id": 25,
+        "type": "p",
+        "content": "Claramente no por restricciones tecnológicas. Desde el punto de vista tecnológico se identifican múltiples opciones que van desde las más caras las ofrecen a través de chips (Donde la HCE está en una credencial) y requieren que todos los servicios tengan computadoras con lectores de chips.Pasando por plataformas On line (donde la HCE está en la nube), hasta llegar a sistemas que también funcionan Off Line y no requieren conectividad permanente en todos los servicios."
+      },
+      {
+        "id": 26,
+        "type": "p",
+        "content": "Tampoco es por sus costos que en la región aún no hemos conseguido universalizar la HCE. Incluso podríamos arriesgarnos a postular que un problema puede ser que sea hoy que la HCE es relativamente barata y no genera demasiadas oportunidades de negocio para quienes puedan decidir sobre su incorporación."
+      },
+      {
+        "id": 27,
+        "type": "p",
+        "content": "Las mayores restricciones para universalizar la HCE tienen que ver con cuestiones de poder. Podríamos decir, incluso, que por cuestiones que se registran en la microfísica del poder. Ya que a nivel de la macrogestión (por parte de los conductores del sistema sanitario), a nivel de la mesogestión (por parte de los directivos de los establecimientos) y a nivel de la microgestión (por parte de los profesionales de salud) hay grandes resistencias a cambiar la forma de trabajar. A ceder información y controles, a ser evaluado, a cumplir con metas asistenciales en lugar de sólo brindar prestaciones."
+      },
+      {
+        "id": 28,
+        "type": "p",
+        "content": "Para que el ejemplo de Emilia, narrado en la primera parte de este artículo, sea una realidad y se consolide como un derecho para la población es necesaria la apertura de las autoridades sanitarias para dar la discusión sobre cómo incorporar la HCE para mejorar la respuesta a la población y el compromiso para conducir los procesos que ésta requiere."
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "(*)Dra. Gabriela Hamilton. Magister en sistemas de salud y seguridad social. Profesora de la Universidad Nacional «Arturo Jauretche» e Investigadora en políticas y programas de salud – Directora de Servicios Técnicos Asistenciales del Hospital «Dr. Rene Favaloro» Rafael Castillo – Coautora del libro Respuestas a las enfermedades Catastróficas entre otros. Fue también Directora de Programas sanitarios de la Municipalidad de la Matanza y Directora del Programa Nacional de VIH/SIDA del Ministerio de Salud.",
+        "content": "",
+        "url": ""
+      },
+      {
+        "id": 2,
+        "title": "(**) Dr. Federico Tobar. Consultor internacional en Políticas de Salud y medicamentos. Desempeña estas funciones en Argentina, Brasil, Colombia, Chile, Ecuador, El Salvador, Estados Unidos, Guatemala, Panamá, Paraguay, Perú, República Dominicana, y Uruguay. Doctor en Ciencia Política (USAL). Master en Administración Pública (Fundação Getúlio Vargas). Especializado en economía de la salud acreditado en el Health Economy Exchange Directory 2000 (London School of Hygiene &Tropical Medicine). Licenciado en Sociología (UBA). Profesor de Sociología (UBA).",
+        "content": "",
+        "url": ""
+      },
+      {
+        "id": 3,
+        "title": "Fuente: N. de la R.: Artículo publicado en la revista Médicos N.° 95 (noviembre de 2016).",
+        "content": "",
+        "url": ""
       }
     ],
     "author": "Dra. Mariel Viviana Aranda"
   },
+
   {
     "id": 2,
     "image": {
-      "url": "images/articles-images/2.jpg",
+      "url": "/public/images/articles-images/2.jpg",
       "alt": "Medicos en plena situación de cirugía"
     },
     "title": "PAGO POR MALA PRAXIS",
     "date": "xx/xx/xxxx",
     "description": "En los autos «N. P. F. J. y otros c/ GCBA y otros s/ responsabilidad médica», la sala II de la Cámara de Apelaciones en lo Contencioso Administrativo y Tributario de la Ciudad declaró desierto el recurso de apelación interpuesto por el GCBA y, además, confirmó la sentencia de grado que hizo parcialmente lugar a la demanda de daños y perjuicios por mala praxis.",
     "content": [
-      "La sentencia de primera instancia hizo lugar parcialmente a la demanda interpuesta y condenó al GCBA abonar a la actora la suma de $699.000. El juez concluyó que “la menor presentaba un cuadro convulsivo focal sin fiebre que ameritaba la realización de una tomo grafía computada de encéfalo lo que hubiera puesto en evidencia el proceso tumoral por el que se encontraba atravesando la menor”.",
-      "Asimismo, el magistrado señaló que “conforme surgía de las constancias de atención médica, sólo se la mantuvo en observación”, por ello decidió que la actuación médica prestada “comprometía la responsabilidad del Estado local por cuanto se había omitido efectuarle a la niña un estudio de imágenes -tomo grafía computada de encéfalo- lo que hubiera evidenciado un proceso tumoral y, en consecuencia, se había demorado la prestación de un tratamiento urgente -intervención neuroquirúrgica precoz- y adecuado con el cuadro que presentaba en la consulta”.",
-      "Con relación a la responsabilidad endilgada a los galenos demandados, el sentenciante entendió que “no les cabía responsabilidad alguna en el caso por cuanto no había quedado acreditado con la prueba aportada en autos que hubiera”.",
-      "De este modo, el Tribunal destacó “la entrada en vigencia el Código Civil y Comercial aprobado mediante la ley N°26.994 y su modificatoria ley N°27.077”.",
-      "Y agregó: “El hecho ilícito sindicado como fuente del daño reclamado es anterior a la reforma legal aludida”.",
-      "“El nacimiento de la relación jurídica a la que se refiere este pleito, por tanto, quedó agotado al momento de producirse aquel hecho y la procedencia de la responsabilidad imputada al demandado, entonces, no puede ser juzgada con arreglo a la nueva ley sin darle un efecto retroactivo categóricamente prohibido en las disposiciones del artículo 7° del CCyC”, indicó el fallo.",
-      "Tras analizar los agravios de la parte demandada, los magistrados advirtieron que “su principal crítica consistió en la negligencia en que habrían incurrido los padres de la menor en lo concerniente a la realización del electroencefalograma y en las explicaciones que debieron brindarle a los médicos sobre las afecciones o síntomas que tenía la niña”.",
-      "Respecto a la crítica de los rubros concedidos por el magistrado de grado, señalaron que “el GCBA se limitó a manifestar su desacuerdo con los montos reconocidos sin explicar por qué ellos debieran ser reducidos o rechazados”.",
-      "“Con relación al daño físico y moral, transcribió jurisprudencia y doctrina de las que surge la implicancia de estos rubros y sólo manifestó que sus montos resultaban arbitrarios, desmedidos e injustificados. Igual argumento empleó para criticar el daño psicológico y sólo se circunscribió a señalar que si la menor precisaba de un tratamiento psicoterapéutico entonces la incapacidad no sería permanente”.",
-      "En consecuencia, los vocales concluyeron que “la misma orfandad argumentativa se vislumbra en el agravio vinculado a la indemnización reconocida por gastos”, donde únicamente afirmó que “el magistrado de grado debió rechazar este rubro por ausencia de prueba y porque los actores siquiera explicaron qué gastos habrían efectuado”."
-    ],
-    "links": [
       {
-        "description": "Fuente",
+        "id": 1,
+        "type": "p",
+        "content": "La sentencia de primera instancia hizo lugar parcialmente a la demanda interpuesta y condenó al GCBA abonar a la actora la suma de $699.000. El juez concluyó que “la menor presentaba un cuadro convulsivo focal sin fiebre que ameritaba la realización de una tomo grafía computada de encéfalo lo que hubiera puesto en evidencia el proceso tumoral por el que se encontraba atravesando la menor”."
+      },
+      {
+        "id": 2,
+        "type": "p",
+        "content": "Asimismo, el magistrado señaló que “conforme surgía de las constancias de atención médica, sólo se la mantuvo en observación”, por ello decidió que la actuación médica prestada “comprometía la responsabilidad del Estado local por cuanto se había omitido efectuarle a la niña un estudio de imágenes -tomo grafía computada de encéfalo- lo que hubiera evidenciado un proceso tumoral y, en consecuencia, se había demorado la prestación de un tratamiento urgente -intervención neuroquirúrgica precoz- y adecuado con el cuadro que presentaba en la consulta”."
+      },
+      {
+        "id": 3,
+        "type": "p",
+        "content": "Con relación a la responsabilidad endilgada a los galenos demandados, el sentenciante entendió que “no les cabía responsabilidad alguna en el caso por cuanto no había quedado acreditado con la prueba aportada en autos que hubiera”."
+      },
+      {
+        "id": 4,
+        "type": "p",
+        "content": "De este modo, el Tribunal destacó “la entrada en vigencia el Código Civil y Comercial aprobado mediante la ley N°26.994 y su modificatoria ley N°27.077”."
+      },
+      {
+        "id": 5,
+        "type": "p",
+        "content": "Y agregó: “El hecho ilícito sindicado como fuente del daño reclamado es anterior a la reforma legal aludida”."
+      },
+      {
+        "id": 6,
+        "type": "p",
+        "content": "“El nacimiento de la relación jurídica a la que se refiere este pleito, por tanto, quedó agotado al momento de producirse aquel hecho y la procedencia de la responsabilidad imputada al demandado, entonces, no puede ser juzgada con arreglo a la nueva ley sin darle un efecto retroactivo categóricamente prohibido en las disposiciones del artículo 7° del CCyC”, indicó el fallo."
+      },
+      {
+        "id": 7,
+        "type": "p",
+        "content": "Tras analizar los agravios de la parte demandada, los magistrados advirtieron que “su principal crítica consistió en la negligencia en que habrían incurrido los padres de la menor en lo concerniente a la realización del electroencefalograma y en las explicaciones que debieron brindarle a los médicos sobre las afecciones o síntomas que tenía la niña”."
+      },
+      {
+        "id": 8,
+        "type": "p",
+        "content": "Respecto a la crítica de los rubros concedidos por el magistrado de grado, señalaron que “el GCBA se limitó a manifestar su desacuerdo con los montos reconocidos sin explicar por qué ellos debieran ser reducidos o rechazados”."
+      },
+      {
+        "id": 9,
+        "type": "p",
+        "content": "“Con relación al daño físico y moral, transcribió jurisprudencia y doctrina de las que surge la implicancia de estos rubros y sólo manifestó que sus montos resultaban arbitrarios, desmedidos e injustificados. Igual argumento empleó para criticar el daño psicológico y sólo se circunscribió a señalar que si la menor precisaba de un tratamiento psicoterapéutico entonces la incapacidad no sería permanente”."
+      },
+      {
+        "id": 10,
+        "type": "p",
+        "content": "En consecuencia, los vocales concluyeron que “la misma orfandad argumentativa se vislumbra en el agravio vinculado a la indemnización reconocida por gastos”, donde únicamente afirmó que “el magistrado de grado debió rechazar este rubro por ausencia de prueba y porque los actores siquiera explicaron qué gastos habrían efectuado”."
+      }
+    ],
+    "references": [
+      {
+        "id": 1,
+        "title": "Fuente",
+        "content": "Diario Judicial",
         "url": "http://www.diariojudicial.com/nota/74904"
       }
     ],
     "author": "Dra. Mariel Viviana Aranda"
   },
+
   {
     "id": 1,
     "image": {
-      "url": "images/articles-images/1.jpg",
+      "url": "/public/images/articles-images/1.jpg",
       "alt": "Entrada de hospital Carlos G. Durand"
     },
     "title": "CONDENA PERSONAL A LOS PROFESIONALES INVOLUCRADOS",
@@ -408,47 +1181,49 @@
       {
         "id": 1,
         "type": "p",
-        "text": "El fallo que trascendió ayer, lo dictó hace una semana la juez nacional en lo civil Silvia Tanzi, quien incluyó en su condena a dos médicas y al Hospital de General de Agudos Carlos Durand, pero rechazó el reclamo contra otros profesionales de ese centro asistencial."
+        "content": "El fallo que trascendió ayer, lo dictó hace una semana la juez nacional en lo civil Silvia Tanzi, quien incluyó en su condena a dos médicas y al Hospital de General de Agudos Carlos Durand, pero rechazó el reclamo contra otros profesionales de ese centro asistencial."
       },
       {
         "id": 2,
         "type": "p",
-        "text": "La sentencia “aún no está firme”, por lo que las partes pueden presentar recursos al fallo de la jueza Tanzi que condenó al gobierno porteño a pagar sumas de 15.486.000, 1.610.000, 445.000, 535.000, 490.000 y 490.000 pesos como indemnización para la mujer, su marido y los cuatro hijos menores de edad."
+        "content": "La sentencia “aún no está firme”, por lo que las partes pueden presentar recursos al fallo de la jueza Tanzi que condenó al gobierno porteño a pagar sumas de 15.486.000, 1.610.000, 445.000, 535.000, 490.000 y 490.000 pesos como indemnización para la mujer, su marido y los cuatro hijos menores de edad."
       },
       {
         "id": 3,
         "type": "p",
-        "text": "La juez otorgó la indemnización en concepto de daño moral debido a la “gravísima incapacidad sufrida” y aseguró que no puede permanecer indiferente “ante la ingente transformación de la damnificada, quien nunca más podrá abrazar a sus hijos ni atender sus necesidades personales más básicas”."
+        "content": "La juez otorgó la indemnización en concepto de daño moral debido a la “gravísima incapacidad sufrida” y aseguró que no puede permanecer indiferente “ante la ingente transformación de la damnificada, quien nunca más podrá abrazar a sus hijos ni atender sus necesidades personales más básicas”."
       },
       {
         "id": 4,
         "type": "p",
-        "text": "Los hechos que originaron la demanda «comenzaron el 8 de mayo de 2007, cuando la mujer, con casi 39 semanas de embarazo y antecedentes de tres cesáreas, se dirigió junto a su esposo al Hospital Durand para el alumbramiento de su hijo». Luego del nacimiento permaneció internada cuatro días hasta que el 13 de mayo fue dada de alta, oportunidad en que se le indicó una serie de revisiones periódicas de control. La demandante relató que el 8 de junio de 2007 volvió al hospital donde la atendieron por guardia, le practicaron una revisión, le tomaron una placa RX y les informaron que se encontraba ginecológicamente bien, pero luego le hicieron firmar un consentimiento para una intervención quirúrgica. Minutos después fue trasladada de urgencia a cirugía en malas condiciones físicas, estado de shock y con trastornos circulatorios."
+        "content": "Los hechos que originaron la demanda «comenzaron el 8 de mayo de 2007, cuando la mujer, con casi 39 semanas de embarazo y antecedentes de tres cesáreas, se dirigió junto a su esposo al Hospital Durand para el alumbramiento de su hijo». Luego del nacimiento permaneció internada cuatro días hasta que el 13 de mayo fue dada de alta, oportunidad en que se le indicó una serie de revisiones periódicas de control. La demandante relató que el 8 de junio de 2007 volvió al hospital donde la atendieron por guardia, le practicaron una revisión, le tomaron una placa RX y les informaron que se encontraba ginecológicamente bien, pero luego le hicieron firmar un consentimiento para una intervención quirúrgica. Minutos después fue trasladada de urgencia a cirugía en malas condiciones físicas, estado de shock y con trastornos circulatorios."
       },
       {
         "id": 5,
         "type": "p",
-        "text": "Durante la operación le extrajeron tres litros de pus y le realizaron una histerectomía, para su posterior traslado a la unidad de terapia intensiva con asistencia respiratoria mecánica. El día 22 de junio de 2007, en terapia intensiva, se le practicó otra operación en la que le amputaron un brazo y unos días después, en una nueva intervención, el otro miembro superior y las dos piernas."
+        "content": "Durante la operación le extrajeron tres litros de pus y le realizaron una histerectomía, para su posterior traslado a la unidad de terapia intensiva con asistencia respiratoria mecánica. El día 22 de junio de 2007, en terapia intensiva, se le practicó otra operación en la que le amputaron un brazo y unos días después, en una nueva intervención, el otro miembro superior y las dos piernas."
       },
       {
         "id": 6,
         "type": "p",
-        "text": "La pareja demandante afirmó que cuando P. ingresó al hospital no se le realizó una correcta evaluación clínica, lo que demoró la intervención quirúrgica, lo que profundizó el estado de shock y obligó al uso de altas dosis de drogas vasoactivas, que generaron isquemia y necrosis en los miembros."
+        "content": "La pareja demandante afirmó que cuando P. ingresó al hospital no se le realizó una correcta evaluación clínica, lo que demoró la intervención quirúrgica, lo que profundizó el estado de shock y obligó al uso de altas dosis de drogas vasoactivas, que generaron isquemia y necrosis en los miembros."
       },
       {
         "id": 7,
         "type": "p",
-        "text": "La magistrada indicó que, de acuerdo al concepto de “culpa” que establece el Código Civil, cuando un profesional incurre en la omisión de determinadas diligencias “ya sea por imprudencia, impericia o negligencia, falta a sus obligaciones y se coloca en la posición de deudor”."
+        "content": "La magistrada indicó que, de acuerdo al concepto de “culpa” que establece el Código Civil, cuando un profesional incurre en la omisión de determinadas diligencias “ya sea por imprudencia, impericia o negligencia, falta a sus obligaciones y se coloca en la posición de deudor”."
       },
       {
         "id": 8,
         "type": "p",
-        "text": "Para la magistrada hubo un “deficiente prestación de servicios médicos” por parte de las profesionales que resultaron condenadas. “La comprobación de la deficiente prestación médica recibida por parte de las médicas V. C. y L. M. conlleva sin lugar a dudas la responsabilidad del Gobierno de la Ciudad de Buenos Aires“, sostuvo Tanzi."
+        "content": "Para la magistrada hubo un “deficiente prestación de servicios médicos” por parte de las profesionales que resultaron condenadas. “La comprobación de la deficiente prestación médica recibida por parte de las médicas V. C. y L. M. conlleva sin lugar a dudas la responsabilidad del Gobierno de la Ciudad de Buenos Aires“, sostuvo Tanzi."
       }
     ],
-    "links": [
+    "references": [
       {
-        "description": "Fuente",
+        "id": 1,
+        "title": "Fuente",
+        "content": "La Capital",
         "url": "http://www.lacapital.com.ar/millonaria-indemnizacion-una-mujer-que-dar-luz-le-amputaron-sus-miembros-n468880.html"
       }
     ],

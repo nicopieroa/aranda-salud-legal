@@ -36,7 +36,7 @@ export function Navbar() {
                 <Link href='/'>
                     <a>
                         <img
-                            src="images/logo-favIcon.png"
+                            src="/public/images/logo-favIcon.png"
                             alt="Logotipo de la empresa Aranda Salud Legal"
                             className='logo' />
                     </a>
