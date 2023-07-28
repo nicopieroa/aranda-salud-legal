@@ -25,6 +25,21 @@
   justify-content: space-between;
   align-items: center;
   padding: 12px var(--sidePadding);
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  box-shadow: 0 12px 20px rgb(0 0 0 / 10%);
+  background-color: var(--color4);
+  transition: 0.3s;
+}
+
+.navbar-visible {
+  top: 0;
+}
+
+.navbar-hidden {
+  top: -100px;
 }
 
 .logo {
@@ -42,7 +57,7 @@
 }
 
 .burgerButton {
-  z-index: 1000;
+  z-index: 100;
 }
 
 /* Mantine drawer class */
@@ -73,6 +88,7 @@
   align-items: center;
   justify-content: center;
   row-gap: 20px;
+  transition: 0.5s;
 }
 
 .sidebar a {
@@ -87,13 +103,10 @@
   text-decoration: underline;
 }
 
-.sidebar button {
-  margin-top: 24px;
-  background-color: var(--color2);
-}
-
-.sidebar button:hover {
-  background-color: #169b47;
+.burgerButton-sidebar {
+  position: absolute;
+  top: 12px;
+  right: 40px;
 }
 /* Navbar finish */
 
