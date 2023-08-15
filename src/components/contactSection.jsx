@@ -1,7 +1,12 @@
 import { useForm } from '@mantine/form';
 import { Title, TextInput, Textarea, Button } from '@mantine/core';
 
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 export function ContactSection() {
+    const formRef = useRef()
+
     const form = useForm({
         initialValues: { name: '', email: '', textArea: '' },
 
@@ -12,12 +17,34 @@ export function ContactSection() {
         },
     });
 
+    const emailServices = () => {
+        const serviceId = import.meta.env.EMAILJS_SERVICERID;
+        const templateId = import.meta.env.EMAILJS_TEMPLATEID;
+        const apikey = import.meta.env.EMAILJS_APIKEY;
+
+        emailjs.sendForm(serviceId,
+            templateId,
+            formRef.current,
+            apikey
+        )
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+    }
+
+    const handleSubmit = () => {
+        emailServices()
+    }
+
     return (
         <div id='contactSection' className='contactSection'>
             <Title order={2} size="32px" c="#085db2">Contactanos</Title>
 
-            <form onSubmit={form.onSubmit(console.log)} className='form'>
+            <form ref={formRef} onSubmit={form.onSubmit(handleSubmit)} className='form'>
                 <TextInput
+                    name='userName'
                     label="Nombre"
                     placeholder="Gustavo"
                     radius="md"
@@ -25,6 +52,7 @@ export function ContactSection() {
                     {...form.getInputProps('name')}
                     style={{ margin: "0" }} />
                 <TextInput
+                    name='userEmail'
                     mt="sm"
                     label="Email"
                     placeholder="gustavo@email.om"
@@ -34,6 +62,7 @@ export function ContactSection() {
                     style={{ margin: "0" }} />
 
                 <Textarea
+                    name='message'
                     placeholder="Mi consulta es sobre..."
                     label="Tu mensaje"
                     radius="md"
@@ -45,6 +74,6 @@ export function ContactSection() {
                     ENVIAR
                 </Button>
             </form>
-        </div>
+        </div >
     );
 }
