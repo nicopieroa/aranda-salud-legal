@@ -4,7 +4,7 @@ import { Link } from 'wouter'
 export function Cards({ article }) {
 
     return (
-        <Card shadow="sm" padding="lg" radius="md" withBorder className='newsCard'>
+        <Card shadow="sm" padding="lg" radius="md" withBorder className='newsCard '>
             <Card.Section>
                 <Image
                     src={article.image.url}
@@ -18,7 +18,7 @@ export function Cards({ article }) {
                     {article.title}
                 </Title>
 
-                <Badge size='md' fz="xs" pt="xs" pb="xs" fw="600" fullWidth bg="#1ea9514f" className='newsCard-date'>
+                <Badge size='md' fz="xs" pt="xs" pb="xs" fw="600" fullWidth bg="#1ea9514f" className='text-green-600 cursor-default'>
                     {article.date}
                 </Badge>
             </Group>
@@ -29,7 +29,7 @@ export function Cards({ article }) {
 
             <Link href={`/news/${article.id}`}>
                 <a target="_blank" rel="noopener noreferrer">
-                    <Button uppercase fz="xs" h="xl" fullWidth mt="md" fw="600" radius="lg" bg="#085db273">
+                    <Button uppercase fz="xs" h="xl" fullWidth mt="md" fw="600" radius="lg" bg="#085db273" className='text-blue-700 border border-solid border-blue-700 hover:bg-blue-600 hover:text-white'>
                         VER MÁS
                     </Button>
                 </a>

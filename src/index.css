@@ -1,3 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --color1: blue;
+--color2: green;
+--color3: gray;
+--color4: #ffffff;
+--color5: #c5a308; */
+
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +19,64 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  max-width: 100vw;
-  min-height: 100vh;
+/* Mantine drawer class */
+.mantine-1q36a81 {
+  padding: 0;
 }
+
+.mantine-io8lqy {
+  background-color: #085db2;
+}
+
+.mantine-19pz3dh {
+  background-color: #085db2;
+  display: none;
+}
+
+.mantine-1q36a81:not(:only-child) {
+  height: 100%;
+}
+/* Mantine drawer class */
+
+/* Manteine HABLEMOS Button classes */
+.mantine-1ryt1ht,
+.mantine-1rnkhfs {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+/* Manteine HABLEMOS Button classes */
+
+/* Cards component */
+.titleNewsCard {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: wrap;
+}
+
+.textNewsCard {
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  white-space: wrap;
+}
+/* Cards component */
+
+/* Footer component */
+.socialMedia-icons a img {
+  width: 100%;
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+
+.socialMedia-icons a img:hover {
+  transform: scale3d(1.5, 1.5, 0.3);
+  -webkit-transform: scale3d(1.5, 1.5, 0.3);
+  -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+/* Footer component */
