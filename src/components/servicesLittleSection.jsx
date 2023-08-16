@@ -1,43 +1,47 @@
 import { Title, Button } from '@mantine/core';
 import { Link } from 'wouter'
 
+import businessImage from '../assets/icons/business.svg'
+import dealImage from '../assets/icons/deal.svg'
+
 export function ServicesLittleSection() {
     return (
-        <section className="servicesSection">
-            <Title order={2} size="32px" color="#085db2">Nuestros Servicios</Title>
+        <section className="w-full py-20 px-3 flex flex-col items-center justify-center text-center gap-y-15">
+            <Title order={2} size="32px" className='text-blue-600 font-bold'>
+                Nuestros Servicios
+            </Title>
 
-            <div className="services-textsContainer">
-                <Title order={3} size="16px" fw="400" color='#7b7e80' fs="italic">
+            <div className="flex flex-col gap-y-6">
+                <Title order={3} size="16px" fw="400" fs="italic" className='text-gray-500'>
                     Nos especializamos en brindar soluciones legales en salud.
                 </Title>
-                <Title order={3} size="16px" fw="400" color='#7b7e80' fs="italic">
+                <Title order={3} size="16px" fw="400" fs="italic" className='text-gray-500'>
                     Somos un equipo de profesionales que asesoramos a empresas del
                     sector de la salud.
                 </Title>
             </div>
 
-            <div className="services-cardsContainer">
+            <div className="flex flex-col items-center justify-center gap-y-10">
+                <div className="bg-blue-600 w-full rounded-xl p-5 flex items-center justify-center gap-x-8 text-white">
+                    <img src={businessImage} alt="Maletín" className='w-15' />
 
-                <div className="services-cards services-cards-blue">
-                    <img src="icons/business.svg" alt="Maletín" />
-
-                    <div className="services-cardsTexts">
+                    <div className="flex flex-col items-center justify-center gap-y-4">
                         <Title order={4} size="20px">Empresas</Title>
 
-                        <ul>
+                        <ul className='text-left text-sm font-semibold'>
                             <li>Creación de Obras Sociales</li>
                             <li>Cumplimiento Normativo y Regulatorio</li>
                         </ul>
                     </div>
                 </div>
 
-                <div className="services-cards services-cards-blue">
-                    <img src="icons/deal.svg" alt="Manos entrelazadas" />
+                <div className="bg-blue-600 w-full rounded-xl p-5 flex items-center justify-center gap-x-8 text-white">
+                    <img src={dealImage} alt="Manos entrelazadas" className='w-15' />
 
-                    <div className="services-cardsTexts">
+                    <div className="flex flex-col items-center justify-center gap-y-4">
                         <Title order={4} size="20px">Compromiso</Title>
 
-                        <ul>
+                        <ul className='text-left text-sm font-semibold'>
                             <li>Comprometidos en brindar un serivicio de calidad</li>
                             <li>Tus derechos protegidos y tu negocio en regla alcanzando tus objetivos</li>
                         </ul>
@@ -47,7 +51,7 @@ export function ServicesLittleSection() {
 
             <Link href='/nuestros-servicios'>
                 <a>
-                    <Button radius="md" h="48px" size="20px" uppercase fullWidth>
+                    <Button radius="md" size="xl" className='bg-blue-600 hover:bg-blue-700'>
                         SABER MÁS
                     </Button>
                 </a>

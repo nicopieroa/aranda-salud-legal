@@ -6,7 +6,7 @@ import { Title } from '@mantine/core';
 
 export function NewsSection() {
     return (
-        <section className='newsSection'>
+        <section className='w-full py-20 px-3  bg-blue-600 flex flex-col justify-center items-center gap-y-15'>
             <Title order={2} size="32px" color="#ffffff">Noticias</Title>
 
             <Carousel
@@ -24,6 +24,7 @@ export function NewsSection() {
                         <Cards article={article} />
                     </Carousel.Slide>
                 )}
-            </Carousel></section>
+            </Carousel>
+        </section>
     )
 }

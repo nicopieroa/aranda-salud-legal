@@ -39,10 +39,12 @@ export function ContactSection() {
     }
 
     return (
-        <div id='contactSection' className='contactSection'>
-            <Title order={2} size="32px" c="#085db2">Contactanos</Title>
+        <div id='contactSection' className='py-20 px-3 flex flex-col justify-center items-center gap-y-15'>
+            <Title order={2} size="32px" className='text-blue-600'>
+                Contactanos
+            </Title>
 
-            <form ref={formRef} onSubmit={form.onSubmit(handleSubmit)} className='form'>
+            <form ref={formRef} onSubmit={form.onSubmit(handleSubmit)} className='w-full flex flex-col gap-y-8'>
                 <TextInput
                     name='userName'
                     label="Nombre"
@@ -70,7 +72,7 @@ export function ContactSection() {
                     {...form.getInputProps('textArea')}
                 />
 
-                <Button type="submit" radius="md" h="48px" size="20px" uppercase fullWidth>
+                <Button type="submit" size="lg" className='bg-green-600 hover:bg-green-700'>
                     ENVIAR
                 </Button>
             </form>
