@@ -1,6 +1,8 @@
 import articles from '../assets/articles-data.json'
 import { Avatar, Title, Text } from '@mantine/core';
 
+import dmva1 from '../assets/images/DMVA/DMVA-1.jpg'
+
 export function NewsBigSection({ id }) {
     const article = articles.find(item => item.id === Number(id))
 
@@ -8,8 +10,8 @@ export function NewsBigSection({ id }) {
         <>
             {
                 article ?
-                    <main className='newsBigSection-container'>
-                        <section className='newsBigSection-header'>
+                    <main className='py-20 px-3 mt-20 flex flex-col gap-y-15'>
+                        <section className='flex flex-col gap-y-4'>
                             <Title order={1} size="24px">
                                 {article.title}
                             </Title>
@@ -20,21 +22,18 @@ export function NewsBigSection({ id }) {
 
                             <Text c="dimmed">{article.date}</Text>
 
-                            <div className='newsBigSection-header-avatarAuthor'>
-                                <Avatar
-                                    radius="100%"
-                                    size="60px"
-                                    src="/public/images/DMVA/DMVA-1.jpg" />
+                            <div className='flex items-center gap-x-5'>
+                                <Avatar radius="100%" size="60px" src={dmva1} />
 
-                                <Title order={3} size="16px" fw="400" c="#085db2" fs="italic">
+                                <Title order={3} size="16px" fw="400" fs="italic" className='text-blue-600'>
                                     {article.author}
                                 </Title>
                             </div>
                         </section>
 
-                        <img src={article.image.url} alt={article.image.alt} className='newsBigSection-imageNews' />
+                        <img src={article.image.url} alt={article.image.alt} className='rounded' />
 
-                        <section className='newsBigSection-content'>
+                        <section className='flex flex-col gap-y-8 text-base'>
                             {article.content.map((item) => {
                                 if (item.type === 'p') {
                                     return <p key={item.id}>{item.content}</p>;
@@ -46,7 +45,7 @@ export function NewsBigSection({ id }) {
                                     );
                                 } else if (item.type === 'ul') {
                                     return (
-                                        <ul key={item.id}>
+                                        <ul key={item.id} className='flex flex-col gap-y-4 list-inside'>
                                             {item.content}
                                             {item.li.map((listItem) => (
                                                 <li key={listItem.id}>{listItem.content}</li>
@@ -54,9 +53,13 @@ export function NewsBigSection({ id }) {
                                         </ul>
                                     );
                                 } else if (item.type === 'h2') {
-                                    return <h2 key={item.id}>{item.content}</h2>
+                                    return <h2 key={item.id} className='text-2xl'>
+                                        {item.content}
+                                    </h2>
                                 } else if (item.type === 'h3') {
-                                    return <h3 key={item.id}>{item.content}</h3>
+                                    return <h3 key={item.id} className='text-xl'>
+                                        {item.content}
+                                    </h3>
                                 } else if (item.type === 'h4') {
                                     return <h4 key={item.id}>{item.content}</h4>
                                 } else if (item.type === 'h5') {
@@ -69,11 +72,15 @@ export function NewsBigSection({ id }) {
                             })}
                         </section>
 
-                        <section className='newsBigSection-references'>
+                        <section className='flex flex-col gap-y-5'>
                             {article.references.map((item) => (
-                                <div key={item.id} className='newsBigSection-references-content'>
-                                    <p>{item.title}</p>
-                                    <a href={item.url}>{item.content}</a>
+                                <div key={item.id} className='flex items-center flex-wrap gap-x-2'>
+                                    <p className='text-gray-500 font-medium'>
+                                        {item.title}
+                                    </p>
+                                    <a href={item.url} className='text-blue-800 italic hover:underline hover:decoration-800'>
+                                        {item.content}
+                                    </a>
                                 </div>
                             ))}
                         </section>

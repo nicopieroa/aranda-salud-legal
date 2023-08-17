@@ -1,14 +1,16 @@
 import { Title, Text } from '@mantine/core'
 
+import dmva2 from '../assets/images/DMVA/DMVA-2.jpg'
+
 export function ServicesBigSection() {
 
     return (
-        <main className="servicesBigSection-container">
-            <Title order={1} size="32px" fw="900" ta='center' c='#085db2'>
+        <main className="w-full py-20 px-3 mt-20 flex flex-col justify-center items-center gap-y-15">
+            <Title order={1} size="32px" className='text-blue-700 text-center'>
                 Nuestros Servicios
             </Title>
 
-            <section className="servicesBigSection-textImage">
+            <section className="text-center flex flex-col items-center gap-y-10">
                 <Text fz="md" fw="600">
                     Lorem ipsum dolor sit
                     amet consectetur adipisicing elit.
@@ -19,14 +21,12 @@ export function ServicesBigSection() {
                     facere dolore impedit distinctio quo quam!
                 </Text>
 
-                <img
-                    src="images/DMVA/DMVA-2.jpg"
-                    alt="La Doctora Mariel Viviana Aranda subrayando una línea de texto de un libro" />
+                <img src={dmva2} alt="La Doctora Mariel Viviana Aranda subrayando una línea de texto de un libro" className='w-full rounded' />
 
-                <div className="servicesBigSection-cards services-cards-blue">
+                <div className="w-full rounded p-5 flex flex-col items-center justify-center gap-y-10 bg-blue-600 text-white">
                     <Title order={4} size="24px">Empresas</Title>
 
-                    <div className='servicesBigSection-cards-titleText-container'>
+                    <div className='flex flex-col gap-y-5'>
                         <Title order={5} size="20px">
                             Asesoramiento en la Creación de Obras Sociales
                         </Title>
@@ -41,7 +41,7 @@ export function ServicesBigSection() {
                         </Text>
                     </div>
 
-                    <div className='servicesBigSection-cards-titleText-container'>
+                    <div className='flex flex-col gap-y-5'>
                         <Title order={5} size="20px">
                             Cumplimiento Normativo y Regulatorio
                         </Title>
@@ -56,7 +56,7 @@ export function ServicesBigSection() {
                     </div>
                 </div>
 
-                <div className="servicesBigSection-cards services-cards-blue">
+                <div className="w-full rounded p-5 flex flex-col items-center justify-center gap-y-5 bg-blue-600 text-white">
                     <Title order={4} size="24px">Compromiso</Title>
 
                     <Text fz="16px" fw="400">
