@@ -1,11 +1,14 @@
 import { useForm } from '@mantine/form';
-import { Title, TextInput, Textarea, Button } from '@mantine/core';
+import { Title, TextInput, Textarea, Button, Alert } from '@mantine/core';
 
-import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
+
+import { useRef, useState } from 'react';
 
 export function ContactSection() {
     const formRef = useRef()
+
+    const [statusFormSend, setStatusFormSend] = useState(null)
 
     const form = useForm({
         initialValues: { name: '', email: '', textArea: '' },
@@ -18,17 +21,18 @@ export function ContactSection() {
     });
 
     const emailServices = () => {
-        const serviceId = import.meta.env.EMAILJS_SERVICERID;
-        const templateId = import.meta.env.EMAILJS_TEMPLATEID;
-        const apikey = import.meta.env.EMAILJS_APIKEY;
+        const serviceId = import.meta.env.VITE_EMAILJS_SERVICERID;
+        const templateId = import.meta.env.VITE_EMAILJS_TEMPLATEID;
+        const apikey = import.meta.env.VITE_EMAILJS_APIKEY;
 
-        emailjs.sendForm(serviceId,
+        emailjs.sendForm(
+            serviceId,
             templateId,
             formRef.current,
             apikey
         )
             .then((result) => {
-                console.log(result.text);
+                if (result.text) setStatusFormSend(result.text)
             }, (error) => {
                 console.log(error.text);
             });
@@ -36,6 +40,16 @@ export function ContactSection() {
 
     const handleSubmit = () => {
         emailServices()
+        form.reset()
+    }
+
+    // eslint-disable-next-line no-unused-vars
+    function Alertt({ content }) {
+        return (
+            <Alert>
+                {content}
+            </Alert>
+        )
     }
 
     return (
@@ -73,6 +87,13 @@ export function ContactSection() {
                 <Button type="submit" radius="md" h="48px" size="20px" uppercase fullWidth>
                     ENVIAR
                 </Button>
+
+                {
+                    statusFormSend === 'OK' ?
+                        <Alertt color='lime' content='Tu consulta fue enviada con éxito' /> :
+                        <Alert color="red" content='Hubo un error al intentar enviar tu consulta. Prueba nuevamente, de persistir el error, intenta contactarnos vía otro medio como WhatsApp o Linkedin. Disculpas y muchas gracias.' />
+                }
+                <Alertt content='Tu consulta fue enviada con éxito' />
             </form>
         </div >
     );
