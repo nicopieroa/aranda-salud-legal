@@ -182,7 +182,7 @@
   {
     "id": 10,
     "image": {
-      "url": "/public/articles-images/10.jpg",
+      "url": "/articles-images/10.jpg",
       "alt": "Persona en un resonador en sala de resonancia de un sanatorio, hospital o clínica"
     },
     "title": "ASPECTOS RELEVANTES DE LA NUEVA MODALIDAD DE INCREMENTO DE CUOTA DE PREPAGAS",
@@ -284,7 +284,7 @@
   {
     "id": 9,
     "image": {
-      "url": "/public/articles-images/9.jpg",
+      "url": "/articles-images/9.jpg",
       "alt": "Distintos medicamentos en pastillas sobre una mesa"
     },
     "title": "NUEVA LEY DE PREVENCIÓN Y CONTROL DE LA RESISTENCIA ANTIMICROBIANA",
@@ -356,7 +356,7 @@
   {
     "id": 8,
     "image": {
-      "url": "/public/articles-images/8.jpg",
+      "url": "/articles-images/8.jpg",
       "alt": "Médico con una tablet marcando sobre esta algo con su indice de la mano izquierda, parado a la derecha en una imágen con fondo celeste con el mundo en una especie de relieve y un gráfico como si fuese un átomo"
     },
     "title": "EL METAVERSO Y LA REVOLUCIÓN DE LOS NFTS LLEGA A LA MEDICINA",
@@ -433,7 +433,7 @@
   {
     "id": 7,
     "image": {
-      "url": "/public/articles-images/7.jpg",
+      "url": "/articles-images/7.jpg",
       "alt": "Boligrafo sobre ficha médica, y detrás un estetoscopio sobre el teclado de una laptop abierta"
     },
     "title": "CASACIÓN RATIFICÓ LA CONDENA CONTRA UN MÉDICO DEL HOSPITAL POR FALSIFICAR LA HISTORIA CLÍNICA DE UNA PACIENTE",
@@ -470,7 +470,7 @@
   {
     "id": 6,
     "image": {
-      "url": "/public/articles-images/6.jpg",
+      "url": "/articles-images/6.jpg",
       "alt": "Capturas de pantalla de receta manual, receta electronica y receta manual anterior"
     },
     "title": "NUEVOS MODELOS DE RECETA PARA PAMI: AHORA ES ELECTRÓNICA",
@@ -522,7 +522,7 @@
   {
     "id": 5,
     "image": {
-      "url": "/public/articles-images/5.jpg",
+      "url": "/articles-images/5.jpg",
       "alt": "Mazo de justicia junto con un estetoscopio"
     },
     "title": "LA JUDICIALIZACIÓN DE LA SALUD",
@@ -764,7 +764,7 @@
   {
     "id": 4,
     "image": {
-      "url": "/public/articles-images/4.jpg",
+      "url": "/articles-images/4.jpg",
       "alt": "Mazo de justicia sobre libro abierto"
     },
     "title": "MINISTERIO DE SALUD",
@@ -871,7 +871,7 @@
   {
     "id": 3,
     "image": {
-      "url": "/public/articles-images/3.jpg",
+      "url": "/articles-images/3.jpg",
       "alt": "Medico o enfermero tomando nota"
     },
     "title": "POR QUE AÚN NO TENEMOS HISTORIA CLÍNICA ELECTRÓNICA?",
@@ -1099,7 +1099,7 @@
   {
     "id": 2,
     "image": {
-      "url": "/public/articles-images/2.jpg",
+      "url": "/articles-images/2.jpg",
       "alt": "Medicos en plena situación de cirugía"
     },
     "title": "PAGO POR MALA PRAXIS",
@@ -1171,7 +1171,7 @@
   {
     "id": 1,
     "image": {
-      "url": "/public/articles-images/1.jpg",
+      "url": "/articles-images/1.jpg",
       "alt": "Entrada de hospital Carlos G. Durand"
     },
     "title": "CONDENA PERSONAL A LOS PROFESIONALES INVOLUCRADOS",
