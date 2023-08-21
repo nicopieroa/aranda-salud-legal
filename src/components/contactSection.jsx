@@ -1,7 +1,10 @@
+import { Title, TextInput, Textarea, Button } from '@mantine/core';
 import { useForm } from '@mantine/form';
-import { Title, TextInput, Textarea, Button, Alert } from '@mantine/core';
 
 import emailjs from '@emailjs/browser';
+
+import { AlertComponent } from './alert';
+import { LoaderComponent } from './loader';
 
 import { useRef, useState } from 'react';
 
@@ -9,6 +12,7 @@ export function ContactSection() {
     const formRef = useRef()
 
     const [statusFormSend, setStatusFormSend] = useState(null)
+    const [loader, setLoader] = useState(false)
 
     const form = useForm({
         initialValues: { name: '', email: '', textArea: '' },
@@ -40,17 +44,32 @@ export function ContactSection() {
 
     const handleSubmit = () => {
         emailServices()
+        setLoader(true)
         form.reset()
+
+        if (statusFormSend !== null)
+            setLoader(false)
     }
 
     // eslint-disable-next-line no-unused-vars
-    function Alertt({ content }) {
-        return (
-            <Alert>
-                {content}
-            </Alert>
-        )
-    }
+    // function Alertt({ statusFormSend }) {
+    //     return (
+    //         <Alert className={`${statusFormSend === 'OK' ? 'bg-green-700' : 'bg-red-500'} `}>
+    //             <p className='text-white'>
+    //                 {statusFormSend === 'OK' ?
+    //                     'Tu consulta fue enviada con éxito.' :
+    //                     'Hubo un error al intentar enviar tu consulta. Prueba nuevamente, de persistir el error, intenta contactarnos vía otro medio como WhatsApp o Linkedin. Disculpas y muchas gracias.'}
+    //             </p>
+    //         </Alert>
+    //     )
+    // }
+
+    // eslint-disable-next-line no-unused-vars
+    // function Loaderr() {
+    //     return (
+    //         <Loader variant="dots" size='lg' className='self-center' />
+    //     )
+    // }
 
     return (
         <div id='contactSection' className='py-20 px-3 flex flex-col justify-center items-center gap-y-15'>
@@ -90,12 +109,11 @@ export function ContactSection() {
                     ENVIAR
                 </Button>
 
-                {
-                    statusFormSend === 'OK' ?
-                        <Alertt color='lime' content='Tu consulta fue enviada con éxito' /> :
-                        <Alert color="red" content='Hubo un error al intentar enviar tu consulta. Prueba nuevamente, de persistir el error, intenta contactarnos vía otro medio como WhatsApp o Linkedin. Disculpas y muchas gracias.' />
-                }
-                <Alertt content='Tu consulta fue enviada con éxito' />
+                {statusFormSend === null && loader === false ? null :
+                    statusFormSend === null && loader ? <LoaderComponent /> :
+                        statusFormSend !== null ?
+                            <AlertComponent statusFormSend={statusFormSend} /> :
+                            null}
             </form>
         </div >
     );
