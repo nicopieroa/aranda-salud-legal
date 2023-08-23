@@ -1,4 +1,4 @@
-import { Title, TextInput, Textarea, Button } from '@mantine/core';
+import { TextInput, Textarea, Button } from '@mantine/core';
 import { useForm } from '@mantine/form';
 
 import emailjs from '@emailjs/browser';
@@ -51,33 +51,13 @@ export function ContactSection() {
             setLoader(false)
     }
 
-    // eslint-disable-next-line no-unused-vars
-    // function Alertt({ statusFormSend }) {
-    //     return (
-    //         <Alert className={`${statusFormSend === 'OK' ? 'bg-green-700' : 'bg-red-500'} `}>
-    //             <p className='text-white'>
-    //                 {statusFormSend === 'OK' ?
-    //                     'Tu consulta fue enviada con éxito.' :
-    //                     'Hubo un error al intentar enviar tu consulta. Prueba nuevamente, de persistir el error, intenta contactarnos vía otro medio como WhatsApp o Linkedin. Disculpas y muchas gracias.'}
-    //             </p>
-    //         </Alert>
-    //     )
-    // }
-
-    // eslint-disable-next-line no-unused-vars
-    // function Loaderr() {
-    //     return (
-    //         <Loader variant="dots" size='lg' className='self-center' />
-    //     )
-    // }
-
     return (
-        <div id='contactSection' className='py-20 px-3 flex flex-col justify-center items-center gap-y-15'>
-            <Title order={2} size="32px" className='text-blue-600'>
+        <div id='contactSection' className='w-full py-20 px-3 sm500:px-12 smMin:px-20 lgMin:px-40 lg:px-56 xl:px-64 xxl:px-80 xxxl:px-96'>
+            <h2 className='text-blue-600 text-3xl font-semibold text-center mb-10 smMin:text-4xl lg:text-5xl'>
                 Contactanos
-            </Title>
+            </h2>
 
-            <form ref={formRef} onSubmit={form.onSubmit(handleSubmit)} className='w-full flex flex-col gap-y-8'>
+            <form ref={formRef} onSubmit={form.onSubmit(handleSubmit)} className='flex flex-col gap-y-8'>
                 <TextInput
                     name='userName'
                     label="Nombre"
@@ -85,7 +65,7 @@ export function ContactSection() {
                     radius="md"
                     withAsterisk
                     {...form.getInputProps('name')}
-                    style={{ margin: "0" }} />
+                    style={{ margin: "0" }} className='w-full' />
                 <TextInput
                     name='userEmail'
                     mt="sm"

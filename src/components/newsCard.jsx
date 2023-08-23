@@ -4,7 +4,7 @@ import { Link } from 'wouter'
 export function Cards({ article }) {
 
     return (
-        <Card shadow="sm" padding="lg" radius="md" withBorder className='newsCard '>
+        <Card shadow="sm" padding="lg" radius="md" withBorder className='newsCard lg:w-68'>
             <Card.Section>
                 <Image
                     src={article.image.url}

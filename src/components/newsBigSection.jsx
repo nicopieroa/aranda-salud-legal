@@ -1,5 +1,5 @@
 import articles from '../assets/articles-data.json'
-import { Avatar, Title, Text } from '@mantine/core';
+import { Avatar } from '@mantine/core';
 
 import dmva1 from '../assets/images/DMVA/DMVA-1.jpg'
 
@@ -10,24 +10,26 @@ export function NewsBigSection({ id }) {
         <>
             {
                 article ?
-                    <main className='py-20 px-3 mt-20 flex flex-col gap-y-15'>
+                    <main className='py-20 px-3 mt-20 flex flex-col gap-y-15 sm500:px-12 smMin:px-20 lgMin:px-40 lg:px-56 xl:px-64 xxl:px-80 xxxl:px-96'>
                         <section className='flex flex-col gap-y-4'>
-                            <Title order={1} size="24px">
+                            <h1 className="text-2xl font-bold lg:text-3xl">
                                 {article.title}
-                            </Title>
+                            </h1>
 
-                            <Text fz="16px">
+                            <p className='text-base'>
                                 {article.description}
-                            </Text>
+                            </p>
 
-                            <Text c="dimmed">{article.date}</Text>
+                            <p className='text-gray-400 font-semibold text-base'>
+                                {article.date}
+                            </p>
 
                             <div className='flex items-center gap-x-5'>
-                                <Avatar radius="100%" size="60px" src={dmva1} />
+                                <Avatar radius="100%" size="80px" src={dmva1} />
 
-                                <Title order={3} size="16px" fw="400" fs="italic" className='text-blue-600'>
+                                <h3 className='text-gray-400 font-semibold text-base italic'>
                                     {article.author}
-                                </Title>
+                                </h3>
                             </div>
                         </section>
 
