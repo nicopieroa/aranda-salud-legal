@@ -1,4 +1,4 @@
-import { Title, Menu, Button } from '@mantine/core';
+import { Menu, Button } from '@mantine/core';
 
 import Ilustration from '../assets/ilustrations/1.svg'
 import dropdownGreen from '../assets/icons/arrow-green.svg'
@@ -10,26 +10,28 @@ import emialGreen from '../assets/icons/email-green.svg'
 export function PresentationSection() {
 
     return (
-        <section className="flex flex-col justify-center items-center gap-y-16 py-20 px-3 mt-20">
-            <div className="text-center flex flex-col gap-y-16">
-                <Title order={1} size="40px" fw="900">Aranda Salud Legal</Title>
+        <section className="flex flex-col justify-center items-center gap-y-16 py-20 px-3 mt-20 lg:px-12 xl:px-24 xxl:px-48 xxxl:px-72">
+            <div className="text-center flex flex-col gap-y-16 sm500:w-10/12">
+                <h1 className='text-4xl font-bold sm500:text-5xl lg:text-5xl xl:text-6xl'>
+                    Aranda Salud Legal
+                </h1>
 
-                <Title order={2} size="20px" fw="600" color='#7b7e80' fs="italic">
+                <h2 className='font-medium text-lg text-gray-500 italic smMin:text-xl'>
                     Firma especializada en asesoramiento legal en salud
-                </Title>
+                </h2>
             </div>
 
-            <img src={Ilustration} alt="Ilustración de dos personas trabajando en una oficina" className='w-full' />
+            <img src={Ilustration} alt="Ilustración de dos personas trabajando en una oficina" className='w-full sm500:w-9/12 lgMin:w-6/12' />
 
             <Menu trigger='hover' openDelay={100} closeDelay={400} withArrow shadow='md'>
                 <Menu.Target>
-                    <Button size='xl' className="bg-green-400 text-green-700 font-bold hover:bg-green-500">
+                    <Button size='xl' className="bg-green-400 text-green-700 font-bold hover:bg-green-500 smMin:w-6/12">
                         <span>HABLEMOS</span>
                         <img src={dropdownGreen} alt="Flecha indicadora de menu desplegable" className='w-8' />
                     </Button>
                 </Menu.Target>
 
-                <Menu.Dropdown className='bg-green-400 p-0'>
+                <Menu.Dropdown className='bg-green-400 p-0 '>
                     <a href="https://wa.me/543426124730" target="_blank" rel="noopener noreferrer">
                         <Menu.Item className='text-green-700 font-bold hover:bg-green-500 text-lg p-6 w-full'>
                             <img src={whatsappGreen} alt="Imagen del logo de whattsapp que representa el boton para contactarse por whattsapp" className='w-8' />

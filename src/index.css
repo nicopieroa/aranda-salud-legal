@@ -64,6 +64,18 @@ html {
   overflow: hidden;
   white-space: wrap;
 }
+
+/* Carousel */
+.mantine-1s6xx1p button {
+  background-color: rgba(0, 0, 0, 0.836);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+  color: white;
+}
+
+.mantine-564hfj {
+  border-radius: 8px;
+}
+/* Carousel */
 /* Cards component */
 
 /* Footer component */
