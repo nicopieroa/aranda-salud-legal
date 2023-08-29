@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* --color1: blue;
---color2: green;
---color3: gray;
---color4: #ffffff;
---color5: #c5a308; */
-
 * {
   margin: 0;
   padding: 0;
