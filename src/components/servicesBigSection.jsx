@@ -9,17 +9,16 @@ export function ServicesBigSection() {
             </h1>
 
             <section className="text-center flex flex-col items-center gap-y-10">
-                <p className='text-base'>
-                    Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit.
-                    Assumenda necessitatibus voluptate
-                    beatae dolorum voluptas. Accusamus
-                    quibusdam ipsam perspiciatis? Incidunt
-                    exercitationem, eum soluta est reprehenderit
-                    facere dolore impedit distinctio quo quam!
-                </p>
+                <div className="flex flex-col gap-y-4 text-gray-500 text-lg italic font-light smMin:text-xl sm500:w-10/12 lgMin:w-8/12">
+                    <h3>
+                        Nos especializamos en brindar soluciones legales en salud.
+                    </h3>
+                    <h3>
+                        Somos un equipo de profesionales que asesoramos a empresas del sector de la salud.
+                    </h3>
+                </div>
 
-                <img src={dmva2} alt="La Doctora Mariel Viviana Aranda subrayando una línea de texto de un libro" className='w-full rounded' />
+                <img src={dmva2} alt="La Doctora Mariel Viviana Aranda subrayando una línea de texto de un libro" className='w-full h-96 object-cover object-top rounded' />
 
                 <div className="w-full rounded p-5 flex flex-col items-center justify-center gap-y-10 bg-blue-600 text-white">
                     <h2 className='text-2xl font-semibold'>
