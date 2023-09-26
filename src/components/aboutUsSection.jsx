@@ -9,13 +9,9 @@ export function AboutUsSection() {
 
             <section className="text-center flex items-center gap-y-12 flex-wrap">
                 <p className='text-base'>
-                    Lorem ipsum dolor sit
-                    amet consectetur adipisicing elit.
-                    Assumenda necessitatibus voluptate
-                    beatae dolorum voluptas. Accusamus
-                    quibusdam ipsam perspiciatis? Incidunt
-                    exercitationem, eum soluta est reprehenderit
-                    facere dolore impedit distinctio quo quam!
+                    Aranda Salud Legal es una firma especializada principalmente en la representación Institucional de empresas y organizaciones que se dedican a prestar Servicio de
+                    Salud con la finalidad de brindar a sus dirigentes asesoramiento integral. Abordamos todos los aspectos institucionales con el objetivo que nuestros representados
+                    logren optimizar la prestación del servicio y alcanzar los stándares más altos de calidad y seguridad en la actividad diaria.
                 </p>
 
                 <img src={dmva1} alt="La Doctora Mariel Viviana Aranda sentada ante una mesa sonriendo a la cámara" className="w-full rounded" />
